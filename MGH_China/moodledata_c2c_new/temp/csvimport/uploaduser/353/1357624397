@@ -1,0 +1,4 @@
+a:14:{i:0;s:8:"username";i:1;s:8:"password";i:2;s:9:"firstname";i:3;s:8:"lastname";i:4;s:5:"email";i:5;s:7:"site_fk";i:6;s:7:"course1";i:7;s:5:"type1";i:8;s:6:"group1";i:9;s:12:"enrolperiod1";i:10;s:7:"course2";i:11;s:5:"type2";i:12;s:6:"group2";i:13;s:12:"enrolperiod2";}
+a:14:{i:0;s:7:"parent1";i:1;s:10:"Password1!";i:2;s:6:"parent";i:3;s:1:"1";i:4;s:15:"parent1@mcg.com";i:5;s:1:"1";i:6;s:0:"";i:7;s:0:"";i:8;s:0:"";i:9;s:0:"";i:10;s:0:"";i:11;s:0:"";i:12;s:0:"";i:13;s:0:"";}
+a:14:{i:0;s:8:"student1";i:1;s:10:"Password1!";i:2;s:7:"student";i:3;s:1:"1";i:4;s:16:"student1@mcg.com";i:5;s:1:"1";i:6;s:11:"TestCourse1";i:7;s:1:"1";i:8;s:7:"Class B";i:9;s:2:"80";i:10;s:0:"";i:11;s:0:"";i:12;s:0:"";i:13;s:0:"";}
+a:14:{i:0;s:12:"s_instructor";i:1;s:10:"Password1!";i:2;s:10:"instructor";i:3;s:1:"s";i:4;s:19:"sinstructor@mcg.com";i:5;s:1:"1";i:6;s:11:"TestCourse1";i:7;s:1:"2";i:8;s:7:"Class B";i:9;s:0:"";i:10;s:0:"";i:11;s:0:"";i:12;s:0:"";i:13;s:0:"";}

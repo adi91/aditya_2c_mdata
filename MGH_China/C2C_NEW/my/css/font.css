@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1, h2, h3, h4, h5, h6 {
+}
+h2 {
+	color:#fff;
+	font-size:17px;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+}
+h3 {
+	color:#126983;
+	font-size:14px;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+}
+h4 {
+	color:#fcf1f1;
+	font-size:15px;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+}
+h5 {
+	color:#0c63a7;
+	font-size:14px;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+}
+p {
+	color:#575859;
+	font-size:13px;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+}
+label {
+	color:#575859;
+	font-size:13px;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+}
+.course-list li a {
+	color:#4c5360;
+	font-size:13px;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	
+}
+.course-list li a:hover {
+	color:#517bd8;
+}
+.lesson-list li a:hover {
+	color:#fff;
+	background:#7d818b;
+}
+.lesson-list li a {
+	color:#4c5360;
+	font-size:12px;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	display: block;
+	padding: 16px 0 10px 8px
+}
+.lesson-list li a:hover {
+	color:#517bd8;
+}
+.lesson-list li a:hover {
+	color:#fff;
+	background:#7d818b;
+}
+.assessment-list li a {
+	color:#4c5360;
+	font-size:12px;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	
+}
+.assessment-list li a:hover {
+	color:#517bd8;
+}
+.assessment-list li a:hover {
+	color:#fff;
+	background:#7d818b;
+}
+.resources-list li a {
+	color:#4c5360;
+	font-size:13px;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+}
+.resources-list li:hover {
+	background:#FFF;
+}
+.resources-list li a:hover {
+	color:#359113;
+}
+.lesson-listsel a{
+	background: none repeat scroll 0 0 #DEB8D1;
+    border-bottom: 1px solid #6A2B56;
+    border-left: 1px solid #6A2B56;
+    border-radius: 4px 4px 4px 4px;
+    border-right: 1px solid #6A2B56;
+    color: #000000;
+    margin: 1px;
+    padding: 0 7px 1px 6px;
+	
+}
+.compvisit{
+	background: none repeat scroll 0 0 #9CE1F8;
+    border: 1px solid #0D89B3;
+    border-radius: 4px 4px 4px 4px;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    height: 20px;
+    padding: 0 46px;
+}
+.currvisit{
+	  background: none repeat scroll 0 0 #D5EF98;
+    border: 1px solid #678916;
+    border-radius: 4px 4px 4px 4px;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    height: 20px;
+    margin: 9px 0 0;
+    padding: 0 63px;
+}
+.nextvisit{
+	  background: none repeat scroll 0 0 #FFCE7D;
+    border: 1px solid #678916;
+    border-radius: 4px 4px 4px 4px;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    height: 20px;
+    margin: 9px 0 0;
+    padding: 0 58px;
+}
+
+.lesson-listselnext a{
+	background: none repeat scroll 0 0 #9CE1F8;
+    border-bottom: 1px solid #0D89B3;
+    border-left: 1px solid #0D89B3;
+    border-radius: 4px 4px 4px 4px;
+    border-right: 1px solid #0D89B3;
+    color: #000000;
+    margin: 1px;
+    padding: 0 7px 1px 6px;
+	
+}
+
+.lesson-listselcur a{
+	background: none repeat scroll 0 0 #9CE1F8;
+    border-bottom: 1px solid #0D89B3;
+    border-left: 1px solid #0D89B3;
+    border-radius: 4px 4px 4px 4px;
+    border-right: 1px solid #0D89B3;
+    color: #000000;
+    margin: 1px;
+    padding: 0 7px 1px 6px;
+}
+	
+#custommenu2 {
+    border: 0 solid #CECECE !important;
+    float: right;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 0;
+    margin-right: -8px;
+    margin-top: 14px;
+    width: 78%;
+}
+#custommenu .yui3-menu-horizontal.javascript-disabled .yui3-menu-content li li:hover,
+#custommenu .yui3-menu-horizontal.javascript-disabled .yui3-menu-content li li:hover a,
+.yui3-skin-sam #custommenu .yui3-menu .yui3-menuitem.yui3-menuitem-active .yui3-menuitem-content {
+    background-color:#278CC4;
+    color:white;
+}

@@ -1,0 +1,588 @@
+@charset "utf-8";
+/* CSS Document */
+/* GLOBAL PROPERTIES */
+
+address, blockquote, body, dd, div, dl, dt, fieldset {
+	display: block;
+}
+@font-face {
+	font-family: Arial;
+	/*src: local('Ubuntu Medium'), local('Ubuntu-Medium'), url('http://themes.googleusercontent.com/static/fonts/ubuntu/v3/I5PmmDkYShUQg-ah7wh25w.woff') format('woff');*/
+}
+body {
+	background:#FFF;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+}
+* {
+	padding:0;
+	margin:0;
+}
+ul, li {
+	list-style:none;
+}
+/*############################ MAIN CSS ################################### */
+#wrapper {
+	background:url(../images/bg.jpg) repeat-x;
+	overflow:hidden;
+	width:100%;
+	position:relative;
+}
+#body {
+	width:100%;
+	position:relative;
+}
+#footer {
+	background:url(../images/bgf.jpg) repeat-x;
+	height:83px;
+	overflow:hidden;
+	width:100%;
+	position:relative;
+}
+/*############################ MAIN Header CSS ################################### */
+.header {
+	width:895px;
+	height:82px;
+	margin:0 auto;
+	background:url(../images/bg-tp.jpg) no-repeat;
+	position:relative;
+}
+.logo {
+	position: absolute;
+	left:20px;
+	top:15px;
+}
+.menu {
+}
+/*############################ MAIN body CSS ################################### */
+.bodycontents {
+	width:895px;
+	margin:0 auto;
+}
+.contentsrtucture {
+	width:867px;
+	padding:14px;
+	position:relative;
+	background:#fcfcfa url(../images/bodycontents.jpg) repeat-x;
+	float:left;
+}
+/*############################ body CSS (section A) ################################### */
+.section_a {
+	width:452px;
+	float:left;
+	clear:right;
+	position:relative;
+	background:#dfdfdf;
+}
+.section_a .course-n-lesson {
+	background:url(../images/sectiona_r1.jpg) no-repeat;
+	width:453px;
+	height:330px;
+	position:relative;
+}
+.section_a .assess-n-resoure {
+	background:url(../images/sectiona_r2.jpg) no-repeat;
+	width:453px;
+	height:302px;
+	position:relative;
+}
+.course-n-lesson .course, .assess-n-resoure .assessment {
+	position:absolute;
+	left:21px;
+	top:3px;
+}
+.course-n-lesson .lesson, .assess-n-resoure .resources {
+	position:absolute;
+	left:231px;
+	top:3px;
+}
+.course-n-lesson .overflow-section {
+	position:absolute;
+	left:24px;
+	top:68px;
+}
+.course-list {
+	list-style:none;
+	width: 176px;
+}
+.course-list li a {
+	padding:8px 5px;
+	line-height:14px;
+	display:block;
+}
+.course-list li a:hover {
+	background:#efebd0;
+}
+.course-n-lesson .lesson-list {
+	/*position:absolute;
+	left:198px;
+	top:-1px;*/
+	list-style:none;
+}
+.lesson-list {
+	list-style:none;
+	width: 195px;
+}
+.assess-n-resoure .overflow-section-two {
+	position:absolute;
+	left:24px;
+	top:55px;
+}
+.assessment-list {
+	list-style:none;
+	width: 185px;
+}
+.assessment-list li a {
+	padding:8px 5px;
+	line-height:14px;
+	display:block;
+}
+.assessment-list li a {
+	color: #4C5360;
+    font-family: Arial,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+}
+.assess-n-resoure .resources-list {
+	position:absolute;
+	/* left:206px;
+	top:-1px; */
+	list-style:none;
+}
+.resources-list {
+	list-style:none;
+	width: 207px;
+}
+.resources-list li a {
+	/* display:block; */
+	
+}
+.resources-list li a.ipdf {
+	background:url(../images/icon_pdf.png) 2px 5px no-repeat;
+	padding: 5px 20px;
+}
+.resources-list li a.imsword {
+	background:url(../images/icon_word.png) 2px 5px no-repeat;
+	padding: 5px 20px;
+}
+.resources-list li a.ippt {
+	background:url(../images/iconppt.png) 2px 5px no-repeat;
+	padding: 5px 20px;
+}
+/*############################ body CSS (section B) ################################### */
+.section_b {
+	width:412px;
+	float:right;
+	position:relative;
+	background:#dfdfdf;
+	padding-left: 3px;
+}
+.video-heading {
+	background: url("../images/video_headimg.jpg") no-repeat scroll left top transparent;
+    padding: 3px 0 3px 20px;
+    position: absolute;
+    width: 100%;
+}
+.section_b .videobox {
+	/* background:url(../images/sectionb_r1.jpg) no-repeat;*/
+	width:410px;
+	height:330px;
+	position:relative;
+}
+.videobox h4 {
+	background: url("../images/video_subheadimg.jpg") no-repeat scroll left top transparent;
+    padding: 8px 0 3px 23px;
+    position: relative;
+    top: 38px;
+}
+.videor {
+	width:392px;
+	height:234px;
+	position:relative;
+	top:43px;
+	left:11px;
+	overflow:hidden;
+	cursor:pointer;
+}
+/* Video Gallary Box */
+.video-galbox {
+	margin: 11px 6px;
+	width: 400px;
+	background:#f2f2f1;
+	position:relative;
+}
+.video-galbox #lvg {
+	background:url(../images/video-contbox.png) no-repeat;
+	width:7px;
+	height:7px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.video-galbox #rvg {
+	background:url(../images/video-contbox.png) -7px 0 no-repeat;
+	width:7px;
+	height:7px;
+	position:absolute;
+	right:0;
+	top:0;
+}
+.video-galbox #lbvg {
+	background:url(../images/video-contbox.png) 0 -7px no-repeat;
+	width:7px;
+	height:7px;
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+.video-galbox #rbvg {
+	background:url(../images/video-contbox.png) -7px -7px no-repeat;
+	width:7px;
+	height:7px;
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+.video-playlist {
+	border-left:1px solid #e8e8e8;
+	border-right:1px solid #e8e8e8;
+	padding:6px 0;
+	width:100%;
+	height: 267px;
+}
+.video-playlist ul.p-lists {
+	width:96%;
+	margin:2%;
+	background:#fff;
+}
+.video-playlist ul.p-lists li {
+	width:100%;
+}
+.video-playlist ul.p-lists li .eve-para {
+	background:#fff;
+	width:361px;
+	height:71px;
+	padding:3px;
+	overflow:hidden;
+	border-bottom:dashed 1px #cdced0;
+}
+.video-playlist ul.p-lists li:hover {
+	background:#c7e4f2;
+}
+.video-playlist h3 {
+	padding:0 10px 5px 15px;
+}
+.eve-para img {
+	clear:right;
+	float:left;
+	margin-right:10px;
+}
+.eve-para h5 {
+}
+.eve-para p {
+}
+/*############################ LOGIN PAGE CSS ################################### */
+.login {
+	width:500px;
+	position:relative;
+	margin:20px 0;
+}
+.loginframe #line {
+	width:100%;
+	height:27px;
+	background:url(../images/line.png) repeat-x;
+	position:absolute;
+	top:-20px;
+	left:0;
+}
+.loginframe {
+	padding:10px;
+	background:#FFF;
+	position:relative;
+}
+.loginframe h2 {
+	background:url(../images/hd-bg.png) no-repeat;
+	padding: 5px 23px;
+	margin-bottom:40px;
+}
+.login-bx {
+	margin:5px 0;
+}
+.login-bx label {
+	display: block;
+    padding: 9px 0;
+}
+.login-bx input[type="text"], .login-bx input[type="password"] {
+	width:150px;
+	height:28px;
+}
+/*############################ MAIN footer CSS ################################### */
+.footer {
+	width:895px;
+	height:83px;
+	margin:0 auto;
+	background:url(../images/bgfot.jpg) 0 1px no-repeat;
+	position:relative;
+}
+.footer p {
+	padding-top:30px
+}
+
+/*############################ YUI BUTTONS CSS ################################### */
+.yui-button#pushbutton1 button {
+
+    background: #ccc;
+    text-indent: -4em;
+    overflow: hidden;
+    padding: 0 .75em;
+    width: 2em;
+    *margin-left: 4em;   /* IE only */
+    *padding: 0 1.75em;  /* IE only */
+
+}
+
+.yui-button#pushbutton3 button,
+.yui-button#pushbutton6 button, 
+.yui-button#pushbutton9 button {
+
+    padding-left: 2em;
+    background: url(../button/assets/add.gif) 10% 50% no-repeat;
+
+}
+
+#resource
+{
+padding: 50px 25px 0px 0px;
+}
+.resources-list li  {
+    padding: 5px 3px;
+}
+
+#mycustomscroll2
+{
+	border:none;
+	font-weight:bold;
+}
+#mycustomscroll2 ul
+{
+	text-align:left !important;
+	
+
+}	
+#mycustomscroll2 .yui-carousel-nav{display:none;}
+#mycustomscroll2 .yui-carousel-element  li {
+		 
+		list-style: circle !important;
+		width:183px;
+		border:0px !important;
+		margin:0px !important;
+		padding:0px !important;
+		cursor:default !important; 
+		text-align:left !important;
+		padding-right:10px;
+		font-weight:bold;
+		
+    }
+#mycustomscroll2 .yui-carousel-visible {
+      border:0px!important;
+    }	
+#mycustomscroll2 .yui-carousel-element .yui-carousel-item-selected {
+	   border:0px!important;	  
+    }
+#mycustomscroll2 .yui-carousel-item-selected_
+{
+	background-color:#EFEBD0;
+}
+
+
+#mycustomscroll3
+{
+	border:none;
+	
+	
+}
+#mycustomscroll3 ul
+{
+	text-align:left !important;
+	
+
+}	
+#mycustomscroll3 .yui-carousel-nav{display:none;}
+#mycustomscroll3 .yui-carousel-element  li {
+		 
+		list-style: circle !important;
+		width:215px;
+		height:35px;
+		border:0px !important;
+		margin:0px !important;
+		padding:0px !important;
+		cursor:default !important; 
+		text-align:left !important;
+		padding-right:10px;
+		
+    }
+#mycustomscroll3 .yui-carousel-visible {
+      border:0px!important;
+    }	
+#mycustomscroll3 .yui-carousel-element .yui-carousel-item-selected {
+	   border:0px!important;	  
+    }
+#mycustomscroll3 .yui-carousel-item-selected_
+{
+	background-color:#EFEBD0;
+}
+
+
+
+#video
+{
+	border:none;
+}
+#video ul
+{
+	text-align:left !important;
+}	
+#video .yui-carousel-nav{display:none;}
+#video .yui-carousel-element  li {
+		 
+		list-style: circle !important;
+		width:377px;
+        height: 78px;
+		border:0px !important;
+		margin:0px !important;
+		padding:0px !important;
+		cursor:default !important; 
+		text-align:left !important;
+		padding-right:10px;
+		border-bottom: 1px dashed #CDCED0;
+    }
+#video .yui-carousel-visible {
+      border:0px!important;
+    }	
+#video .yui-carousel-element .yui-carousel-item-selected {
+	  /*  border:0px!important;*/	  
+    }
+
+#assessment
+{
+	border:none;
+	float:left;
+	
+}
+#assessment ul
+{
+	text-align:left !important;
+	
+
+}	
+#assessment .yui-carousel-nav{display:none;}
+#assessment .yui-carousel-element  li {
+		 
+		list-style: circle !important;
+		width:196px;
+		border:0px !important;
+		margin:0px !important;
+		padding:0px !important;
+		cursor:default !important; 
+		text-align:left !important;
+		padding-right:10px;
+		
+    }
+#assessment .yui-carousel-visible {
+      border:0px!important;
+    }	
+#assessment .yui-carousel-element .yui-carousel-item-selected {
+	   border:0px!important;	  
+    }
+
+#resource2
+{
+	border:none;
+	flaot:left;
+	height: 156px;
+    left: 225px;
+    top: 54px;
+    width: 200px;
+	
+}
+#resource2 ul
+{
+	text-align:left !important;
+}	
+#resource2 .yui-carousel-nav{display:none;}
+#resource2 .yui-carousel-element  li {
+		 
+		list-style: circle !important;
+		width:200px;
+		border:0px !important;
+		margin:0px !important;
+		padding:0px !important;
+		cursor:default !important; 
+		text-align:left !important;
+		padding-right:10px;
+		border-bottom:dashed 1px #fff !important;
+    }
+#resource2 .yui-carousel-visible {
+      border:0px!important;
+      
+    }	
+#resource2 .yui-carousel-element .yui-carousel-item-selected {
+	  /*  border:0px!important; */	  
+    }
+
+.rgscroll
+{
+	width:183px;
+	float:left;
+}
+.rgscroll2
+{
+	width:227px;
+	border: none;
+	float:left;
+}
+
+.vscrollerbarbeg {
+	/* Top image holder for vertical scrollbar*/
+	background: url(../images/basebarcaps_verticalbarbody.png) -45px -30px no-repeat;
+	width: 15px;
+	height: 15px !important;
+}
+.vscrollerbarend {
+	/* Bottom image holder for vertical scrollbar*/
+	background: url(../images/basebarcaps_verticalbarbody.png) -45px 0px no-repeat;
+	width: 15px;
+	height: 15px;
+}
+#page-header {
+	 background: url([[pix:theme|bg-tp]]) no-repeat scroll 0 0 transparent;
+    height: 82px;
+    margin: 0 auto;
+    position: relative;
+    width: 895px;
+    float:none !important;
+  /* background: #fff;
+    color: #000000;*/
+}
+
+/* Search box course */
+.searchboxfam {
+position: absolute; left: 24px; font-size: 12px; top: 42px;
+}
+.searchboxfam img {
+position:absolute !important; top:6px !important; left:89px !important;cursor:pointer !important;
+background: url(../images/search_zoom.png) no-repeat ;
+width:16px !important;
+height:16px !important;
+}
+.searchboxfam .inp-bx {
+  background: none repeat scroll 0 0 #EFEFEF !important;
+    border: 1px solid #8F8F8F !important;
+    height: 14px !important;
+    margin-right: 8px !important;
+    padding-right: 20px !important;
+    width: 80px !important;
+}
+.searchboxfam .btn-clear {
+ border:1px solid #278cc4;
+ height: 23px;
+}
+

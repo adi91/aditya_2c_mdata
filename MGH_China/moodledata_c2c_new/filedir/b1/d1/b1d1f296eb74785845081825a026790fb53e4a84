@@ -1,0 +1,4 @@
+username, password, firstname, lastname,email,site_fk,course1,type1,group1,enrolperiod1,course2,type2,group2,enrolperiod2
+parent1,Password1!,parent,1,parent1@mcg.com,1,,,,,,,,
+student1,Password1!,student,1,student1@mcg.com,1,TestCourse1,1,Class B,80,,,,
+s_instructor,Password1!,instructor,s,sinstructor@mcg.com,1,TestCourse1,2,Class B,,,,,
