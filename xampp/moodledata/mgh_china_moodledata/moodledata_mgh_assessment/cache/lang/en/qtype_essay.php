@@ -1,0 +1,17 @@
+<?php $this->cache['en']['qtype_essay'] = array (
+  'allowattachments' => 'Allow attachments',
+  'formateditor' => 'HTML editor',
+  'formateditorfilepicker' => 'HTML editor with file picker',
+  'formatmonospaced' => 'Plain text, monospaced font',
+  'formatplain' => 'Plain text',
+  'graderinfo' => 'Information for graders',
+  'nlines' => '{$a} lines',
+  'pluginname' => 'Essay',
+  'pluginname_help' => 'In response to a question (that may include an image) the respondent writes an answer of a paragraph or two. The essay question will not be assigned a grade until it has been reviewed by a teacher and manually graded.',
+  'pluginname_link' => 'question/type/essay',
+  'pluginnameadding' => 'Adding an Essay question',
+  'pluginnameediting' => 'Editing an Essay question',
+  'pluginnamesummary' => 'Allows a response of a few sentences or paragraphs. This must then be graded manually.',
+  'responsefieldlines' => 'Input box size',
+  'responseformat' => 'Response format',
+);

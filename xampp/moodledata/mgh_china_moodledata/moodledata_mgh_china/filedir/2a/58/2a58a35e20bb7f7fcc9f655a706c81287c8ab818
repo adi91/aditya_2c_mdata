@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AssessmentResult>
+	<Assessment>
+		<pageTitle><![CDATA[<b>Assessment Result</b>]]></pageTitle>
+		<ResultText><![CDATA[<b>Result</b>]]></ResultText>
+		<ScoreText><![CDATA[<b>Score</b>]]></ScoreText>
+		<PercentText><![CDATA[<b>%</b>]]></PercentText>
+		<QuestionText><![CDATA[<b>Questions</b>]]></QuestionText>
+		<CorrectText><![CDATA[<b>Correct</b>]]></CorrectText>
+		<InCorrectText><![CDATA[<b>Incorrect</b>]]></InCorrectText>
+		<PassText>
+			<CongtateText><![CDATA[Congratulations!! You have completed this assessment. Your assessment results are shown below.]]></CongtateText>
+			<InstructionText><![CDATA[Click on the <b>EXIT</b> button to exit this course and return to the main menu.]]></InstructionText>
+		</PassText>
+		<FailText>
+			<FailSubTitle><![CDATA[You have not completed this assessment. Your assessment results are shown below.]]></FailSubTitle>
+			<Retake>
+				<RetakeInstructionText><![CDATA[Click <b>Retake Assessment</b> to reattempt the assessment, or click <b>Exit</b> to exit this course and return to the main menu.]]></RetakeInstructionText>
+				<RetakeButtonLabel><![CDATA[Retake Assessment]]></RetakeButtonLabel>
+			</Retake>
+		</FailText>
+	</Assessment>
+</AssessmentResult>

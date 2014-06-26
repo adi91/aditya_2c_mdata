@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course id="121" contextid="3781">
+  <shortname>test self enrollment course</shortname>
+  <fullname>test self enrollment course</fullname>
+  <idnumber></idnumber>
+  <summary>&lt;p&gt;&lt;img src="@@PLUGINFILE@@/Lighthouse.jpg" height="146" width="194" /&gt;&lt;/p&gt;</summary>
+  <summaryformat>1</summaryformat>
+  <format>topics</format>
+  <showgrades>1</showgrades>
+  <newsitems>5</newsitems>
+  <startdate>1365112800</startdate>
+  <numsections>5</numsections>
+  <marker>0</marker>
+  <maxbytes>1073741824</maxbytes>
+  <legacyfiles>0</legacyfiles>
+  <showreports>0</showreports>
+  <visible>1</visible>
+  <hiddensections>0</hiddensections>
+  <groupmode>2</groupmode>
+  <groupmodeforce>0</groupmodeforce>
+  <defaultgroupingid>0</defaultgroupingid>
+  <lang></lang>
+  <theme></theme>
+  <timecreated>1365073912</timecreated>
+  <timemodified>1365161139</timemodified>
+  <requested>0</requested>
+  <restrictmodules>0</restrictmodules>
+  <enablecompletion>1</enablecompletion>
+  <completionstartonenrol>1</completionstartonenrol>
+  <completionnotify>0</completionnotify>
+  <category id="1">
+    <name>Default Category</name>
+    <description></description>
+  </category>
+  <tags>
+  </tags>
+  <allowed_modules>
+  </allowed_modules>
+</course>

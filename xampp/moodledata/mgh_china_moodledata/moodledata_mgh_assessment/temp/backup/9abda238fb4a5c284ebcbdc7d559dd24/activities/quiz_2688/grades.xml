@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity_gradebook>
+  <grade_items>
+    <grade_item id="205">
+      <categoryid>114</categoryid>
+      <itemname>Assessment 1</itemname>
+      <itemtype>mod</itemtype>
+      <itemmodule>quiz</itemmodule>
+      <iteminstance>29</iteminstance>
+      <itemnumber>0</itemnumber>
+      <iteminfo>$@NULL@$</iteminfo>
+      <idnumber></idnumber>
+      <calculation>$@NULL@$</calculation>
+      <gradetype>1</gradetype>
+      <grademax>100.00000</grademax>
+      <grademin>0.00000</grademin>
+      <scaleid>$@NULL@$</scaleid>
+      <outcomeid>$@NULL@$</outcomeid>
+      <gradepass>0.00000</gradepass>
+      <multfactor>1.00000</multfactor>
+      <plusfactor>0.00000</plusfactor>
+      <aggregationcoef>0.00000</aggregationcoef>
+      <sortorder>2</sortorder>
+      <display>0</display>
+      <decimals>$@NULL@$</decimals>
+      <hidden>0</hidden>
+      <locked>0</locked>
+      <locktime>0</locktime>
+      <needsupdate>0</needsupdate>
+      <timecreated>1365160841</timecreated>
+      <timemodified>1365160842</timemodified>
+      <grade_grades>
+        <grade_grade id="45">
+          <userid>396</userid>
+          <rawgrade>50.00000</rawgrade>
+          <rawgrademax>100.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>396</usermodified>
+          <finalgrade>50.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>$@NULL@$</feedback>
+          <feedbackformat>0</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1366029682</timecreated>
+          <timemodified>1366029682</timemodified>
+        </grade_grade>
+        <grade_grade id="46">
+          <userid>413</userid>
+          <rawgrade>50.00000</rawgrade>
+          <rawgrademax>100.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>413</usermodified>
+          <finalgrade>50.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>$@NULL@$</feedback>
+          <feedbackformat>0</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1366030064</timecreated>
+          <timemodified>1366030064</timemodified>
+        </grade_grade>
+      </grade_grades>
+    </grade_item>
+  </grade_items>
+  <grade_letters>
+  </grade_letters>
+</activity_gradebook>

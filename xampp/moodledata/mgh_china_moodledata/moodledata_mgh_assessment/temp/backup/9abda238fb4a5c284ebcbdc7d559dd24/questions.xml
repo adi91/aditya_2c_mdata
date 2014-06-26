@@ -1,0 +1,2789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<question_categories>
+  <question_category id="61">
+    <name>Business Communication </name>
+    <contextid>1</contextid>
+    <contextlevel>10</contextlevel>
+    <contextinstanceid>0</contextinstanceid>
+    <info>Business Communication </info>
+    <infoformat>0</infoformat>
+    <stamp>localhost+121217140003+yt9M2a</stamp>
+    <parent>0</parent>
+    <sortorder>999</sortorder>
+    <questions>
+      <question id="255">
+        <parent>0</parent>
+        <name>BC Question 2</name>
+        <questiontext>A productive meeting is the one where each participant express himself without listening to others view.</questiontext>
+        <questiontextformat>0</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>0</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>1.0000000</penalty>
+        <qtype>truefalse</qtype>
+        <length>1</length>
+        <stamp>localhost+121218060836+AWjQSU</stamp>
+        <version>localhost+121218060837+eqQAbm</version>
+        <hidden>1</hidden>
+        <timecreated>1355810916</timecreated>
+        <timemodified>1355810916</timemodified>
+        <createdby>2</createdby>
+        <modifiedby>2</modifiedby>
+        <plugin_qtype_truefalse_question>
+          <answers>
+            <answer id="669">
+              <answertext>True</answertext>
+              <answerformat>0</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback>Incorrect</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="670">
+              <answertext>False</answertext>
+              <answerformat>0</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback>Correct</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <truefalse id="24">
+            <trueanswer>669</trueanswer>
+            <falseanswer>670</falseanswer>
+          </truefalse>
+        </plugin_qtype_truefalse_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="256">
+        <parent>0</parent>
+        <name>BC Question 3</name>
+        <questiontext>Communication outside the organization is more important than communication inside the organization.</questiontext>
+        <questiontextformat>0</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>0</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>1.0000000</penalty>
+        <qtype>truefalse</qtype>
+        <length>1</length>
+        <stamp>localhost+121218061233+VC2zFK</stamp>
+        <version>localhost+121218061233+uyIxgR</version>
+        <hidden>1</hidden>
+        <timecreated>1355811153</timecreated>
+        <timemodified>1355811153</timemodified>
+        <createdby>2</createdby>
+        <modifiedby>2</modifiedby>
+        <plugin_qtype_truefalse_question>
+          <answers>
+            <answer id="671">
+              <answertext>True</answertext>
+              <answerformat>0</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback>Incorrect</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="672">
+              <answertext>False</answertext>
+              <answerformat>0</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback>Correct</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <truefalse id="25">
+            <trueanswer>671</trueanswer>
+            <falseanswer>672</falseanswer>
+          </truefalse>
+        </plugin_qtype_truefalse_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="257">
+        <parent>0</parent>
+        <name>BC Question 4</name>
+        <questiontext>External audiences include customers, suppliers, and government agencies.</questiontext>
+        <questiontextformat>0</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>0</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>1.0000000</penalty>
+        <qtype>truefalse</qtype>
+        <length>1</length>
+        <stamp>localhost+121218061648+Q4s5LX</stamp>
+        <version>localhost+121218061649+lOvNsK</version>
+        <hidden>1</hidden>
+        <timecreated>1355811408</timecreated>
+        <timemodified>1355811408</timemodified>
+        <createdby>2</createdby>
+        <modifiedby>2</modifiedby>
+        <plugin_qtype_truefalse_question>
+          <answers>
+            <answer id="673">
+              <answertext>True</answertext>
+              <answerformat>0</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback>Correct</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="674">
+              <answertext>False</answertext>
+              <answerformat>0</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback>Incorrect</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <truefalse id="26">
+            <trueanswer>673</trueanswer>
+            <falseanswer>674</falseanswer>
+          </truefalse>
+        </plugin_qtype_truefalse_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="258">
+        <parent>0</parent>
+        <name>BC Question 5</name>
+        <questiontext>In business communication, senders and receivers try to establish a common understanding.</questiontext>
+        <questiontextformat>0</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>0</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>1.0000000</penalty>
+        <qtype>truefalse</qtype>
+        <length>1</length>
+        <stamp>localhost+121218062001+asI8hG</stamp>
+        <version>localhost+121218062001+JofVbE</version>
+        <hidden>1</hidden>
+        <timecreated>1355811601</timecreated>
+        <timemodified>1355811601</timemodified>
+        <createdby>2</createdby>
+        <modifiedby>2</modifiedby>
+        <plugin_qtype_truefalse_question>
+          <answers>
+            <answer id="675">
+              <answertext>True</answertext>
+              <answerformat>0</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback>Correct</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="676">
+              <answertext>False</answertext>
+              <answerformat>0</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback>Incorrect</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <truefalse id="27">
+            <trueanswer>675</trueanswer>
+            <falseanswer>676</falseanswer>
+          </truefalse>
+        </plugin_qtype_truefalse_question>
+        <question_hints>
+        </question_hints>
+      </question>
+    </questions>
+  </question_category>
+  <question_category id="62">
+    <name>Mathematical Aptitude </name>
+    <contextid>1</contextid>
+    <contextlevel>10</contextlevel>
+    <contextinstanceid>0</contextinstanceid>
+    <info>Mathematical Aptitude </info>
+    <infoformat>0</infoformat>
+    <stamp>localhost+121217140043+FbJmw1</stamp>
+    <parent>0</parent>
+    <sortorder>999</sortorder>
+    <questions>
+      <question id="259">
+        <parent>0</parent>
+        <name>MA Question 1</name>
+        <questiontext>2+3 = ?</questiontext>
+        <questiontextformat>0</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>0</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>numerical</qtype>
+        <length>1</length>
+        <stamp>localhost+121218062356+Z4OtZo</stamp>
+        <version>localhost+121218062357+Ykofyy</version>
+        <hidden>0</hidden>
+        <timecreated>1355811836</timecreated>
+        <timemodified>1355811836</timemodified>
+        <createdby>2</createdby>
+        <modifiedby>2</modifiedby>
+        <plugin_qtype_numerical_question>
+          <answers>
+            <answer id="677">
+              <answertext>5</answertext>
+              <answerformat>0</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback>Correct</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <numerical_units>
+          </numerical_units>
+          <numerical_options>
+            <numerical_option id="38">
+              <showunits>3</showunits>
+              <unitsleft>0</unitsleft>
+              <unitgradingtype>0</unitgradingtype>
+              <unitpenalty>0.1000000</unitpenalty>
+            </numerical_option>
+          </numerical_options>
+          <numerical_records>
+            <numerical_record id="43">
+              <answer>677</answer>
+              <tolerance>0</tolerance>
+            </numerical_record>
+          </numerical_records>
+        </plugin_qtype_numerical_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="260">
+        <parent>0</parent>
+        <name>MA Question 2</name>
+        <questiontext>((((2+3)*5)-5)/5)-4 = ?</questiontext>
+        <questiontextformat>0</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>0</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>numerical</qtype>
+        <length>1</length>
+        <stamp>localhost+121218062933+HNJL6c</stamp>
+        <version>localhost+121218062934+XzLMzB</version>
+        <hidden>0</hidden>
+        <timecreated>1355812173</timecreated>
+        <timemodified>1355812173</timemodified>
+        <createdby>2</createdby>
+        <modifiedby>2</modifiedby>
+        <plugin_qtype_numerical_question>
+          <answers>
+            <answer id="678">
+              <answertext>0</answertext>
+              <answerformat>0</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback>Correct</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="679">
+              <answertext>1</answertext>
+              <answerformat>0</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback>Incorrect</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="680">
+              <answertext>16</answertext>
+              <answerformat>0</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback>Incorrect</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <numerical_units>
+          </numerical_units>
+          <numerical_options>
+            <numerical_option id="39">
+              <showunits>3</showunits>
+              <unitsleft>0</unitsleft>
+              <unitgradingtype>0</unitgradingtype>
+              <unitpenalty>0.1000000</unitpenalty>
+            </numerical_option>
+          </numerical_options>
+          <numerical_records>
+            <numerical_record id="44">
+              <answer>678</answer>
+              <tolerance>0</tolerance>
+            </numerical_record>
+            <numerical_record id="45">
+              <answer>679</answer>
+              <tolerance>0</tolerance>
+            </numerical_record>
+            <numerical_record id="46">
+              <answer>680</answer>
+              <tolerance>0</tolerance>
+            </numerical_record>
+          </numerical_records>
+        </plugin_qtype_numerical_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="261">
+        <parent>0</parent>
+        <name>MA Question 3</name>
+        <questiontext>5/100 = ?</questiontext>
+        <questiontextformat>0</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>0</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>numerical</qtype>
+        <length>1</length>
+        <stamp>localhost+121218063422+srrlqO</stamp>
+        <version>localhost+121218063422+FMVHvT</version>
+        <hidden>0</hidden>
+        <timecreated>1355812462</timecreated>
+        <timemodified>1355812462</timemodified>
+        <createdby>2</createdby>
+        <modifiedby>2</modifiedby>
+        <plugin_qtype_numerical_question>
+          <answers>
+            <answer id="681">
+              <answertext>0.05</answertext>
+              <answerformat>0</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback>Correct</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="682">
+              <answertext>0.5</answertext>
+              <answerformat>0</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback>Incorrect</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="683">
+              <answertext>0.005</answertext>
+              <answerformat>0</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback>Incorrect</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <numerical_units>
+          </numerical_units>
+          <numerical_options>
+            <numerical_option id="40">
+              <showunits>3</showunits>
+              <unitsleft>0</unitsleft>
+              <unitgradingtype>0</unitgradingtype>
+              <unitpenalty>0.1000000</unitpenalty>
+            </numerical_option>
+          </numerical_options>
+          <numerical_records>
+            <numerical_record id="47">
+              <answer>681</answer>
+              <tolerance>0</tolerance>
+            </numerical_record>
+            <numerical_record id="48">
+              <answer>682</answer>
+              <tolerance>0</tolerance>
+            </numerical_record>
+            <numerical_record id="49">
+              <answer>683</answer>
+              <tolerance>0</tolerance>
+            </numerical_record>
+          </numerical_records>
+        </plugin_qtype_numerical_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="262">
+        <parent>0</parent>
+        <name>MA Question 4</name>
+        <questiontext>2 = 5-3</questiontext>
+        <questiontextformat>0</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>0</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>1.0000000</penalty>
+        <qtype>truefalse</qtype>
+        <length>1</length>
+        <stamp>localhost+121218064006+zTlDGE</stamp>
+        <version>localhost+121218064007+Y2oMre</version>
+        <hidden>0</hidden>
+        <timecreated>1355812806</timecreated>
+        <timemodified>1355812806</timemodified>
+        <createdby>2</createdby>
+        <modifiedby>2</modifiedby>
+        <plugin_qtype_truefalse_question>
+          <answers>
+            <answer id="684">
+              <answertext>True</answertext>
+              <answerformat>0</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback>Correct</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="685">
+              <answertext>False</answertext>
+              <answerformat>0</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback>Incorrect</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <truefalse id="28">
+            <trueanswer>684</trueanswer>
+            <falseanswer>685</falseanswer>
+          </truefalse>
+        </plugin_qtype_truefalse_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="263">
+        <parent>0</parent>
+        <name>MA Question 5</name>
+        <questiontext>5 * 10 = 501</questiontext>
+        <questiontextformat>0</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>0</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>1.0000000</penalty>
+        <qtype>truefalse</qtype>
+        <length>1</length>
+        <stamp>localhost+121218064559+GN4FgQ</stamp>
+        <version>localhost+121218064559+LpTeMm</version>
+        <hidden>0</hidden>
+        <timecreated>1355813159</timecreated>
+        <timemodified>1355813159</timemodified>
+        <createdby>2</createdby>
+        <modifiedby>2</modifiedby>
+        <plugin_qtype_truefalse_question>
+          <answers>
+            <answer id="686">
+              <answertext>True</answertext>
+              <answerformat>0</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback>Incorrect</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="687">
+              <answertext>False</answertext>
+              <answerformat>0</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback>Correct</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <truefalse id="29">
+            <trueanswer>686</trueanswer>
+            <falseanswer>687</falseanswer>
+          </truefalse>
+        </plugin_qtype_truefalse_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="268">
+        <parent>0</parent>
+        <name>1. A set consists of three integers: x, y, and ...</name>
+        <questiontext>1. A set consists of three integers: x, y, and z such that they do not share any common factor with any other element in the set. Also,(i)	x  y = 11305(ii)	y  z = 33649 What is the sum of the smallest and the biggest number in the set?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122859+LBKWIB</stamp>
+        <version>localhost+130308122900+ZfLsgO</version>
+        <hidden>0</hidden>
+        <timecreated>1362745739</timecreated>
+        <timemodified>1362745739</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="698">
+              <answertext>85</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="699">
+              <answertext>133</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="700">
+              <answertext>253</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="701">
+              <answertext>471</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="122">
+            <layout>0</layout>
+            <answers>698,699,700,701</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="269">
+        <parent>0</parent>
+        <name>2. My friend takes 20 identical slips of ...</name>
+        <questiontext>2. My friend takes 20 identical slips of paper, and writes "1" on the first slip, "'2" on the second, and so on, until she writes "20" on the last slip. She places these slips of paper into a bag, and I draw a slip of paper. What is the Probability that I draw a slip with :1. "16" on it?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122900+NLmv7I</stamp>
+        <version>localhost+130308122900+M3ZGAN</version>
+        <hidden>0</hidden>
+        <timecreated>1362745740</timecreated>
+        <timemodified>1362745740</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="702">
+              <answertext>0.005</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="703">
+              <answertext>0.05</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="704">
+              <answertext>0.5</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="705">
+              <answertext>0.20</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="123">
+            <layout>0</layout>
+            <answers>702,703,704,705</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="270">
+        <parent>0</parent>
+        <name>3. A term is defined as (1  1/n). We create ...</name>
+        <questiontext>3. A term is defined as (1  1/n). We create many terms by using all the consecutive integers from 2 to 2348 once each, instead of n. What would be the product of all 2347 such terms?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122900+Kcy3HV</stamp>
+        <version>localhost+130308122901+HTs4Or</version>
+        <hidden>0</hidden>
+        <timecreated>1362745740</timecreated>
+        <timemodified>1362745740</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="706">
+              <answertext>1/2348</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="707">
+              <answertext>2347 / 2348</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="708">
+              <answertext>1/(1 + 2348)</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="709">
+              <answertext>Cannot be determined</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="124">
+            <layout>0</layout>
+            <answers>706,707,708,709</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="271">
+        <parent>0</parent>
+        <name>4. The distance between City P and City Q is ...</name>
+        <questiontext>4. The distance between City P and City Q is 120 km. At 8 a.m., Mr X starts out on a straight road from P to Q at 5 m/s. At 1 p.m. Mr Y starts out in the opposite direction, traveling from Q to P, at 3.33 m/s. At what time do they meet?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122901+1Ahdom</stamp>
+        <version>localhost+130308122901+05CoZl</version>
+        <hidden>0</hidden>
+        <timecreated>1362745741</timecreated>
+        <timemodified>1362745741</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="710">
+              <answertext>2 p.m.</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="711">
+              <answertext>3 p.m.</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="712">
+              <answertext>3:20 p.m.</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="713">
+              <answertext>8 p.m.</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="125">
+            <layout>0</layout>
+            <answers>710,711,712,713</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="272">
+        <parent>0</parent>
+        <name>5. If logx (xy) = z, then what is the value of ...</name>
+        <questiontext>5. If logx (xy) = z, then what is the value of logy x</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122901+qOw6T2</stamp>
+        <version>localhost+130308122902+hnqVHf</version>
+        <hidden>0</hidden>
+        <timecreated>1362745741</timecreated>
+        <timemodified>1362745741</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="714">
+              <answertext>z / (z  HYPHEN 1)</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="715">
+              <answertext>1 / (z  HYPHEN 1)</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="716">
+              <answertext>xy / (z  HYPHEN 1)</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="717">
+              <answertext>(z  HYPHEN 1)</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="126">
+            <layout>0</layout>
+            <answers>714,715,716,717</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="273">
+        <parent>0</parent>
+        <name>6. If the volume and radius of a sphere equals ...</name>
+        <questiontext>6. If the volume and radius of a sphere equals that of a cylinder, then what is the measure of the height of the cylinder? (Assume r to be the radius.)</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122902+KFkrSL</stamp>
+        <version>localhost+130308122902+4j41AZ</version>
+        <hidden>0</hidden>
+        <timecreated>1362745742</timecreated>
+        <timemodified>1362745742</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="718">
+              <answertext>PIEr</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="719">
+              <answertext>ROOTr</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="720">
+              <answertext>r</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="721">
+              <answertext>1.33 r</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="127">
+            <layout>0</layout>
+            <answers>718,719,720,721</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="274">
+        <parent>0</parent>
+        <name>7. If I sell 24 books, the total profit I earn ...</name>
+        <questiontext>7. If I sell 24 books, the total profit I earn is the same as the cost of 4 books. Find the selling price of each book, if the cost price is Rs. 120.</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122902+E1ksbC</stamp>
+        <version>localhost+130308122903+q0OIkQ</version>
+        <hidden>0</hidden>
+        <timecreated>1362745742</timecreated>
+        <timemodified>1362745742</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="722">
+              <answertext>Rs. 20</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="723">
+              <answertext>Rs. 70</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="724">
+              <answertext>Rs. 140</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="725">
+              <answertext>Rs. 480</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="128">
+            <layout>0</layout>
+            <answers>722,723,724,725</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="275">
+        <parent>0</parent>
+        <name>8. A train of length 100 m, traveling at 90 ...</name>
+        <questiontext>8. A train of length 100 m, traveling at 90 kmph, approaches a platform of length 200 m. What is the time taken for the train to pass the platform from the time the front of the train reaches the beginning of the platform to the time when the front of the train reaches the end of the platform?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122903+HKYICI</stamp>
+        <version>localhost+130308122903+0SW7fT</version>
+        <hidden>0</hidden>
+        <timecreated>1362745743</timecreated>
+        <timemodified>1362745743</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="726">
+              <answertext>4 seconds</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="727">
+              <answertext>8 seconds</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="728">
+              <answertext>12 seconds</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="729">
+              <answertext>16 seconds</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="129">
+            <layout>0</layout>
+            <answers>726,727,728,729</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="276">
+        <parent>0</parent>
+        <name>9. A man gifts his elder daughter some 8% ...</name>
+        <questiontext>9. A man gifts his elder daughter some 8% shares that he purchases for Rs. 150. He also gifts his younger daughter some 12% shares that he purchases for Rs. 90. The man would like the yield for both daughters to be identical. In what ratio will the man have to invest money in the two investments?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122903+jCSmlW</stamp>
+        <version>localhost+130308122904+DwKug3</version>
+        <hidden>0</hidden>
+        <timecreated>1362745743</timecreated>
+        <timemodified>1362745743</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="730">
+              <answertext>2 : 3</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="731">
+              <answertext>10 : 9</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="732">
+              <answertext>15 : 9</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="733">
+              <answertext>9 : 15</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="130">
+            <layout>0</layout>
+            <answers>730,731,732,733</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="277">
+        <parent>0</parent>
+        <name>10. The height and slant height of a solid ...</name>
+        <questiontext>10. The height and slant height of a solid right circular cone are 8 cm and 10 cm, respectively. What is the area of the circular base?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122904+ocDv3M</stamp>
+        <version>localhost+130308122904+RYjXZq</version>
+        <hidden>0</hidden>
+        <timecreated>1362745744</timecreated>
+        <timemodified>1362745744</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="734">
+              <answertext>36</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="735">
+              <answertext>64</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="736">
+              <answertext>100</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="737">
+              <answertext>cannot be determined.</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="131">
+            <layout>0</layout>
+            <answers>734,735,736,737</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="278">
+        <parent>0</parent>
+        <name>11. A man invests Rs. N at simple interest ...</name>
+        <questiontext>11. A man invests Rs. N at simple interest (N/20)% per year. One year later, he invests twice the initial amount at twice the initial rate of interest. One year later, he invests three times the initial amount at three times the initial rate of interest. Yet another year later, he invests four times the initial amount at four times the initial rate of interest. One year from that point of time, he gets his investment back with interest. If he earns a total of Rs. 250 as interest, what was his initial investment?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122904+pat8PB</stamp>
+        <version>localhost+130308122905+RSqTx5</version>
+        <hidden>0</hidden>
+        <timecreated>1362745744</timecreated>
+        <timemodified>1362745744</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="738">
+              <answertext>100</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="739">
+              <answertext>1000</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="740">
+              <answertext>10000</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="741">
+              <answertext>cannot be determined</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="132">
+            <layout>0</layout>
+            <answers>738,739,740,741</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="279">
+        <parent>0</parent>
+        <name>12. Working alone, A can paint a fence in 20 ...</name>
+        <questiontext>12. Working alone, A can paint a fence in 20 days. B can do the same in 10 days. They both start painting the same fence. In 5 days, B leaves. What fraction of the fence still needs to be painted?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122905+1dTccD</stamp>
+        <version>localhost+130308122905+43A9bs</version>
+        <hidden>0</hidden>
+        <timecreated>1362745745</timecreated>
+        <timemodified>1362745745</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="742">
+              <answertext>3 / 20</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="743">
+              <answertext>17 / 20</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="744">
+              <answertext>1 / 4</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="745">
+              <answertext>3 / 4</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="133">
+            <layout>0</layout>
+            <answers>742,743,744,745</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="280">
+        <parent>0</parent>
+        <name>13. The average salary of twenty people in a ...</name>
+        <questiontext>13. The average salary of twenty people in a group was Rs. 750. Mr X, whose salary was Rs. 1200, exited the group, while Mr Y entered in his place. The average salary rose to Rs. 790. What is Mr Y's salary?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122905+L8nr82</stamp>
+        <version>localhost+130308122905+JXy9aF</version>
+        <hidden>0</hidden>
+        <timecreated>1362745745</timecreated>
+        <timemodified>1362745745</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="746">
+              <answertext>40</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="747">
+              <answertext>770</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="748">
+              <answertext>1000</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="749">
+              <answertext>2000</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="134">
+            <layout>0</layout>
+            <answers>746,747,748,749</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="281">
+        <parent>0</parent>
+        <name>14. In selling a book for Rs. 221, the ...</name>
+        <questiontext>14. In selling a book for Rs. 221, the bookseller incurred a loss of 15%. How much should she increase the selling price by, to make a 15% profit?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122905+cPEAZw</stamp>
+        <version>localhost+130308122906+Hf8hfu</version>
+        <hidden>0</hidden>
+        <timecreated>1362745745</timecreated>
+        <timemodified>1362745745</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="750">
+              <answertext>Rs. 78</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="751">
+              <answertext>Rs. 87</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="752">
+              <answertext>Rs. 260</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="753">
+              <answertext>Rs. 299</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="135">
+            <layout>0</layout>
+            <answers>750,751,752,753</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="282">
+        <parent>0</parent>
+        <name>15. Grain costing Rs. 40 per kg is mixed with ...</name>
+        <questiontext>15. Grain costing Rs. 40 per kg is mixed with a second kind of grain in the ratio 6 : 1. This leads the average cost to become Rs. 50 per kg. What is the cost of the second kind of grain?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122906+EbSsaD</stamp>
+        <version>localhost+130308122909+8922VW</version>
+        <hidden>0</hidden>
+        <timecreated>1362745746</timecreated>
+        <timemodified>1362745746</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="754">
+              <answertext>Rs. 10</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="755">
+              <answertext>Rs. 60</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="756">
+              <answertext>Rs. 110</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="757">
+              <answertext>Rs. 150</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="136">
+            <layout>0</layout>
+            <answers>754,755,756,757</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="283">
+        <parent>0</parent>
+        <name>16. If I purchase 1369 shares of face value Rs....</name>
+        <questiontext>16. If I purchase 1369 shares of face value Rs. 70 at a discount of Rs. 10, and the rate of dividend is 12%, then what is my rate of return?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122910+JXw0Bx</stamp>
+        <version>localhost+130308122911+0cJs5n</version>
+        <hidden>0</hidden>
+        <timecreated>1362745750</timecreated>
+        <timemodified>1362745750</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="758">
+              <answertext>7%</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="759">
+              <answertext>7.7%</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="760">
+              <answertext>14%</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="761">
+              <answertext>21%</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="137">
+            <layout>0</layout>
+            <answers>758,759,760,761</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="284">
+        <parent>0</parent>
+        <name>17. Three timers are initialized at the same ...</name>
+        <questiontext>17. Three timers are initialized at the same time. One of them beeps every 6 seconds, the second one beeps every 8 seconds, and the last one beeps every 10 seconds. After how much time (in seconds) do they all beep together for the first time?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122911+LB4nE4</stamp>
+        <version>localhost+130308122911+3PD8ZC</version>
+        <hidden>0</hidden>
+        <timecreated>1362745751</timecreated>
+        <timemodified>1362745751</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="762">
+              <answertext>120</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="763">
+              <answertext>160</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="764">
+              <answertext>180</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="765">
+              <answertext>240</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="138">
+            <layout>0</layout>
+            <answers>762,763,764,765</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="285">
+        <parent>0</parent>
+        <name>18. The average of five numbers is 8.8. The ...</name>
+        <questiontext>18. The average of five numbers is 8.8. The average of three of those numbers is 10. What is the average of the remaining two?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122911+k57t0u</stamp>
+        <version>localhost+130308122912+9K40p7</version>
+        <hidden>0</hidden>
+        <timecreated>1362745751</timecreated>
+        <timemodified>1362745751</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="766">
+              <answertext>1.2</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="767">
+              <answertext>7</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="768">
+              <answertext>9.4</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="769">
+              <answertext>18.8</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="139">
+            <layout>0</layout>
+            <answers>766,767,768,769</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="286">
+        <parent>0</parent>
+        <name>19. How many 4-digited numbers that do not ...</name>
+        <questiontext>19. How many 4-digited numbers that do not contain any zeros can be formed, such that the number is divisible by 5?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122912+U9P5ys</stamp>
+        <version>localhost+130308122912+xH321W</version>
+        <hidden>0</hidden>
+        <timecreated>1362745752</timecreated>
+        <timemodified>1362745752</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="770">
+              <answertext>9C3</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="771">
+              <answertext>9P3</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="772">
+              <answertext>10C4</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="773">
+              <answertext>10P4</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="140">
+            <layout>0</layout>
+            <answers>770,771,772,773</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="287">
+        <parent>0</parent>
+        <name>20. Rs. P is invested at R% per annum simple ...</name>
+        <questiontext>20. Rs. P is invested at R% per annum simple interest for 5 years. How much more would you have earned in terms of interest had the money been invested for 6 years?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122912+P6fu0B</stamp>
+        <version>localhost+130308122912+AXt2Bw</version>
+        <hidden>0</hidden>
+        <timecreated>1362745752</timecreated>
+        <timemodified>1362745752</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="774">
+              <answertext>10%</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="775">
+              <answertext>20%</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="776">
+              <answertext>30%</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="777">
+              <answertext>40%</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="141">
+            <layout>0</layout>
+            <answers>774,775,776,777</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="288">
+        <parent>0</parent>
+        <name>21. I roll two unbiased dice. What is the most ...</name>
+        <questiontext>21. I roll two unbiased dice. What is the most likely sum of the top faces?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122913+fl8kYc</stamp>
+        <version>localhost+130308122913+aH7fom</version>
+        <hidden>0</hidden>
+        <timecreated>1362745753</timecreated>
+        <timemodified>1362745753</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="778">
+              <answertext>all sums from 2 to 12 are equally likely</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="779">
+              <answertext>7 is the most likely sum</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="780">
+              <answertext>2 and 12 are the most likely sums</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="781">
+              <answertext>cannot be determined</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="142">
+            <layout>0</layout>
+            <answers>778,779,780,781</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="289">
+        <parent>0</parent>
+        <name>22. A hare can run 36 times faster than a ...</name>
+        <questiontext>22. A hare can run 36 times faster than a tortoise. In a 9 km race, they both start at the same time. But owing to its over confidence, the hare takes a long nap of 8 hours and 45 minutes during the race. This causes both of them to complete the race at the same time, in a total of 9 hours. What is the speed of the tortoise?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122913+MRkWak</stamp>
+        <version>localhost+130308122913+I4WKUs</version>
+        <hidden>0</hidden>
+        <timecreated>1362745753</timecreated>
+        <timemodified>1362745753</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="782">
+              <answertext>1 kmph</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="783">
+              <answertext>9 kmph</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="784">
+              <answertext>15 kmph</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="785">
+              <answertext>36 kmph</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="143">
+            <layout>0</layout>
+            <answers>782,783,784,785</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="290">
+        <parent>0</parent>
+        <name>23. A bundle of currency notes contains some ...</name>
+        <questiontext>23. A bundle of currency notes contains some Rs. 100 notes and some Rs. 500 notes. The average value of the notes is Rs. 150. For every Rs. 500 note in the bundle, how many Rs. 100 notes are present?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122913+FwSQyX</stamp>
+        <version>localhost+130308122914+vStxWa</version>
+        <hidden>0</hidden>
+        <timecreated>1362745753</timecreated>
+        <timemodified>1362745753</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="786">
+              <answertext>1</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="787">
+              <answertext>7</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="788">
+              <answertext>50</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="789">
+              <answertext>350</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="144">
+            <layout>0</layout>
+            <answers>786,787,788,789</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="291">
+        <parent>0</parent>
+        <name>24. Usually, it takes 81 mug-fulls to fill a ...</name>
+        <questiontext>24. Usually, it takes 81 mug-fulls to fill a bucket. If the capacity of the bucket is reduced by a third, and the capacity of the mug is increased by a third, then how many mug-fulls will be needed to fill the bucket?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122914+MfMflo</stamp>
+        <version>localhost+130308122914+o3PMHJ</version>
+        <hidden>0</hidden>
+        <timecreated>1362745754</timecreated>
+        <timemodified>1362745754</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="790">
+              <answertext>27</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="791">
+              <answertext>36</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="792">
+              <answertext>72</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="793">
+              <answertext>144</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="145">
+            <layout>0</layout>
+            <answers>790,791,792,793</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="292">
+        <parent>0</parent>
+        <name>25. A train traveling at 108 kmph completely ...</name>
+        <questiontext>25. A train traveling at 108 kmph completely crosses a train 3 times shorter than it, traveling in the same direction, at the speed of 72 kmph, in 8 seconds. What is the length of the shorter train?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122914+piKnXU</stamp>
+        <version>localhost+130308122914+tHiE2p</version>
+        <hidden>0</hidden>
+        <timecreated>1362745754</timecreated>
+        <timemodified>1362745754</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="794">
+              <answertext>10 m</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="795">
+              <answertext>15 m</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="796">
+              <answertext>20 m</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="797">
+              <answertext>60 m</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="146">
+            <layout>0</layout>
+            <answers>794,795,796,797</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="293">
+        <parent>0</parent>
+        <name>26. How many 4-digited numbers are greater ...</name>
+        <questiontext>26. How many 4-digited numbers are greater than 5000 and lesser than 7500?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122914+OEFOK9</stamp>
+        <version>localhost+130308122915+F67C0B</version>
+        <hidden>0</hidden>
+        <timecreated>1362745754</timecreated>
+        <timemodified>1362745754</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="798">
+              <answertext>2499</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="799">
+              <answertext>2500</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="800">
+              <answertext>4999</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="801">
+              <answertext>7499</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="147">
+            <layout>0</layout>
+            <answers>798,799,800,801</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="294">
+        <parent>0</parent>
+        <name>27. What is the value of: log8 8   log27 16  ...</name>
+        <questiontext>27. What is the value of: log8 8   log27 16  log2 3  log9 9 ?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122915+g5Y9T7</stamp>
+        <version>localhost+130308122915+ZXRnUq</version>
+        <hidden>0</hidden>
+        <timecreated>1362745755</timecreated>
+        <timemodified>1362745755</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="802">
+              <answertext>1/3</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="803">
+              <answertext>3/4</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="804">
+              <answertext>4/3</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="805">
+              <answertext>log 4 / log 3</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="148">
+            <layout>0</layout>
+            <answers>802,803,804,805</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="295">
+        <parent>0</parent>
+        <name>28. The same task can be completed by 20 ...</name>
+        <questiontext>28. The same task can be completed by 20 adults in 10 days, and by 10 children in 100 days. How much faster are adults at performing this task?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122915+WyXSsf</stamp>
+        <version>localhost+130308122916+fXnkQQ</version>
+        <hidden>0</hidden>
+        <timecreated>1362745755</timecreated>
+        <timemodified>1362745755</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="806">
+              <answertext>0.2 times</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="807">
+              <answertext>2 times</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="808">
+              <answertext>5 times</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="809">
+              <answertext>50 times</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="149">
+            <layout>0</layout>
+            <answers>806,807,808,809</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="296">
+        <parent>0</parent>
+        <name>29. The entire floor of a marriage hall is ...</name>
+        <questiontext>29. The entire floor of a marriage hall is covered with square tiles of equal size. All the tiles are complete, and none are broken. What is the least number of tiles that are required, if the dimensions of the floor are: 78.3 m by 35.1 m?</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122916+nLR41g</stamp>
+        <version>localhost+130308122916+7Jilxt</version>
+        <hidden>0</hidden>
+        <timecreated>1362745756</timecreated>
+        <timemodified>1362745756</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="810">
+              <answertext>29</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="811">
+              <answertext>270</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="812">
+              <answertext>377</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="813">
+              <answertext>cannot be determined</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="150">
+            <layout>0</layout>
+            <answers>810,811,812,813</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="297">
+        <parent>0</parent>
+        <name>30. A metal sphere of radius 42 cm, has a ...</name>
+        <questiontext>30. A metal sphere of radius 42 cm, has a spherical air bubble of radius 21 cm trapped inside. What is the volume of the metal used to make this sphere? (Assume  = 22 / 7)</questiontext>
+        <questiontextformat>1</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>1</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+130308122916+xanNBV</stamp>
+        <version>localhost+130308122917+Sn5zGM</version>
+        <hidden>0</hidden>
+        <timecreated>1362745756</timecreated>
+        <timemodified>1362745756</timemodified>
+        <createdby>379</createdby>
+        <modifiedby>379</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="814">
+              <answertext>271656 cm3</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="815">
+              <answertext>1543 cm3</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="816">
+              <answertext>17651 cm3</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="817">
+              <answertext>cannot be determined</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback></feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="151">
+            <layout>0</layout>
+            <answers>814,815,816,817</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="298">
+        <parent>298</parent>
+        <name>Random (Mathematical Aptitude )</name>
+        <questiontext></questiontext>
+        <questiontextformat>0</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>0</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.0000000</penalty>
+        <qtype>random</qtype>
+        <length>1</length>
+        <stamp>localhost+130404104525+ctL3Gz</stamp>
+        <version>localhost+130404104526+85eBWZ</version>
+        <hidden>0</hidden>
+        <timecreated>1365072325</timecreated>
+        <timemodified>1365072325</timemodified>
+        <createdby>2</createdby>
+        <modifiedby>2</modifiedby>
+        <question_hints>
+        </question_hints>
+      </question>
+    </questions>
+  </question_category>
+  <question_category id="63">
+    <name>Reasoning </name>
+    <contextid>1</contextid>
+    <contextlevel>10</contextlevel>
+    <contextinstanceid>0</contextinstanceid>
+    <info>Reasoning </info>
+    <infoformat>0</infoformat>
+    <stamp>localhost+121217140130+UBTawG</stamp>
+    <parent>0</parent>
+    <sortorder>999</sortorder>
+    <questions>
+      <question id="264">
+        <parent>0</parent>
+        <name>RE Question 1</name>
+        <questiontext>Taking the train across town is quicker than taking the bus.
+
+Taking the bus across town is slower than driving a car.
+
+Taking the train across town is quicker than driving a car.
+
+If the first two statements are true, the third statement is</questiontext>
+        <questiontextformat>0</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>0</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+121218065451+Y1PlCw</stamp>
+        <version>localhost+121218065452+VzvD9b</version>
+        <hidden>0</hidden>
+        <timecreated>1355813691</timecreated>
+        <timemodified>1355813691</timemodified>
+        <createdby>2</createdby>
+        <modifiedby>2</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="688">
+              <answertext>True</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback>Correct</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="689">
+              <answertext>False</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback>Incorrect</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="690">
+              <answertext>Uncertain</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback>Incorrect</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="120">
+            <layout>0</layout>
+            <answers>688,689,690</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="265">
+        <parent>0</parent>
+        <name>RE Question 2</name>
+        <questiontext>All Lamels are Signots with buttons.
+
+No yellow Signots have buttons.
+
+No Lamels are yellow.
+
+If the first two statements are true, the third statement is</questiontext>
+        <questiontextformat>0</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>0</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>0.3333333</penalty>
+        <qtype>multichoice</qtype>
+        <length>1</length>
+        <stamp>localhost+121218070734+Sy48Nr</stamp>
+        <version>localhost+121218070734+1tMC7I</version>
+        <hidden>0</hidden>
+        <timecreated>1355814454</timecreated>
+        <timemodified>1355814454</timemodified>
+        <createdby>2</createdby>
+        <modifiedby>2</modifiedby>
+        <plugin_qtype_multichoice_question>
+          <answers>
+            <answer id="691">
+              <answertext>True</answertext>
+              <answerformat>1</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback>Correct</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="692">
+              <answertext>False</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback>Incorrect</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="693">
+              <answertext>Uncertain</answertext>
+              <answerformat>1</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback>Incorrect</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <multichoice id="121">
+            <layout>0</layout>
+            <answers>691,692,693</answers>
+            <single>1</single>
+            <shuffleanswers>1</shuffleanswers>
+            <correctfeedback></correctfeedback>
+            <correctfeedbackformat>1</correctfeedbackformat>
+            <partiallycorrectfeedback></partiallycorrectfeedback>
+            <partiallycorrectfeedbackformat>1</partiallycorrectfeedbackformat>
+            <incorrectfeedback></incorrectfeedback>
+            <incorrectfeedbackformat>1</incorrectfeedbackformat>
+            <answernumbering>abc</answernumbering>
+            <shownumcorrect>0</shownumcorrect>
+          </multichoice>
+        </plugin_qtype_multichoice_question>
+        <question_hints>
+        </question_hints>
+      </question>
+    </questions>
+  </question_category>
+  <question_category id="64">
+    <name>Soft Skills </name>
+    <contextid>1</contextid>
+    <contextlevel>10</contextlevel>
+    <contextinstanceid>0</contextinstanceid>
+    <info>Soft Skills </info>
+    <infoformat>0</infoformat>
+    <stamp>localhost+121217140203+UdxXQ3</stamp>
+    <parent>0</parent>
+    <sortorder>999</sortorder>
+    <questions>
+      <question id="266">
+        <parent>0</parent>
+        <name>SS Question 1</name>
+        <questiontext>Soft skill is development of interpersonal skill.</questiontext>
+        <questiontextformat>0</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>0</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>1.0000000</penalty>
+        <qtype>truefalse</qtype>
+        <length>1</length>
+        <stamp>localhost+121218073246+GEXB3b</stamp>
+        <version>localhost+121218073246+N8bbFv</version>
+        <hidden>0</hidden>
+        <timecreated>1355815966</timecreated>
+        <timemodified>1355815966</timemodified>
+        <createdby>2</createdby>
+        <modifiedby>2</modifiedby>
+        <plugin_qtype_truefalse_question>
+          <answers>
+            <answer id="694">
+              <answertext>True</answertext>
+              <answerformat>0</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback>Correct</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="695">
+              <answertext>False</answertext>
+              <answerformat>0</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback>Incorrect</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <truefalse id="30">
+            <trueanswer>694</trueanswer>
+            <falseanswer>695</falseanswer>
+          </truefalse>
+        </plugin_qtype_truefalse_question>
+        <question_hints>
+        </question_hints>
+      </question>
+      <question id="267">
+        <parent>0</parent>
+        <name>SS Question 2</name>
+        <questiontext>It is easy to develop soft skills</questiontext>
+        <questiontextformat>0</questiontextformat>
+        <generalfeedback></generalfeedback>
+        <generalfeedbackformat>0</generalfeedbackformat>
+        <defaultmark>1.0000000</defaultmark>
+        <penalty>1.0000000</penalty>
+        <qtype>truefalse</qtype>
+        <length>1</length>
+        <stamp>localhost+121218073749+KErmcD</stamp>
+        <version>localhost+121218073750+PApjEd</version>
+        <hidden>0</hidden>
+        <timecreated>1355816269</timecreated>
+        <timemodified>1355816269</timemodified>
+        <createdby>2</createdby>
+        <modifiedby>2</modifiedby>
+        <plugin_qtype_truefalse_question>
+          <answers>
+            <answer id="696">
+              <answertext>True</answertext>
+              <answerformat>0</answerformat>
+              <fraction>1.0000000</fraction>
+              <feedback>Correct</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+            <answer id="697">
+              <answertext>False</answertext>
+              <answerformat>0</answerformat>
+              <fraction>0.0000000</fraction>
+              <feedback>Incorrect</feedback>
+              <feedbackformat>1</feedbackformat>
+            </answer>
+          </answers>
+          <truefalse id="31">
+            <trueanswer>696</trueanswer>
+            <falseanswer>697</falseanswer>
+          </truefalse>
+        </plugin_qtype_truefalse_question>
+        <question_hints>
+        </question_hints>
+      </question>
+    </questions>
+  </question_category>
+  <question_category id="76">
+    <name>Default for Assessment 1</name>
+    <contextid>3786</contextid>
+    <contextlevel>70</contextlevel>
+    <contextinstanceid>2688</contextinstanceid>
+    <info>The default category for questions shared in context 'Assessment 1'.</info>
+    <infoformat>0</infoformat>
+    <stamp>localhost+130409063104+wYNaqY</stamp>
+    <parent>0</parent>
+    <sortorder>999</sortorder>
+    <questions>
+    </questions>
+  </question_category>
+  <question_category id="77">
+    <name>Default for test self enrollment course</name>
+    <contextid>3781</contextid>
+    <contextlevel>50</contextlevel>
+    <contextinstanceid>121</contextinstanceid>
+    <info>The default category for questions shared in context 'test self enrollment course'.</info>
+    <infoformat>0</infoformat>
+    <stamp>localhost+130409063104+zfgATl</stamp>
+    <parent>0</parent>
+    <sortorder>999</sortorder>
+    <questions>
+    </questions>
+  </question_category>
+  <question_category id="78">
+    <name>Default for Free Assessment 1</name>
+    <contextid>3787</contextid>
+    <contextlevel>70</contextlevel>
+    <contextinstanceid>2689</contextinstanceid>
+    <info>The default category for questions shared in context 'Free Assessment 1'.</info>
+    <infoformat>0</infoformat>
+    <stamp>localhost+130409091644+b2CRfv</stamp>
+    <parent>0</parent>
+    <sortorder>999</sortorder>
+    <questions>
+    </questions>
+  </question_category>
+</question_categories>

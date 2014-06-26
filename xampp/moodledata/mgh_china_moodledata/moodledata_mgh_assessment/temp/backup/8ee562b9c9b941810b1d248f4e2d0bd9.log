@@ -1,0 +1,8 @@
+[19/04/2013 3:49:45 PM] [info] instantiating backup controller 8ee562b9c9b941810b1d248f4e2d0bd9
+[19/04/2013 3:49:45 PM] [debug] setting controller status to 100
+[19/04/2013 3:49:45 PM] [debug] loading controller plan
+[19/04/2013 3:49:45 PM] [debug] setting controller status to 300
+[19/04/2013 3:49:45 PM] [debug] applying plan defaults
+[19/04/2013 3:49:45 PM] [debug] setting controller status to 400
+[19/04/2013 3:49:45 PM] [info] checking plan security
+[19/04/2013 3:49:45 PM] [debug] setting controller status to 500

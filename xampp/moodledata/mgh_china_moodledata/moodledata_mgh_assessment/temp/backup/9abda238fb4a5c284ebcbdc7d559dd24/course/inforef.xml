@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inforef>
+  <userref>
+    <user>
+      <id>396</id>
+    </user>
+    <user>
+      <id>413</id>
+    </user>
+  </userref>
+  <roleref>
+    <role>
+      <id>5</id>
+    </role>
+  </roleref>
+  <fileref>
+    <file>
+      <id>246463</id>
+    </file>
+    <file>
+      <id>246464</id>
+    </file>
+  </fileref>
+  <question_categoryref>
+    <question_category>
+      <id>77</id>
+    </question_category>
+  </question_categoryref>
+</inforef>

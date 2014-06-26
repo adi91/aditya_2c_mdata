@@ -1,0 +1,377 @@
+﻿package Templates.match
+{
+	import flash.display.MovieClip;
+	import flash.events.Event;
+	import flash.events.*;
+	import flash.events.MouseEvent;
+	import flash.geom.Point;
+	//import flash.external.ExternalInterface;
+
+	public class Manager extends EventDispatcher
+	{
+		private var _ui:UI;
+		private var drawingLine:Boolean = false;
+		private var clicked:*;
+		private var mc:MovieClip;
+		private var incorrectSnapback:Boolean;
+		public static const STOP_SOUND:String="STOP_SOUND";
+		private var optHeight:Number;
+        
+
+		public function Manager (ui:UI)
+		{
+			//trace ("Manager called");
+			_ui = ui;
+			optHeight=_ui.optArray[_ui.optArray.length - 1].height;
+			//ExternalInterface.call("alert","mcSubmit instanceof mcButton ::: "+_ui.mcSubmit );
+			_ui.addEventListener(UI.LAYOUTDONE, setListener);
+			_ui.addEventListener (UI.RESET_CLICKED,fnResetOptions);
+			_ui.addEventListener (UI.SUBMIT_CLICKED, fnSubmitOptions);
+			_ui.addEventListener(UI.SOLUTION_CLICKED, showAnswer);
+
+			if (_ui.xmlData.onlyIncorrectSnapback != undefined && _ui.xmlData.onlyIncorrectSnapback.toLowerCase() == "yes")
+			{
+				incorrectSnapback = true;
+			}
+			else
+			{
+				incorrectSnapback = false;
+			}
+
+			if (_ui.xmlData.assets.audio.disableChoice == undefined || _ui.xmlData.assets.audio.disableChoice.toLowerCase() != "yes")
+			{
+				for (var x = 0; x < _ui.optArray.length; x++)
+				{
+				setListener (x);
+				}
+			}
+		}
+
+		private function fnSubmitOptions (e:Event):void
+		{
+			removeListeners ();
+			var result:String = checkAnswer();
+			_ui.showFeedback (result);
+			if (result == "correct")
+			{
+				fnFileComplete ();
+			}
+		}
+
+		private function fnResetOptions (e:Event):void
+		{
+			removeListeners ();
+			if (drawingLine)
+			{
+				_ui.myStage.removeEventListener (MouseEvent.MOUSE_MOVE,drawLine);
+			}
+			drawingLine = false;
+			clicked = null;
+			_ui.hideFeedback ();
+			if (checkAnswer() != "correct")
+			{
+				for (var x = 0; x < _ui.optArray.length; x++)
+				{
+					mc = _ui.optArray[x].mc;
+
+					if (incorrectSnapback && _ui.optArray[x].ToTarget != _ui.optArray[x].CorrectTarget)
+					{
+						var temp:Number = _ui.optArray[x].ToTarget;
+						
+						mc.mouseEnabled = false;
+						mc.graphics.clear ();
+
+						_ui._col.color = _ui.colArray[_ui.colArray.length - 1];
+						_ui.optArray[temp].mcCircle.mcCircleBG.transform.colorTransform = _ui._col;
+						_ui.optArray[temp].mcCircle.mcBG.transform.colorTransform = _ui._col;
+						_ui.optArray[temp].mcCircle.mcRemark.gotoAndStop ("blank");						
+						
+						
+						_ui.optArray[x].mcSector.addEventListener (MouseEvent.CLICK,startDraw);
+						_ui.optArray[temp].mcCircle.addEventListener (MouseEvent.CLICK,stopDrawing);
+						_ui.optArray[x].ToTarget = -1;
+						_ui.optArray[temp].FromSource = -1;
+						setListener(x);
+						
+					}
+					else if (!incorrectSnapback)
+					{
+						mc.mouseEnabled = false;
+						mc.graphics.clear ();
+
+						_ui._col.color = _ui.colArray[_ui.colArray.length - 1];
+						_ui.optArray[x].mcCircle.mcCircleBG.transform.colorTransform = _ui._col;
+						_ui.optArray[x].mcCircle.mcBG.transform.colorTransform = _ui._col;
+
+						_ui.optArray[x].mcCircle.mcRemark.gotoAndStop ("blank");
+						_ui.optArray[x].ToTarget = -1;
+						_ui.optArray[x].FromSource = -1;
+						//setListener (x);
+					}
+				}
+				
+			}
+		}
+		public function setListener (itemNo:Number):void
+		{
+			//trace ("setListener");
+			//for (var x = 0; x < _ui.optArray.length; x++)
+			//{
+				mc = _ui.optArray[itemNo].mc;
+				mc.mouseEnabled = false;
+				_ui.optArray[itemNo].mcSector.addEventListener (MouseEvent.CLICK,startDraw);
+				_ui.optArray[itemNo].mcCircle.addEventListener (MouseEvent.CLICK, stopDrawing);
+				_ui.optArray[itemNo].mcCircle..buttonMode = true;
+				_ui.optArray[itemNo].mcCircle..mouseChildren = false;
+				_ui.optArray[itemNo].mcSector..buttonMode = true;
+				_ui.optArray[itemNo].mcSector..mouseChildren = false;
+			//}
+		}
+		private function removeListeners ():void
+		{
+			for (var x = 0; x < _ui.optArray.length; x++)
+			{
+				_ui.optArray[x].mcSector.removeEventListener (MouseEvent.CLICK,startDraw);
+				_ui.optArray[x].mcCircle.removeEventListener (MouseEvent.CLICK, stopDrawing);
+				_ui.optArray[x].mcCircle..buttonMode = false;
+				_ui.optArray[x].mcSector..buttonMode = false;
+				
+			}
+		}
+		private function startDraw (e:MouseEvent):void
+		{
+			//trace ("startDraw...");
+			checkAcivity ();
+			if(Controller.getInstance().timelineRef.arrObject[Controller.getInstance().currentTemplateIndex].isaudioext == "true")
+			{
+				//ExternalInterface.call("alert","dispatch");
+				this.dispatchEvent(new Event(Manager.STOP_SOUND));
+			}
+			_ui.setChildIndex (_ui.getChildByName(e.currentTarget.parent.name),_ui.numChildren - 1);
+			_ui.mcSubmit.gotoAndStop ("lblDisable");
+			//trace ("drawingLine :"+drawingLine);
+			if (! drawingLine)
+			{
+				if (e.currentTarget.parent.ToTarget != -1)
+				{
+					e.currentTarget.parent.mc.graphics.clear ();
+					_ui.optArray[e.currentTarget.parent.ToTarget].FromSource = -1;
+					_ui.optArray[e.currentTarget.parent.ToTarget].mcCircle.mcBG.transform.colorTransform = _ui.optArray[e.currentTarget.parent.ToTarget].mcCircle.mcCircleBG.transform.colorTransform;
+					e.currentTarget.parent.ToTarget=-1;
+				}
+				clicked = e.currentTarget;
+				_ui.myStage.addEventListener (MouseEvent.MOUSE_MOVE,drawLine);
+				drawingLine = true;
+			}
+			else
+			{
+				clicked.parent.mc.graphics.clear ();
+				if (e.currentTarget.parent.ToTarget != -1)
+				{
+					////trace ("in else totarget " + e.currentTarget.parent.ToTarget);
+					_ui.optArray[e.currentTarget.parent.ToTarget].FromSource = -1;
+					_ui.optArray[e.currentTarget.parent.ToTarget].mcCircle.mcBG.transform.colorTransform = _ui.optArray[e.currentTarget.parent.ToTarget].mcCircle.mcCircleBG.transform.colorTransform;
+					e.currentTarget.parent.ToTarget = -1;
+				}
+				drawingLine = true;
+				clicked = e.currentTarget;
+			}
+			checkAcivity ();
+		}
+		public function drawLine (e:MouseEvent):void
+		{
+			////trace ("drawLine");
+			/*if (_ui.myStage.mouseX > _ui.optArray[0].x && _ui.myStage.mouseX < _ui.optArray[0].x + _ui.optArray[0].width)
+			{
+				if (_ui.myStage.mouseY > _ui.optArray[0].y && _ui.myStage.mouseY < _ui.optArray[_ui.optArray.length - 1].y + optHeight)
+				{*/
+				var w1 = 2.5+clicked.width / 2;
+					mc.mouseEnabled = false;
+					clicked.parent.mcCircle.mcRemark.gotoAndStop ("blank");
+					clicked.parent.mc.mouseEnabled = false;
+					clicked.parent.mc.graphics.clear ();
+					clicked.parent.mc.graphics.lineStyle (2,0x000000);
+					clicked.parent.mc.graphics.moveTo (clicked.x+w1,clicked.y);
+					clicked.parent.mc.graphics.lineTo (clicked.parent.mc.mouseX - 2,clicked.parent.mc.mouseY - 2);
+				/*}
+			}*/
+		}
+
+
+		public function stopDrawing (e:MouseEvent):void
+		{
+			trace("clicked");
+			if (drawingLine)
+			{
+				drawingLine = false;
+				if (e.currentTarget.parent.FromSource != -1)
+				{
+					var oldTarget = e.currentTarget.parent.FromSource;
+					_ui.optArray[oldTarget].ToTarget = -1;
+					_ui.optArray[oldTarget].mc.graphics.clear ();
+					e.currentTarget.parent.FromSource = -1;
+				}
+
+				e.currentTarget.parent.FromSource = clicked.parent.ID;
+				clicked.parent.ToTarget = e.currentTarget.parent.ID;
+                var w1 = 2.5+clicked.width / 2;
+				var x = e.currentTarget.parent.ID;
+				_ui._col.color = _ui.colArray[clicked.parent.ID];
+				e.currentTarget.mcBG.transform.colorTransform = _ui._col;
+				clicked.parent.mc.graphics.clear ();
+				clicked.parent.mc.graphics.lineStyle (2,0x000000);
+				clicked.parent.mc.graphics.moveTo (clicked.x+w1,clicked.y);
+                var w = _ui.optArray[x].mcCircle.width / 2;
+				var circlePoint:Point = new Point(_ui.optArray[x].mcCircle.x-w,_ui.optArray[x].mcCircle.y);
+                 //trace(_ui.optArray[x].name);
+				circlePoint = _ui.optArray[x].localToGlobal(circlePoint);
+				circlePoint = clicked.parent.globalToLocal(circlePoint);
+				clicked.parent.mc.graphics.lineTo (circlePoint.x,circlePoint.y);
+				_ui.myStage.removeEventListener (MouseEvent.MOUSE_MOVE,drawLine);
+               // _ui.optArray[x].ToTarget=e.currentTarget.parent.ID;
+				checkAcivity ();
+				if (_ui.FeedbackType== "instance")
+				{
+					checkInstantAnswer (e.currentTarget.parent.ID, clicked.parent.ID);
+					if(checkAnswer ()=="correct")
+					{
+						fnFileComplete ()
+					}
+				}
+				
+				
+			}
+		}
+
+
+		private function checkAnswer ():String
+		{
+			var correctCount = 0;
+			for (var x = 0; x < _ui.optArray.length; x++)
+			{
+				if (_ui.optArray[x].ToTarget == _ui.optArray[x].CorrectTarget)
+				{
+					correctCount++;
+					if (_ui.FeedbackType != "instance")
+					{
+							if (_ui.ShowTicks == "yes")
+							{
+								_ui.optArray[_ui.optArray[x].ToTarget].mcCircle.mcRemark.gotoAndStop ("tick");
+							}
+					
+					}
+					//_ui.optArray[_ui.optArray[x].FromSource].mcCircle.mcRemark.gotoAndStop ("tick");
+				}
+				else
+				{
+                   // _ui.optArray[_ui.optArray[x].FromSource].mcCircle.mcRemark.gotoAndStop ("cross");
+				   if (_ui.FeedbackType != "instance")
+					{
+							if (_ui.ShowTicks == "yes")
+							{
+							_ui.optArray[_ui.optArray[x].ToTarget].mcCircle.mcRemark.gotoAndStop ("cross");
+							}
+					}
+				}
+				//_ui._col.color = _ui.colArray[x];
+				//_ui.optArray[_ui.optArray[x].CorrectTarget].mcCircle.mcCircleBG.transform.colorTransform = _ui._col;
+			}
+			if (correctCount == _ui.optArray.length)
+			{
+				return "correct";
+			}
+			else
+			{
+				return "incorrect";
+			}
+		}
+		private function checkInstantAnswer (x,y)
+		{
+			var correctCount = 0;
+			//trace(_ui.optArray[x].ToTarget+"   "+_ui.optArray[x].CorrectTarget+"@@@@@");
+			if (_ui.optArray[y].ToTarget == _ui.optArray[y].CorrectTarget)
+				{
+					if (_ui.ShowTicks == "yes")
+					{
+					_ui.optArray[_ui.optArray[x].FromSource].mcCircle.mcRemark.gotoAndStop ("tick");
+					}
+				}
+				else
+				{
+					if (_ui.ShowTicks == "yes")
+					{
+					_ui.optArray[_ui.optArray[x].FromSource].mcCircle.mcRemark.gotoAndStop ("cross");
+					}
+				}
+				//_ui._col.color = _ui.colArray[x];
+				//_ui.optArray[_ui.optArray[x].ToTarget].mcCircle.mcCircleBG.transform.colorTransform = _ui._col;
+		}
+		
+		private function checkAcivity ()
+		{
+			var count:Number = 0;
+			var resetCount:Number = 0;
+			for (var x = 0; x < _ui.optArray.length; x++)
+			{
+				if (_ui.optArray[x].FromSource != -1 && _ui.optArray[x].ToTarget != -1)
+				{
+					count++;
+				}
+				if (_ui.optArray[x].ToTarget != -1)
+				{
+					_ui.mcReset.gotoAndStop ("lblEnable");
+				}
+			}
+
+			if (count == _ui.optArray.length)
+			{
+				_ui.mcSubmit.gotoAndStop ("lblEnable");
+				_ui.enableDisableSubmit(true);
+			}
+			else
+			{
+			    _ui.mcSubmit.gotoAndStop ("lblDisable");
+				_ui.enableDisableSubmit(false);	
+			}
+		}
+		public function fnFileComplete ()
+		{
+			_ui.textTransition.visible=true;
+
+			if (Controller.getInstance().timelineRef.courseMode == "course")
+			{
+				Controller.getInstance().executeCommand ("cmdShowBlinkNext",{});
+				Controller.getInstance().executeCommand ("cmdShowInstructionText",{});
+				Controller.getInstance().executeCommand ("cmdEnableNext",{});
+				Controller.getInstance().executeCommand ("cmdMarkTemplateComplete",{});
+			}
+		}
+		public function showAnswer(e:Event)
+		{
+			removeListeners ();
+			for (var x = 0; x < _ui.optArray.length; x++)
+			{
+				var w1 = 2.5+_ui.optArray[x].mcSector.width / 2;
+				var circlePoint:Point = new Point(_ui.optArray[x].mcSector.x+w1, _ui.optArray[x].mcSector.y);
+				_ui.optArray[x].mc.graphics.clear ();
+				_ui.optArray[x].mc.graphics.lineStyle (2,0x000000);
+				//circlePoint = _ui.optArray[x].localToGlobal(circlePoint);
+				_ui.optArray[x].mc.graphics.moveTo (circlePoint.x, circlePoint.y);
+				var w = _ui.optArray[x].mcCircle.width / 2;
+				var circlePoint1:Point = new Point(_ui.optArray[_ui.optArray[x].CorrectTarget].mcCircle.x-w, _ui.optArray[_ui.optArray[x].CorrectTarget].mcCircle.y);
+				trace(circlePoint1);
+				circlePoint1 = _ui.optArray[_ui.optArray[x].CorrectTarget].localToGlobal(circlePoint1);
+				circlePoint1 = _ui.optArray[x].globalToLocal(circlePoint1);
+				//circlePoint1 = _ui.optArray[_ui.optArray[x].CorrectTarget].globalToLocal(circlePoint1);
+				trace(circlePoint1.x + "   >>>>>" + circlePoint1.y)
+				_ui.optArray[x].mc.graphics.lineTo(circlePoint1.x , circlePoint1.y);
+				if (_ui.ShowTicks == "yes")
+				{
+					_ui.optArray[_ui.optArray[x].CorrectTarget].mcCircle.mcRemark.gotoAndStop ("tick");	
+				}
+				fnFileComplete();
+			}
+		}
+	}
+
+}

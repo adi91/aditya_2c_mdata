@@ -1,0 +1,64 @@
+<data>
+
+	<meta>
+	</meta>
+	
+	
+	<body sapcer="13.5" initX="155" initY="175" position="v" feedback="delay" showTicks="no"><!--instance/delay-->
+	  <assets>
+			<audio>
+				<path><![CDATA[module_01/audio/en/test.mp3]]></path>
+				<disableChoice><![CDATA[No]]></disableChoice>  <!--  Yes/No -->
+			</audio>
+		</assets>
+
+		<question x="100" y="70"></question>
+		<transition x='50' y='400' width='500'><![CDATA[<p></p>]]></transition>
+		<instruction x="100" y="100"></instruction>
+		<onlyIncorrectSnapback><![CDATA[Yes]]></onlyIncorrectSnapback>
+		
+		<drags >
+			<!-- Keep Text Empty if you do not need text-->
+			<drag color="0xbebebe" answer = "6"><![CDATA[]]></drag>
+			<drag color="0xbebebe" answer = "5"><![CDATA[]]></drag>
+			<drag color="0xbebebe" answer = "8"><![CDATA[]]></drag>
+			<drag color="0xbebebe" answer = "2"><![CDATA[]]></drag>
+			<drag color="0xbebebe" answer = "7"><![CDATA[]]></drag>
+			<drag color="0xbebebe" answer = "3"><![CDATA[]]></drag>
+			<drag color="0xbebebe" answer = "1"><![CDATA[]]></drag>
+			<drag color="0xbebebe" answer = "4"><![CDATA[]]></drag>
+		</drags>
+
+		<!-- Keep Text Empty if you do not need text-->
+		<targets color="0x333333">
+			<target><![CDATA[<p></p>]]></target>
+			<target><![CDATA[<p></p>]]></target>
+			<target><![CDATA[<p></p>]]></target>
+			<target><![CDATA[<p></p>]]></target>
+			<target><![CDATA[<p></p>]]></target>
+			<target><![CDATA[<p></p>]]></target>
+			<target><![CDATA[<p></p>]]></target>
+			<target><![CDATA[<p></p>]]></target>
+	</targets>
+
+		<!-- <attempts><![CDATA[2]]></attempts> -->
+		<feedbacks closeButton="yes" x="-47" y="300"><!-- closeButton="yes/no" -->
+			<correct><![CDATA[<p>That's right! Click <B>Close (x)</B> and move to the next page.</p>]]></correct>
+			<incorrect><![CDATA[<p>Oops! Not quite right. Click <B>Close (x)</B> and try again.</p>]]></incorrect>
+			<solution><![CDATA[<p>Nice try, but still not correct. Click <B>Close (x)</B> to see the correct answers.<p>]]></solution>
+		</feedbacks>
+
+		<buttons>
+			<!--<submit x="720" y="530"><![CDATA[<btn>Submit</btn>]]></submit>-->
+			<!--<reset x="830" y="530"><![CDATA[<btn>Reset</btn>]]></reset>-->
+			<solution x="200" y="350"><![CDATA[<btn>solution</btn>]]></solution> 
+		</buttons>	
+       <total_attempts><![CDATA[2]]></total_attempts>		
+	</body>
+		<transcripts>
+			<transcript><![CDATA[<body>Welcome to the 2nd Page</body>]]></transcript>
+		</transcripts>
+	
+
+</data>
+

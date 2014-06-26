@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="30" moduleid="2689" modulename="quiz" contextid="3787">
+  <quiz id="30">
+    <name>Free Assessment 1</name>
+    <intro>&lt;p&gt;Free Assessment 1&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timeopen>1365492300</timeopen>
+    <timeclose>1365501600</timeclose>
+    <preferredbehaviour>deferredfeedback</preferredbehaviour>
+    <attempts_number>0</attempts_number>
+    <attemptonlast>0</attemptonlast>
+    <grademethod>1</grademethod>
+    <decimalpoints>2</decimalpoints>
+    <questiondecimalpoints>-1</questiondecimalpoints>
+    <reviewattempt>69904</reviewattempt>
+    <reviewcorrectness>4368</reviewcorrectness>
+    <reviewmarks>4368</reviewmarks>
+    <reviewspecificfeedback>4368</reviewspecificfeedback>
+    <reviewgeneralfeedback>4368</reviewgeneralfeedback>
+    <reviewrightanswer>4368</reviewrightanswer>
+    <reviewoverallfeedback>4368</reviewoverallfeedback>
+    <questionsperpage>1</questionsperpage>
+    <shufflequestions>1</shufflequestions>
+    <shuffleanswers>1</shuffleanswers>
+    <questions>268,0,277,0,278,0,279,0,280,0</questions>
+    <sumgrades>5.00000</sumgrades>
+    <grade>100.00000</grade>
+    <timecreated>0</timecreated>
+    <timemodified>1365500921</timemodified>
+    <timelimit>0</timelimit>
+    <password></password>
+    <subnet></subnet>
+    <browsersecurity>-</browsersecurity>
+    <delay1>0</delay1>
+    <delay2>0</delay2>
+    <showuserpicture>0</showuserpicture>
+    <showblocks>0</showblocks>
+    <question_instances>
+      <question_instance id="78">
+        <question>268</question>
+        <grade>1.0000000</grade>
+      </question_instance>
+      <question_instance id="79">
+        <question>277</question>
+        <grade>1.0000000</grade>
+      </question_instance>
+      <question_instance id="80">
+        <question>278</question>
+        <grade>1.0000000</grade>
+      </question_instance>
+      <question_instance id="81">
+        <question>279</question>
+        <grade>1.0000000</grade>
+      </question_instance>
+      <question_instance id="82">
+        <question>280</question>
+        <grade>1.0000000</grade>
+      </question_instance>
+    </question_instances>
+    <feedbacks>
+      <feedback id="38">
+        <feedbacktext></feedbacktext>
+        <feedbacktextformat>1</feedbacktextformat>
+        <mingrade>0.00000</mingrade>
+        <maxgrade>101.00000</maxgrade>
+      </feedback>
+    </feedbacks>
+    <overrides>
+    </overrides>
+    <grades>
+      <grade id="2">
+        <userid>396</userid>
+        <gradeval>0.00000</gradeval>
+        <timemodified>1365501621</timemodified>
+      </grade>
+    </grades>
+    <attempts>
+      <attempt id="56">
+        <uniqueid>120</uniqueid>
+        <userid>396</userid>
+        <attemptnum>1</attemptnum>
+        <sumgrades>0.00000</sumgrades>
+        <timestart>1365500031</timestart>
+        <timefinish>1365501621</timefinish>
+        <timemodified>1365501621</timemodified>
+        <layout>5,0,4,0,3,0,1,0,2,0</layout>
+        <preview>0</preview>
+        <question_usage id="120">
+          <component>mod_quiz</component>
+          <preferredbehaviour>deferredfeedback</preferredbehaviour>
+          <question_attempts>
+            <question_attempt id="267">
+              <slot>1</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>268</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>1. A set consists of three integers: x, y, and z such that they do not share any common factor with any other element in the set. Also,(i) x  y = 11305(ii) y  z = 33649 What is the sum of the smallest and the biggest number in the set?: 85; 471; 253; 133</questionsummary>
+              <rightanswer>471</rightanswer>
+              <responsesummary>$@NULL@$</responsesummary>
+              <timemodified>1365501621</timemodified>
+              <steps>
+                <step id="600">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1365500031</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>_order</name>
+                      <value>698,701,700,699</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="625">
+                  <sequencenumber>1</sequencenumber>
+                  <state>gaveup</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1365501621</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>-finish</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+            <question_attempt id="268">
+              <slot>2</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>277</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>10. The height and slant height of a solid right circular cone are 8 cm and 10 cm, respectively. What is the area of the circular base?: cannot be determined.; 36; 100; 64</questionsummary>
+              <rightanswer>cannot be determined.</rightanswer>
+              <responsesummary>$@NULL@$</responsesummary>
+              <timemodified>1365501621</timemodified>
+              <steps>
+                <step id="601">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1365500031</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>_order</name>
+                      <value>737,734,736,735</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="626">
+                  <sequencenumber>1</sequencenumber>
+                  <state>gaveup</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1365501621</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>-finish</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+            <question_attempt id="269">
+              <slot>3</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>278</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>11. A man invests Rs. N at simple interest (N/20)% per year. One year later, he invests twice the initial amount at twice the initial rate of interest. One year later, he invests three times the initial amount at three times the initial rate of interest. Yet another year later, he invests four times the initial amount at four times the initial rate of interest. One year from that point of time, he gets his investment back with interest. If he earns a total of Rs. 250 as interest, what was his initial investment?: 1000; cannot be determined; 10000; 100</questionsummary>
+              <rightanswer>cannot be determined</rightanswer>
+              <responsesummary>$@NULL@$</responsesummary>
+              <timemodified>1365501621</timemodified>
+              <steps>
+                <step id="602">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1365500031</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>_order</name>
+                      <value>739,741,740,738</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="627">
+                  <sequencenumber>1</sequencenumber>
+                  <state>gaveup</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1365501621</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>-finish</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+            <question_attempt id="270">
+              <slot>4</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>279</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>12. Working alone, A can paint a fence in 20 days. B can do the same in 10 days. They both start painting the same fence. In 5 days, B leaves. What fraction of the fence still needs to be painted?: 1 / 4; 3 / 4; 3 / 20; 17 / 20</questionsummary>
+              <rightanswer>3 / 4</rightanswer>
+              <responsesummary>$@NULL@$</responsesummary>
+              <timemodified>1365501621</timemodified>
+              <steps>
+                <step id="603">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1365500032</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>_order</name>
+                      <value>744,745,742,743</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="628">
+                  <sequencenumber>1</sequencenumber>
+                  <state>gaveup</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1365501621</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>-finish</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+            <question_attempt id="271">
+              <slot>5</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>280</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>13. The average salary of twenty people in a group was Rs. 750. Mr X, whose salary was Rs. 1200, exited the group, while Mr Y entered in his place. The average salary rose to Rs. 790. What is Mr Y's salary?: 2000; 770; 40; 1000</questionsummary>
+              <rightanswer>2000</rightanswer>
+              <responsesummary>$@NULL@$</responsesummary>
+              <timemodified>1365501621</timemodified>
+              <steps>
+                <step id="604">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1365500032</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>_order</name>
+                      <value>749,747,746,748</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="629">
+                  <sequencenumber>1</sequencenumber>
+                  <state>gaveup</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1365501621</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>-finish</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+          </question_attempts>
+        </question_usage>
+      </attempt>
+    </attempts>
+  </quiz>
+</activity>

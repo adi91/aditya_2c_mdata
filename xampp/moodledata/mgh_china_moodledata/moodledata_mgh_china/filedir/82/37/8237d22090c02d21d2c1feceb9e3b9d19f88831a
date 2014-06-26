@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>URJ - Mitkadem</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+<script language ="JavaScript">	
+function fnClose(){
+win = this	
+	for(x=0;x<=7;x++)
+	{
+		if((win.parent != null) && (win.parent != win))
+		{
+			win = win.parent
+		}
+		else
+		{
+			break;
+		}
+		
+	}
+	//alert (win.opener.name)
+	//win.opener.location.reload(true)
+	win.close()
+}
+function fnpopup(){
+
+    var win = "popup";    
+    var winWidth=1012;
+    var winHeight=709;
+   // var screenWidth=screen.width/2
+   // var screenHeight=screen.height/2
+    var xPos=0//screenWidth-(winWidth/2)
+    var yPos=0//screenHeight-(winHeight/2)
+    var option = "width="+winWidth+",height="+winHeight+",fullscreen=yes,toolbar=no,titlebar=0,status=0,location=0,scrollbars=no, top="+yPos+",left="+xPos+"";
+    //var option = "width="+winWidth+",height="+winHeight+", fullscreen = no,status = yes, scrollbars=no, top="+yPos+",left="+xPos+"";
+	
+   newWin =  window.open("./shellLoader.html","course",option);
+   newWin.focus()
+ }
+
+ 
+ 
+</script>
+
+<body bgcolor="#ffffff" onLoad="fnpopup()">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" valign="middle"><table width="100%" height="100%" border="0">
+        <tr>
+          <td width="3%">&nbsp;</td>
+          <td width="100%" valign="center"> 
+            <div align="center"> 
+              <p><img src="./assets/images/launch.jpg" width="506" height="224" border="0" align="center">                
+              </p>
+              <p><font size="2" face="Arial, Helvetica, sans-serif"></font></p><p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">It 
+                is essential to keep this window open until the entire module runs.</font></p>
+              <br>
+              <br>
+
+<p>				
+<font size="2.5" face="Verdana, Arial, Helvetica, sans-serif">
+Please contact your local IT help desk if you need support. </font>
+ <br>
+			<font size="1" face="Verdana, Arial, Helvetica, sans-serif">
+ Best viewed with Internet Explorer 7.0 or above at 1024x768.</font></p>
+            </div></td>
+          <td width="3%"><p>&nbsp;</p>
+            <p>&nbsp;</p></td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

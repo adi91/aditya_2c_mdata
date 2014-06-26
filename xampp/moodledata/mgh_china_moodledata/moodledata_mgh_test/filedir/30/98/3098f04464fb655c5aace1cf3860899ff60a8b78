@@ -1,0 +1,2 @@
+username, password, firstname, lastname,email,site_fk,course1,type1,group1,enrolperiod1
+stu1,Password1!,Aditya,Singh,student1@user.com,60,Test Course 1,,Test Course 1 Class 1,

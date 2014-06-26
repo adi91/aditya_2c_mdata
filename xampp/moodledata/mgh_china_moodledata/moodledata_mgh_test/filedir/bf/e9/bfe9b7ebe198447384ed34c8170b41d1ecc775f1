@@ -1,0 +1,284 @@
+﻿var findAPITries=1;
+var API = null;
+var course_status=""
+var debugWindow;
+
+function fnDebug(msg)
+{
+	if(debugWindow !=null)
+	{
+		debugWindow.document.write("<BR>" + msg)
+	}
+	else
+	{
+		debugWindow = window.open("popup.html");
+		debugWindow.document.write(msg)
+	}
+}
+
+
+function getLocation()
+{
+	var tempStr = window.top.location.href
+	return tempStr;
+}
+
+
+// function to check Flash ExternalInterface to confirm presence of JS wrapper before attempting any LMS communication.
+
+function isAvailable()
+{
+	return true;
+}
+
+
+//function to check the fpi
+function FindAPI(win)
+{
+   while ((win.API == null) && (win.parent != null) && (win.parent != win))
+   {
+      findAPITries++;
+      // Note: 7 is an arbitrary number, but should be more than sufficient
+      if (findAPITries > 7) 
+      {
+        parent.status = "Error finding API -- too deeply nested.";
+         return null;
+      }
+      
+      win = win.parent;
+
+   }
+   return win.API;
+}
+
+//function to get the fpi
+function GetAPI()
+{
+   var API = FindAPI(window);
+
+   if ((API == null) && (window.opener != null) && (typeof(window.opener) != "undefined"))
+   {
+      API = FindAPI(window.opener);
+   }
+  
+	if ((API == null) && (window.opener.top.opener != null) && (typeof(window.opener.top.opener) != "undefined"))
+   {
+      API = FindAPI(window.opener.top.opener);
+   }
+   if (API == null)
+   {
+     parent.status = "Unable to find an API adapter";
+   }
+
+   return API
+}
+
+
+
+//function to initialise the sco
+function initSco()
+{	
+		var success = false
+		API = GetAPI();
+		
+		if( API != null )
+		{
+			window.status = "API Found";
+			var ret;
+			var code;
+			var diag;
+			success = API.LMSInitialize("");
+
+			//start calculating the session time
+			startclock();
+
+			return true;
+		}
+		else
+		{
+			window.status = "Unable to find an API Adapter...";
+			return false;
+		}
+		
+}
+
+
+function getCode()
+{
+		code = API.LMSGetLastError();
+		return code;
+}
+
+function getInfo(code)
+{
+	ret = API.LMSGetErrorString( code );
+	return ret;
+}
+function getDiagnosticInfo()
+{
+	diag = API.LMSGetDiagnostic( "" );	
+	return diag;
+}
+
+
+//function to set the values of the variables in the LMS
+function set_val( gname,gvalue )
+{
+	var success;
+	//alert("set_val "+gname+" , "+gvalue)
+	API = GetAPI();
+	if( API != null )
+	{
+		var ret;
+		var code;
+		var diag;		
+
+		 success = API.LMSSetValue( gname, gvalue );		
+		
+	}
+	return success;
+};
+
+//function to get the values of the variables from the LMS
+function get_val( gname )
+{	
+	
+	API = GetAPI();
+	if( API != null )
+	{
+		var ret1,ret2;
+		var code;
+		var diag;
+				
+		ret1 = API.LMSGetValue( gname );		
+		return ret1;				
+	}
+	
+};
+
+//function to update the values of the variables in the LMS
+function commit()
+{	
+	var success = false;
+	API = GetAPI();
+	if( API != null )
+	{
+		var ret = "";
+		var code;
+		var diag;
+		
+		success = API.LMSCommit("");
+
+	}
+	return success;
+};
+
+//function to finish the LMS communication
+function finish()
+{
+	var success = false;
+		API = GetAPI();
+		
+		if( API != null )
+		{
+			//stop calculating the time 
+
+			sTime=String(stopclock());
+	
+			//set the time taken in the current session to the LMS
+
+			API.LMSSetValue("cmi.core.session_time",sTime);
+
+			success = API.LMSFinish("");
+
+		}
+	return success;
+};
+
+//this function is to retrieve the bookmark stored in the LMS
+function fnGetBookMark()
+{
+	return course_status
+}
+
+
+
+//function to set the bookmark, set the course status and score
+function set_score(score)
+{
+	
+	set_val("cmi.core.score.raw",score);
+
+	
+}
+
+//this function is to stop calculating the session time
+function stopclock()
+{
+	if(timerRunning)
+	{
+		clearTimeout(timerID)
+		timerRunning = false
+		
+		return timeValue
+	}
+
+}
+//-----------------------------------------------------------------------
+//this function is to start calculating the session time
+function startclock()
+{
+
+	startDate = new Date()
+	startSecs = (startDate.getHours()*60*60) + (startDate.getMinutes()*60) + startDate.getSeconds()
+	//stopclock()
+	showtime()
+
+	
+}
+//-----------------------------------------------------------------------
+//this function is used to calculate the time
+function showtime(){
+	
+
+	var now = new Date()
+	var nowSecs = (now.getHours()*60*60) + (now.getMinutes()*60) + now.getSeconds()
+	var elapsedSecs = nowSecs - startSecs;
+
+	var hours = Math.floor( elapsedSecs / 3600 )
+	elapsedSecs = elapsedSecs - (hours*3600)
+
+	var minutes = 	Math.floor( elapsedSecs / 60 )
+	elapsedSecs = elapsedSecs - (minutes*60)
+
+	var seconds = elapsedSecs
+
+	timeValue = "" + hours
+		if(hours<10){
+		timeValue = "0" + hours
+	}
+	timeValue  += ((minutes < 10) ? ":0" : ":") + minutes
+	timeValue  += ((seconds < 10) ? ":0" : ":") + seconds
+
+	// Update display
+
+	timerID = setTimeout("showtime()",1000)
+	timerRunning = true
+}
+
+function fnGetStudentName()	
+{
+		//alert(get_val("cmi.core.student_name"))
+		var studentName_lms = get_val("cmi.core.student_name");
+		//var studentName_lms = "Srinivas"
+		return studentName_lms;
+}
+
+
+function fnGetStudentId()	
+{
+		//alert(get_val("cmi.core.student_name"))
+		var studentName_lms = get_val("cmi.core.student_id");
+		//var studentName_lms = "813"
+		return studentName_lms;
+}

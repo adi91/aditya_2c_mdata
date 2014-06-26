@@ -1,0 +1,32 @@
+
+   
+.Lessonstyle 
+{
+	font:Verdana;
+	color: #FFFFFF;
+	font-weight:bold;
+
+	
+}
+blacktext 
+{
+	color: #000000;
+}
+.Breadstyle 
+{
+		font:Verdana;
+	color: #FFFFFF;
+	font-weight:bold;
+}
+.seprator 
+{
+		font:Verdana;
+	color: #FFFFFF;
+	font-weight:bold;
+}
+.copyright
+{
+	color: #999999;
+}
+
+

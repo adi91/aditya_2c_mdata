@@ -1,0 +1,37 @@
+[19/04/2013 6:06:15 PM] [info] instantiating restore controller 78fd6b35e3e529824e4d70f3d360e24b
+[19/04/2013 6:06:15 PM] [debug] setting controller status to 100
+[19/04/2013 6:06:15 PM] [debug] loading backup info
+[19/04/2013 6:06:15 PM] [debug] loading controller plan
+[19/04/2013 6:06:15 PM] [debug] setting controller status to 300
+[19/04/2013 6:06:15 PM] [info] checking plan security
+[19/04/2013 6:06:15 PM] [debug] setting controller status to 500
+[19/04/2013 6:06:15 PM] [info] checking plan security
+[19/04/2013 6:06:15 PM] [info] checking plan security
+[19/04/2013 6:06:15 PM] [info] checking plan security
+[19/04/2013 6:06:15 PM] [debug] saving controller to db
+[19/04/2013 6:06:15 PM] [debug] calculating controller checksum a37e6614c7f9886e94fb2aca636dd6b2
+[19/04/2013 6:07:41 PM] [debug] loading controller from db
+[19/04/2013 6:07:41 PM] [info] checking plan security
+[19/04/2013 6:07:41 PM] [info] checking plan security
+[19/04/2013 6:07:41 PM] [info] checking plan security
+[19/04/2013 6:07:41 PM] [debug] saving controller to db
+[19/04/2013 6:07:41 PM] [debug] calculating controller checksum a37e6614c7f9886e94fb2aca636dd6b2
+[19/04/2013 6:09:30 PM] [debug] loading controller from db
+[19/04/2013 6:09:30 PM] [info] checking plan security
+[19/04/2013 6:09:30 PM] [info] checking plan security
+[19/04/2013 6:09:30 PM] [info] checking plan security
+[19/04/2013 6:09:30 PM] [debug] saving controller to db
+[19/04/2013 6:09:30 PM] [debug] calculating controller checksum 2c9bd187bd97c1bd7264e1cdb012b48e
+[19/04/2013 6:11:00 PM] [debug] loading controller from db
+[19/04/2013 6:11:00 PM] [info] checking plan security
+[19/04/2013 6:11:00 PM] [info] checking plan security
+[19/04/2013 6:11:00 PM] [debug] setting controller status to 600
+[19/04/2013 6:11:00 PM] [debug] saving controller to db
+[19/04/2013 6:11:00 PM] [debug] calculating controller checksum 54d2a4302d5e0e854e43aa24cd001644
+[19/04/2013 6:11:00 PM] [debug] loading controller from db
+[19/04/2013 6:11:08 PM] [debug] setting controller status to 700
+[19/04/2013 6:11:08 PM] [debug] saving controller to db
+[19/04/2013 6:11:08 PM] [debug] calculating controller checksum 90254a634bbbd23d64a4e0e8f5cfa041
+[19/04/2013 6:11:08 PM] [debug] loading controller from db
+[19/04/2013 6:11:08 PM] [debug] setting controller status to 800
+[19/04/2013 6:11:59 PM] [debug] setting controller status to 1000

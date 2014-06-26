@@ -1,0 +1,3997 @@
+function ExecuteScript(strId)
+{
+  switch (strId)
+  {
+      case "5qx5pLuIJVd":
+        Script1();
+        break;
+      case "5vL5kx6x96a":
+        Script2();
+        break;
+      case "6aOSxk0FF3Q":
+        Script3();
+        break;
+      case "6mqIQk1QQLS":
+        Script4();
+        break;
+      case "6CMU0T2XDMj":
+        Script5();
+        break;
+      case "66QL9iTzEO6":
+        Script6();
+        break;
+      case "6r94LYlBQMN":
+        Script7();
+        break;
+      case "5qHfTIbggm8":
+        Script8();
+        break;
+      case "6bw4qZzcWR1":
+        Script9();
+        break;
+      case "6f5Ybja25cj":
+        Script10();
+        break;
+      case "5gwVGXN5AOr":
+        Script11();
+        break;
+      case "5e9jN8Tndt7":
+        Script12();
+        break;
+      case "6px5FrBbakz":
+        Script13();
+        break;
+      case "5vmkTcn7fVq":
+        Script14();
+        break;
+      case "6rpdrmSgG55":
+        Script15();
+        break;
+      case "6dBt0w3Sk8p":
+        Script16();
+        break;
+      case "6KKU6YqYzoI":
+        Script17();
+        break;
+      case "6fSdYts7Q1t":
+        Script18();
+        break;
+      case "6iMnXHOCKNL":
+        Script19();
+        break;
+      case "5r0X71NBgjf":
+        Script20();
+        break;
+      case "6ort7Mx9bU0":
+        Script21();
+        break;
+      case "64lPf7w2QPF":
+        Script22();
+        break;
+      case "5akoYaSCv36":
+        Script23();
+        break;
+      case "6ZkRWE9pZ66":
+        Script24();
+        break;
+      case "69gfC4gMPi8":
+        Script25();
+        break;
+      case "5aIw1899bRc":
+        Script26();
+        break;
+      case "6p1NSaKlv01":
+        Script27();
+        break;
+      case "6TzLeLdB7ZJ":
+        Script28();
+        break;
+      case "5b1LKK4hvpS":
+        Script29();
+        break;
+      case "5w2pPkQaxnm":
+        Script30();
+        break;
+      case "5qQczrPUheC":
+        Script31();
+        break;
+      case "5ax0e0xO5W5":
+        Script32();
+        break;
+      case "5aeA3DctBZs":
+        Script33();
+        break;
+      case "5WjUYuqAPrf":
+        Script34();
+        break;
+      case "5hl1VasqeJc":
+        Script35();
+        break;
+      case "6PyEK6Bmorl":
+        Script36();
+        break;
+      case "6jiLswyOcvh":
+        Script37();
+        break;
+      case "6m82qRHC1gm":
+        Script38();
+        break;
+      case "5waLl6jG2uT":
+        Script39();
+        break;
+      case "5b92GQxxVHR":
+        Script40();
+        break;
+      case "63xmSuhWePg":
+        Script41();
+        break;
+      case "6pyqwOPqUht":
+        Script42();
+        break;
+      case "5W5dpjjtTWL":
+        Script43();
+        break;
+      case "6RGB1axApFn":
+        Script44();
+        break;
+      case "6W5PdQNaXvT":
+        Script45();
+        break;
+      case "5sxgvGo6dPf":
+        Script46();
+        break;
+      case "6gsaqeVQFbQ":
+        Script47();
+        break;
+      case "5uHv2CUjLx8":
+        Script48();
+        break;
+      case "5vqZK0LMl3W":
+        Script49();
+        break;
+      case "5zmdbeFzojW":
+        Script50();
+        break;
+      case "6UE7uIuugg4":
+        Script51();
+        break;
+      case "6Zkd8Acsiqi":
+        Script52();
+        break;
+      case "6VGC8NEnqj0":
+        Script53();
+        break;
+      case "6DaxmHF8xYK":
+        Script54();
+        break;
+      case "5jtIlQc6DLE":
+        Script55();
+        break;
+      case "6UHhkdaPVa4":
+        Script56();
+        break;
+      case "5oXabFidyy5":
+        Script57();
+        break;
+      case "5lOZHcGvO1n":
+        Script58();
+        break;
+      case "6WHQ3V72fGn":
+        Script59();
+        break;
+      case "5z5P0eJqPCY":
+        Script60();
+        break;
+      case "6oHh1VcmAkC":
+        Script61();
+        break;
+      case "6Db2G1O7frG":
+        Script62();
+        break;
+      case "6Hh8ADihYck":
+        Script63();
+        break;
+      case "6PHTaAh7mUW":
+        Script64();
+        break;
+      case "6LApEihhopU":
+        Script65();
+        break;
+      case "6jEImnprQgy":
+        Script66();
+        break;
+      case "6jJVhH95ypa":
+        Script67();
+        break;
+      case "6f7CWp7NI0h":
+        Script68();
+        break;
+      case "6SIW8VPfUHk":
+        Script69();
+        break;
+      case "5maoAZBdqnT":
+        Script70();
+        break;
+  }
+}
+
+function Script1()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script2()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script3()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script4()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script5()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script6()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script7()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script8()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script9()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script10()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script11()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script12()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script13()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script14()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script15()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script16()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script17()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script18()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script19()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script20()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script21()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script22()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script23()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script24()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script25()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script26()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script27()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script28()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script29()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script30()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script31()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script32()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script33()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script34()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script35()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script36()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script37()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script38()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script39()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script40()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script41()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script42()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script43()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script44()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script45()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script46()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script47()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script48()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script49()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script50()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script51()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script52()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script53()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script54()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script55()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script56()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script57()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script58()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script59()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script60()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script61()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script62()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script63()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script64()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script65()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script66()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script67()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script68()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script69()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+
+function Script70()
+{
+  // JavaScript Document
+var txt1 = "<b>Scenario A - Responding to Criticism from a Customer</b><br />Instructions: Use your Pre-Writing Plan to help you write an e-mail to your supervisor. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt2 = "<b>Scenario B - Responding to Criticism from a Supervisor</b><br />Instructions: Use your Pre-Writing Plan to help you write the apology e-mail to the store owner. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt3 = "<b>Scenario C - Responding to Criticism from a Colleague</b><br />Instructions: Write the note to your supervisor asking for clarification. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var txt4 = "<b>Scenario D - Responding to Criticism from a Customer</b><br />Instructions: Write the note to your supervisor about the customer's complaint. Once you are finished, click Done to save your answer. You will then have the opportunity to revise your work before submitting it to your journal."
+var TextEntry2 = player.GetVar("TextEntry2");
+var TextEntry4 = player.GetVar("TextEntry4");
+var TextEntry6 = player.GetVar("TextEntry6");
+var TextEntry8 = player.GetVar("TextEntry8");
+
+
+//alert(player.GetVar("TextEntry3")+"  $$  "+player.GetVar("TextEntry1"))
+
+
+var doc;
+makeFrame()
+
+function makeFrame() {
+
+   ifrm = document.createElement("IFRAME");
+   ifrm.setAttribute("id", "iFramePrint"); 
+   ifrm.setAttribute("name", "iFramePrint"); 
+   ifrm.style.width = 640+"px"; 
+   ifrm.style.height = 10+"px"; 
+   ifrm.style.left = 200+"px";
+   ifrm.style.marginTop =-100+"px";
+	 
+    document.body.appendChild(ifrm); 
+ 	
+	 if(ifrm.contentDocument) 
+	 { 
+		doc = ifrm.contentDocument; 
+	 } 
+	else 
+	{
+		doc = ifrm.contentWindow.document; 
+	}
+
+var inter = window.setInterval(function() {
+    if(doc.readyState == "complete") {
+      window.clearInterval(inter);
+      //do stuff
+	  doc.body.innerHTML = txt1 + "<br/>" + "<br/>" + TextEntry2 + "<br/>" + "<br/>"+ txt2+ "<br/>"   + "<br/>" + TextEntry4 + "<br/>"  + "<br/>" +  txt3 + "<br/>"   + "<br/>" + TextEntry6 + "<br/>" + "<br/>" + txt4 + "<br/>"   +"<br/>" + TextEntry8;
+            window.frames["iFramePrint"].focus();
+	window.frames["iFramePrint"].print();
+    }
+},100);
+
+
+}
+}
+

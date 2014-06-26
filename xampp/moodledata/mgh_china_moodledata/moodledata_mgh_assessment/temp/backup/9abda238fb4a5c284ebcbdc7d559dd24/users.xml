@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user id="2" contextid="5">
+    <username>admin</username>
+    <idnumber></idnumber>
+    <firstname>Admin</firstname>
+    <lastname>User</lastname>
+    <email>admin@mcg.com</email>
+    <icq></icq>
+    <skype></skype>
+    <yahoo></yahoo>
+    <aim></aim>
+    <msn></msn>
+    <phone1></phone1>
+    <phone2></phone2>
+    <institution></institution>
+    <department></department>
+    <address></address>
+    <city>pune</city>
+    <country>IN</country>
+    <lastip>127.0.0.1</lastip>
+    <picture>0</picture>
+    <url></url>
+    <description></description>
+    <descriptionformat>0</descriptionformat>
+    <imagealt>$@NULL@$</imagealt>
+    <auth>manual</auth>
+    <confirmed>1</confirmed>
+    <policyagreed>0</policyagreed>
+    <deleted>0</deleted>
+    <lang>en</lang>
+    <theme></theme>
+    <timezone>99</timezone>
+    <firstaccess>1336630063</firstaccess>
+    <lastaccess>1366373720</lastaccess>
+    <lastlogin>1366281029</lastlogin>
+    <currentlogin>1366349238</currentlogin>
+    <mailformat>1</mailformat>
+    <maildigest>0</maildigest>
+    <maildisplay>1</maildisplay>
+    <htmleditor>1</htmleditor>
+    <ajax>1</ajax>
+    <autosubscribe>1</autosubscribe>
+    <trackforums>0</trackforums>
+    <timecreated>0</timecreated>
+    <timemodified>1336630063</timemodified>
+    <trustbitmask>0</trustbitmask>
+    <screenreader>0</screenreader>
+    <custom_fields>
+    </custom_fields>
+    <tags>
+    </tags>
+    <preferences>
+      <preference id="156">
+        <name>admin_uploaduser_form2_showadvanced</name>
+        <value>1</value>
+      </preference>
+      <preference id="1">
+        <name>auth_forcepasswordchange</name>
+        <value>0</value>
+      </preference>
+      <preference id="603">
+        <name>block4hidden</name>
+        <value>0</value>
+      </preference>
+      <preference id="62">
+        <name>block5hidden</name>
+        <value>0</value>
+      </preference>
+      <preference id="86">
+        <name>course_edit_form_showadvanced</name>
+        <value>1</value>
+      </preference>
+      <preference id="7">
+        <name>definerole_showadvanced</name>
+        <value>1</value>
+      </preference>
+      <preference id="65">
+        <name>docked_block_instance_18</name>
+        <value>0</value>
+      </preference>
+      <preference id="66">
+        <name>docked_block_instance_19</name>
+        <value>0</value>
+      </preference>
+      <preference id="63">
+        <name>docked_block_instance_4</name>
+        <value>0</value>
+      </preference>
+      <preference id="64">
+        <name>docked_block_instance_5</name>
+        <value>0</value>
+      </preference>
+      <preference id="2">
+        <name>email_bounce_count</name>
+        <value>1</value>
+      </preference>
+      <preference id="3">
+        <name>email_send_count</name>
+        <value>2</value>
+      </preference>
+      <preference id="46">
+        <name>lesson_view</name>
+        <value>collapsed</value>
+      </preference>
+      <preference id="30">
+        <name>mod_lesson_mod_form_showadvanced</name>
+        <value>1</value>
+      </preference>
+      <preference id="40">
+        <name>mod_quiz_mod_form_showadvanced</name>
+        <value>1</value>
+      </preference>
+      <preference id="31">
+        <name>mod_resource_mod_form_showadvanced</name>
+        <value>1</value>
+      </preference>
+      <preference id="506">
+        <name>mod_scorm_mod_form_showadvanced</name>
+        <value>1</value>
+      </preference>
+      <preference id="39">
+        <name>mod_workshop_mod_form_showadvanced</name>
+        <value>1</value>
+      </preference>
+      <preference id="74">
+        <name>quiz_qbanktool_open</name>
+        <value>1</value>
+      </preference>
+      <preference id="85">
+        <name>quiz_reordertab</name>
+        <value>0</value>
+      </preference>
+      <preference id="604">
+        <name>quiz_report_overview_detailedmarks</name>
+        <value>1</value>
+      </preference>
+      <preference id="605">
+        <name>quiz_report_pagesize</name>
+        <value>30</value>
+      </preference>
+      <preference id="73">
+        <name>user_add_filter_form_showadvanced</name>
+        <value>1</value>
+      </preference>
+      <preference id="47">
+        <name>user_home_page_preference</name>
+        <value>1</value>
+      </preference>
+      <preference id="5">
+        <name>userselector_autoselectunique</name>
+        <value>1</value>
+      </preference>
+      <preference id="99">
+        <name>userselector_optionscollapsed</name>
+        <value>0</value>
+      </preference>
+      <preference id="4">
+        <name>userselector_preserveselected</name>
+        <value>1</value>
+      </preference>
+      <preference id="6">
+        <name>userselector_searchanywhere</name>
+        <value>1</value>
+      </preference>
+    </preferences>
+    <roles>
+      <role_overrides>
+      </role_overrides>
+      <role_assignments>
+      </role_assignments>
+    </roles>
+  </user>
+  <user id="396" contextid="3778">
+    <username>testassess_user1</username>
+    <idnumber></idnumber>
+    <firstname>Test</firstname>
+    <lastname>Assessmentuser1</lastname>
+    <email>testassess@mgh.com</email>
+    <icq></icq>
+    <skype></skype>
+    <yahoo></yahoo>
+    <aim></aim>
+    <msn></msn>
+    <phone1></phone1>
+    <phone2></phone2>
+    <institution></institution>
+    <department></department>
+    <address></address>
+    <city>Pune</city>
+    <country>IN</country>
+    <lastip>127.0.0.1</lastip>
+    <picture>0</picture>
+    <url></url>
+    <description>$@NULL@$</description>
+    <descriptionformat>0</descriptionformat>
+    <imagealt>$@NULL@$</imagealt>
+    <auth>email</auth>
+    <confirmed>1</confirmed>
+    <policyagreed>0</policyagreed>
+    <deleted>0</deleted>
+    <lang>en</lang>
+    <theme></theme>
+    <timezone>99</timezone>
+    <firstaccess>1365054531</firstaccess>
+    <lastaccess>1366286003</lastaccess>
+    <lastlogin>1366029495</lastlogin>
+    <currentlogin>1366286002</currentlogin>
+    <mailformat>1</mailformat>
+    <maildigest>0</maildigest>
+    <maildisplay>2</maildisplay>
+    <htmleditor>1</htmleditor>
+    <ajax>1</ajax>
+    <autosubscribe>1</autosubscribe>
+    <trackforums>0</trackforums>
+    <timecreated>1365053607</timecreated>
+    <timemodified>0</timemodified>
+    <trustbitmask>0</trustbitmask>
+    <screenreader>0</screenreader>
+    <custom_fields>
+    </custom_fields>
+    <tags>
+    </tags>
+    <preferences>
+    </preferences>
+    <roles>
+      <role_overrides>
+      </role_overrides>
+      <role_assignments>
+      </role_assignments>
+    </roles>
+  </user>
+  <user id="413" contextid="3793">
+    <username>testassess_user3@mgh.com</username>
+    <idnumber></idnumber>
+    <firstname>testassess</firstname>
+    <lastname>user3</lastname>
+    <email>testassess_user3@mgh.com</email>
+    <icq></icq>
+    <skype></skype>
+    <yahoo></yahoo>
+    <aim></aim>
+    <msn></msn>
+    <phone1></phone1>
+    <phone2>77898787667767</phone2>
+    <institution>1</institution>
+    <department></department>
+    <address></address>
+    <city></city>
+    <country></country>
+    <lastip>127.0.0.1</lastip>
+    <picture>0</picture>
+    <url></url>
+    <description>$@NULL@$</description>
+    <descriptionformat>0</descriptionformat>
+    <imagealt>$@NULL@$</imagealt>
+    <auth>email</auth>
+    <confirmed>1</confirmed>
+    <policyagreed>0</policyagreed>
+    <deleted>0</deleted>
+    <lang>en</lang>
+    <theme></theme>
+    <timezone>99</timezone>
+    <firstaccess>1366029872</firstaccess>
+    <lastaccess>1366350413</lastaccess>
+    <lastlogin>1366029883</lastlogin>
+    <currentlogin>1366350412</currentlogin>
+    <mailformat>1</mailformat>
+    <maildigest>0</maildigest>
+    <maildisplay>2</maildisplay>
+    <htmleditor>1</htmleditor>
+    <ajax>1</ajax>
+    <autosubscribe>1</autosubscribe>
+    <trackforums>0</trackforums>
+    <timecreated>1365417968</timecreated>
+    <timemodified>0</timemodified>
+    <trustbitmask>0</trustbitmask>
+    <screenreader>0</screenreader>
+    <custom_fields>
+      <custom_field id="1">
+        <field_name>State</field_name>
+        <field_type>text</field_type>
+        <field_data></field_data>
+      </custom_field>
+    </custom_fields>
+    <tags>
+    </tags>
+    <preferences>
+    </preferences>
+    <roles>
+      <role_overrides>
+      </role_overrides>
+      <role_assignments>
+      </role_assignments>
+    </roles>
+  </user>
+</users>

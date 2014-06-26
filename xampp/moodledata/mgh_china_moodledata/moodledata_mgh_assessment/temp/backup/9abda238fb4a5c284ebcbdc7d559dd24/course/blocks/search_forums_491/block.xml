@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block id="491" contextid="3782" version="2011112900">
+  <blockname>search_forums</blockname>
+  <parentcontextid>3781</parentcontextid>
+  <showinsubcontexts>0</showinsubcontexts>
+  <pagetypepattern>course-view-*</pagetypepattern>
+  <subpagepattern>$@NULL@$</subpagepattern>
+  <defaultregion>side-post</defaultregion>
+  <defaultweight>0</defaultweight>
+  <configdata></configdata>
+  <block_positions>
+  </block_positions>
+</block>

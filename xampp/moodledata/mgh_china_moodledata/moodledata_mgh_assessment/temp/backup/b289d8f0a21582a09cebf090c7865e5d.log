@@ -1,0 +1,13 @@
+[19/04/2013 4:52:56 PM] [info] instantiating backup controller b289d8f0a21582a09cebf090c7865e5d
+[19/04/2013 4:52:56 PM] [debug] setting controller status to 100
+[19/04/2013 4:52:56 PM] [debug] loading controller plan
+[19/04/2013 4:52:56 PM] [debug] setting controller status to 300
+[19/04/2013 4:52:56 PM] [debug] applying plan defaults
+[19/04/2013 4:52:56 PM] [debug] setting controller status to 400
+[19/04/2013 4:52:56 PM] [info] checking plan security
+[19/04/2013 4:52:56 PM] [debug] setting controller status to 500
+[19/04/2013 4:52:56 PM] [info] checking plan security
+[19/04/2013 4:52:56 PM] [info] checking plan security
+[19/04/2013 4:52:56 PM] [info] checking plan security
+[19/04/2013 4:52:56 PM] [debug] saving controller to db
+[19/04/2013 4:52:56 PM] [debug] calculating controller checksum fa2a6a9f6f98103eea6c089e29680870

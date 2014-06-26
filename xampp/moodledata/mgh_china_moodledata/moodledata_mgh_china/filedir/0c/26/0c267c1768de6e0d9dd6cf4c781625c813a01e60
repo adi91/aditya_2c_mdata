@@ -1,0 +1,82 @@
+ÿþ<?xml version="1.0" encoding="UTF-8"?>
+<help>
+<screen id="1">
+	<helpheading><![CDATA[<p align='left'><B>Help</B></p>]]></helpheading>
+	<nexthelp><![CDATA[<p align='left'>Click <B>Next</B> to go to the next page.</p>]]></nexthelp>
+	<backhelp><![CDATA[<p align='left'>Click <B>Back</B> to go to the previous page.</p>]]></backhelp>
+	<menuhelp><![CDATA[<p align='left'>Click <B>Menu</B> to display the topics in the lesson.</p>]]></menuhelp>
+	<glossaryhelp><![CDATA[<p align='left'>Click <B>Glossary</B> to open the course Glossary.</p>]]></glossaryhelp>
+	<playhelp><![CDATA[<p align='left'>Click <B>Play</B> to play the animation and/or audio clip.</p>]]></playhelp>
+	<helphelp><![CDATA[<p align='left'>Click <B>Help</B> to open the help function of this lesson.</p>]]></helphelp>
+	<transcripthelp><![CDATA[<p align='left'>Click <B>Resources</B> to review a list of the resources included in the course.</p>]]></transcripthelp>
+	<sliderhelp><![CDATA[<p align='left'>Use the slider to move to a particular part of the animation on the current page.</p>]]></sliderhelp>
+	<pagenumhelp><![CDATA[<p align='left'>The Page panel displays the current page number and the total number of pages in the course.</p>]]></pagenumhelp>
+	<exithelp><![CDATA[<p align='left'>Click <B>Exit</B> to exit the lesson.</p>]]></exithelp>
+	</screen>
+	
+	<screen id="2">
+   	<helpheading><![CDATA[<p align='left'><B>Help2</B></p>]]></helpheading>
+	<nexthelp><![CDATA[<p align='left'>Click <B>Next2</B> to go to the next page.</p>]]></nexthelp>
+	<backhelp><![CDATA[<p align='left'>Click <B>Back2</B> to go to the previous page.</p>]]></backhelp>
+	<menuhelp><![CDATA[<p align='left'>Click <B>Menu2</B> to display the topics in the lesson.</p>]]></menuhelp>
+	<glossaryhelp><![CDATA[<p align='left'>Click <B>Glossary2</B> to open the course Glossary.</p>]]></glossaryhelp>
+	<playhelp><![CDATA[<p align='left'>Click <B>Play2</B> to play the animation and/or audio clip.</p>]]></playhelp>
+	<helphelp><![CDATA[<p align='left'>Click <B>Help2</B> to open the help function of this lesson.</p>]]></helphelp>
+	<transcripthelp><![CDATA[<p align='left'>Click <B>Resources2</B> to review a list of the resources included in the course.</p>]]></transcripthelp>
+	</screen>
+	
+	<screen id="3">
+   	<helpheading><![CDATA[<p align='left'><B>Help3</B></p>]]></helpheading>
+	<nexthelp><![CDATA[<p align='left'>Click <B>Next3</B> to go to the next page.</p>]]></nexthelp>
+	<backhelp><![CDATA[<p align='left'>Click <B>Back3</B> to go to the previous page.</p>]]></backhelp>
+	<menuhelp><![CDATA[<p align='left'>Click <B>Menu3</B> to display the topics in the lesson.</p>]]></menuhelp>
+	<glossaryhelp><![CDATA[<p align='left'>Click <B>Glossary3</B> to open the course Glossary.</p>]]></glossaryhelp>
+	<playhelp><![CDATA[<p align='left'>Click <B>Play3</B> to play the animation and/or audio clip.</p>]]></playhelp>
+	<helphelp><![CDATA[<p align='left'>Click <B>Help3</B> to open the help function of this lesson.</p>]]></helphelp>
+	<transcripthelp><![CDATA[<p align='left'>Click <B>Resources3</B> to review a list of the resources included in the course.</p>]]></transcripthelp>
+	</screen>
+	
+	<screen id="4">
+	<helpheading><![CDATA[<p align='left'><B>Help</B></p>]]></helpheading>
+	<nexthelp><![CDATA[<p align='left'>Click <B>Next</B> to go to the next page.</p>]]></nexthelp>
+	<backhelp><![CDATA[<p align='left'>Click <B>Back</B> to go to the previous page.</p>]]></backhelp>
+	<menuhelp><![CDATA[<p align='left'>Click <B>Menu</B> to display the topics in the lesson.</p>]]></menuhelp>
+	<glossaryhelp><![CDATA[<p align='left'>Click <B>Glossary</B> to open the course Glossary.</p>]]></glossaryhelp>
+	<playhelp><![CDATA[<p align='left'>Click <B>Play</B> to play the animation and/or audio clip.</p>]]></playhelp>
+	<helphelp><![CDATA[<p align='left'>Click <B>Help</B> to open the help function of this lesson.</p>]]></helphelp>
+	<transcripthelp><![CDATA[<p align='left'>Click <B>Resources</B> to review a list of the resources included in the course.</p>]]></transcripthelp>
+	<sliderhelp><![CDATA[<p align='left'>Use the slider to move to a particular part of the animation on the current page.</p>]]></sliderhelp>
+	<pagenumhelp><![CDATA[<p align='left'>The Page panel displays the current page number and the total number of pages in the course.</p>]]></pagenumhelp>
+	<exithelp><![CDATA[<p align='left'>Click <B>Exit</B> to exit the lesson.</p>]]></exithelp>
+	</screen>
+	
+	<screen id="5">
+	<helpheading><![CDATA[<p align='left'><B>Help</B></p>]]></helpheading>
+	<nexthelp><![CDATA[<p align='left'>Click <B>Next</B> to go to the next page.</p>]]></nexthelp>
+	<backhelp><![CDATA[<p align='left'>Click <B>Back</B> to go to the previous page.</p>]]></backhelp>
+	<menuhelp><![CDATA[<p align='left'>Click <B>Menu</B> to display the topics in the lesson.</p>]]></menuhelp>
+	<glossaryhelp><![CDATA[<p align='left'>Click <B>Glossary</B> to open the course Glossary.</p>]]></glossaryhelp>
+	<playhelp><![CDATA[<p align='left'>Click <B>Play</B> to play the animation and/or audio clip.</p>]]></playhelp>
+	<helphelp><![CDATA[<p align='left'>Click <B>Help</B> to open the help function of this lesson.</p>]]></helphelp>
+	<transcripthelp><![CDATA[<p align='left'>Click <B>Resources</B> to review a list of the resources included in the course.</p>]]></transcripthelp>
+	<sliderhelp><![CDATA[<p align='left'>Use the slider to move to a particular part of the animation on the current page.</p>]]></sliderhelp>
+	<pagenumhelp><![CDATA[<p align='left'>The Page panel displays the current page number and the total number of pages in the course.</p>]]></pagenumhelp>
+	<exithelp><![CDATA[<p align='left'>Click <B>Exit</B> to exit the lesson.</p>]]></exithelp>
+	</screen>
+	
+	<screen id="6">
+	<helpheading><![CDATA[<p align='left'><B>Help</B></p>]]></helpheading>
+	<nexthelp><![CDATA[<p align='left'>Click <B>Next</B> to go to the next page.</p>]]></nexthelp>
+	<backhelp><![CDATA[<p align='left'>Click <B>Back</B> to go to the previous page.</p>]]></backhelp>
+	<menuhelp><![CDATA[<p align='left'>Click <B>Menu</B> to display the topics in the lesson.</p>]]></menuhelp>
+	<glossaryhelp><![CDATA[<p align='left'>Click <B>Glossary</B> to open the course Glossary.</p>]]></glossaryhelp>
+	<playhelp><![CDATA[<p align='left'>Click <B>Play</B> to play the animation and/or audio clip.</p>]]></playhelp>
+	<helphelp><![CDATA[<p align='left'>Click <B>Help</B> to open the help function of this lesson.</p>]]></helphelp>
+	<transcripthelp><![CDATA[<p align='left'>Click <B>Resources</B> to review a list of the resources included in the course.</p>]]></transcripthelp>
+	<sliderhelp><![CDATA[<p align='left'>Use the slider to move to a particular part of the animation on the current page.</p>]]></sliderhelp>
+	<pagenumhelp><![CDATA[<p align='left'>The Page panel displays the current page number and the total number of pages in the course.</p>]]></pagenumhelp>
+	<exithelp><![CDATA[<p align='left'>Click <B>Exit</B> to exit the lesson.</p>]]></exithelp>
+	</screen>
+		<screen id="7">
+	</screen>
+</help>

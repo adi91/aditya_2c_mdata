@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+	<courseid>c007822</courseid>
+
+	<!--  These are the inputs for generating Confirmation Code  -->
+	<coursecode>BI</coursecode>
+	<factor>786</factor>
+
+	<serverpath><![CDATA[http://localhost/]]></serverpath>
+	<clientlogo><![CDATA[assets/images/logo.png]]></clientlogo>
+	<skin type ="left">GENERIC</skin>
+	<skincolor><![CDATA[0x00cc00 ]]></skincolor>
+	<buttoncolor><![CDATA[0x94EF00 ]]></buttoncolor>
+	<audiocontrollercolor><![CDATA[0x011DD3]]></audiocontrollercolor>
+	<title><![CDATA[ACS - Delta]]></title>
+
+	<intro><![CDATA[false]]></intro>
+	<introlocation><![CDATA[assets/swf/intro.swf]]></introlocation>
+
+	<features>
+		<help><![CDATA[true]]></help>
+		<exit><![CDATA[true]]></exit>
+
+		<reference><![CDATA[true]]></reference>
+
+
+		<!-- printable=true/false-->
+		<glossary printable="true" searchkey="true"><![CDATA[true]]></glossary>
+
+		<!-- options sco/module folder name -->		
+		<launchid><![CDATA[module_01]]></launchid>
+		<basepath><![CDATA[]]></basepath><!-- Module_01/ -->
+		
+		<audio><![CDATA[true]]></audio>
+		<slider><![CDATA[true]]></slider>
+        <postTempleteData><![CDATA[true]]></postTempleteData>
+
+		<!-- printable=true/false-->
+		<transcriptcontrol>
+			<scope><![CDATA[page]]></scope>  <!-- scope options  are :  page/global/both/none   -->
+			<!--printable><![CDATA[false]]></printable-->
+		</transcriptcontrol>
+
+
+		<!-- type options (left/popup/fullscreen)-->
+		<!-- autoopenlevel true/false -->
+		<menucontrol>
+			<available><![CDATA[true]]></available> 
+			<type><![CDATA[true]]></type>
+			<autoopenlevel><![CDATA[false]]></autoopenlevel>
+			<menuType><![CDATA[center]]></menuType> <!-- center/left -->
+		</menucontrol>
+
+		<!-- level=course/module/lesson/topic-->
+		<progressbarcontrol>
+			<progressbar><![CDATA[true]]></progressbar>
+			<level><![CDATA[course]]></level>
+		</progressbarcontrol>
+		
+
+		<!-- value::course/module/lesson/topic-->
+		<pageindicator><![CDATA[course]]></pageindicator>
+
+
+		<!-- level= module/lesson/topic/pages -->
+		<breadcrumbcontrol>
+			<breadcrumb><![CDATA[true]]></breadcrumb>
+			<level><![CDATA[topic]]></level>
+		</breadcrumbcontrol>
+
+
+
+
+		<!--> coursecontrol can be course/module /lesson/topic level -> this feature controls the navigation for the course i.e if the coursecontrol = course, The user can view any module, lesson, topic in the course
+		coursecontrol = module, The user canot go in to next module before he completes the current module but he can veiw any lesson, topics  of the current module.
+		coursecontrol = lesson, The user cannot go in to next module nor lesson and have to complete the lessons in serial order of the current module, but he can go to any topic of the current lesson
+		coursecontrol = topic, The user cannot go in to next module nor lesson nor topic and  have to complete the topics in serial order of the current lesson <-->
+		
+		<coursecontrol><![CDATA[non-linear]]></coursecontrol>
+
+
+		<!--    value = true/false  Keeps only Audio On/Off feature
+		controller=true/false   defaultvolume = 0-100-->
+		
+		<volume controller="true" defaultvolume="50"><![CDATA[true]]></volume>
+
+		<resources><![CDATA[true]]></resources>
+
+		<!--    printable=true/false-->
+		<notepadcontrol>
+			<notepad><![CDATA[true]]></notepad>
+			<printable><![CDATA[true]]></printable>
+		</notepadcontrol>
+
+
+		<!-- options= scorm1_2/scorm 2004/aicc-hacp/aicc-jsapi/local/CD-->
+		<tracking>
+				<enabled><![CDATA[true]]></enabled>
+				<mode><![CDATA[scorm1_2]]></mode>
+		</tracking>
+
+		<!-- option = auto/manual -->
+		<bookmarkcontrol>
+			<bookmark><![CDATA[true]]></bookmark>
+			<option><![CDATA[auto]]></option>
+		</bookmarkcontrol>
+
+		<assessment>
+			<available><![CDATA[false]]></available>
+			<passingscrore><![CDATA[80]]></passingscrore>	
+			<retake><![CDATA[true]]></retake>
+			<numattempts><![CDATA[Infinite]]></numattempts> <!-- Infinite/number -->
+			<!--  <randomization>
+				 <question><![CDATA[true]]></question>
+			 </randomization> -->
+
+			<assesmentTracking><![CDATA[false]]></assesmentTracking>
+			<remedial><![CDATA[false]]></remedial>
+		</assessment>
+
+
+
+		<sniffer><![CDATA[true]]></sniffer>
+
+		<!-- en/fr/sp/.. -->
+		<languagecode><![CDATA[en]]></languagecode>
+
+		<search><![CDATA[true]]></search>
+
+		<print><![CDATA[false]]></print>
+		
+		<connectServer><![CDATA[true]]></connectServer>
+		<PostPath><![CDATA[http://205.251.113.162/urj/lms.php]]></PostPath>
+		
+		
+	</features>
+
+
+
+
+
+
+</config>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<roles>
+  <role_overrides>
+  </role_overrides>
+  <role_assignments>
+    <assignment id="598">
+      <roleid>5</roleid>
+      <userid>396</userid>
+      <timemodified>1365074050</timemodified>
+      <modifierid>396</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+    <assignment id="602">
+      <roleid>5</roleid>
+      <userid>413</userid>
+      <timemodified>1366029891</timemodified>
+      <modifierid>413</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
+  </role_assignments>
+</roles>

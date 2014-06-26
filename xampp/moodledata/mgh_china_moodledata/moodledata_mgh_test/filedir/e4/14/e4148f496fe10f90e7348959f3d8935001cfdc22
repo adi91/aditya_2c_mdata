@@ -1,0 +1,38 @@
+<data>
+	<meta>
+		<author><![CDATA[]]></author>
+		<version><![CDATA[]]></version>
+		<keywords><![CDATA[]]></keywords>
+	</meta>
+
+	<body offest='10'>
+		<bodyText xPos='41' yPos='105' width='564'><![CDATA[In a moment you will be taking the final scored assessment covering the materials from all the lessons of this course. This is the time to go back and review the course content before you begin the assessment. You need a score of 80 percent or higher to complete this course successfully. ]]></bodyText>
+		<instructionText xPos='41' yPos='183' width='621'><![CDATA[Click Launch Assessment to take the final assessment and see how much you have learned.]]></instructionText>
+		<additionalText xPos='41' yPos='212' width='512'><![CDATA[Good Luck!!]]></additionalText>
+		<item type="text" style="" xPos="0" yPos="0" height="0" width="0"><![CDATA[<B>On Screen Text 1</B>]]></item>
+		<item type="text" style="" xPos="0" yPos="0" height="0" width="0"><![CDATA[<B>On Screen Text 2</B>]]></item>
+		<item type="text" style="" xPos="0" yPos="0" height="0" width="0"><![CDATA[<B>On Screen Text 3</B>]]></item>
+		<item type="text" style="" xPos="0" yPos="0" height="0" width="0"><![CDATA[<B>On Screen Text 4</B>]]></item>
+		<item type="text" style="" xPos="0" yPos="0" height="0" width="0"><![CDATA[<B>On Screen Text 5</B>]]></item>
+
+		<item type="images" xPos="0" yPos="0" height="0" width="0"><![CDATA[path]]></item>
+		<item type="audio" xPos="0" yPos="0" height="0" width="0"><![CDATA[path]]></item>
+		<item type="video" xPos="0" yPos="0" height="0" width="0"><![CDATA[path]]></item>
+	</body>
+
+	<links>
+		<item type="internal"><![CDATA[../resources/reference.doc]]></item>
+		<item type="external"><![CDATA[http://www.google.com]]></item>
+	</links>
+
+	<transcripts>
+		<transcript id="0">
+			<![CDATA[As a front-line employee, you are already aware of the importance of 14 CFR 382. This document mandates all air carriers' compliance with treating passengers with disabilities. All front-line employees are required to complete this training, which explains how the regulations have changed in the revised rule of Part 382.]]>
+		</transcript>
+
+		<transcript id="1">
+			<![CDATA[As a front-line employee, you are already aware of the importance of 14 CFR 382. This document mandates all air carriers' compliance with treating passengers with disabilities. All front-line employees are required to complete this training, which explains how the regulations have changed in the revised rule of Part 382.]]>
+		</transcript>
+	</transcripts>
+
+</data>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<globalcontent>
+
+	<heading>
+		<course><![CDATA[<B>URJ Prototype</B>]]></course>
+		<menu><![CDATA[<B>Menu</B>]]></menu>
+		<glossary><![CDATA[<B>Glossary</B>]]></glossary>
+		<reference><![CDATA[<B>Reference</B>]]></reference>
+		<transcript><![CDATA[<B>Transcript</B>]]></transcript>
+		<notebox><![CDATA[<B>Note</B>]]></notebox>
+		<help><![CDATA[<B>Help</B>]]></help>
+		<feedbackbox><![CDATA[<B>Feedback</B>]]></feedbackbox>
+	    <exit><![CDATA[<B>Alert</B>]]></exit>
+	</heading>
+
+	<navigationaltext>		
+		<loading><![CDATA[Loading]]></loading>
+		<help><![CDATA[Help]]></help>
+		<play><![CDATA[Play]]></play>
+		<pause><![CDATA[Pause]]></pause>
+		<replay><![CDATA[Replay]]></replay>
+		<next><![CDATA[Next]]></next>
+		<menu><![CDATA[Menu]]></menu>
+		<back><![CDATA[Back]]></back>
+		<transcript><![CDATA[Transcript]]></transcript>
+		<audio><![CDATA[Audio]]></audio>
+		<glossary><![CDATA[Glossary]]></glossary>
+		<reference><![CDATA[Reference]]></reference>
+		<jobaid><![CDATA[Job Aid]]></jobaid>
+	</navigationaltext>
+
+	<tooltip>
+		<start><![CDATA[Start]]></start>
+		<end><![CDATA[End]]></end>
+		<next><![CDATA[Next]]></next>
+		<menu><![CDATA[Menu]]></menu>
+		<back><![CDATA[Back]]></back>
+		<transcript><![CDATA[Transcript]]></transcript>
+		<mediacontroller><![CDATA[Media Controller]]></mediacontroller>
+		<audio><![CDATA[Audio Controller]]></audio>
+		<audiooff><![CDATA[Audio On]]></audiooff>
+		<audioon><![CDATA[Audio Off]]></audioon>
+		<glossary><![CDATA[Glossary]]></glossary>
+		<reference><![CDATA[Reference]]></reference>
+		<jobaid><![CDATA[Job Aid]]></jobaid>
+		<help><![CDATA[Help]]></help>
+		<play><![CDATA[Play]]></play>
+		<pause><![CDATA[Pause]]></pause>
+		<replay><![CDATA[Replay]]></replay>
+		<exit><![CDATA[Exit]]></exit>
+		<close><![CDATA[Close]]></close>
+	</tooltip>
+
+	<additionaltext>
+		<endnotetxt><![CDATA[]]></endnotetxt>
+		<copyrighttext><![CDATA[<span class='copyright'>2011</span>]]></copyrighttext>
+	    <progress><![CDATA[<B>Progress</B>]]></progress>
+		<endcoursenotetxt><![CDATA[<UI>Click <B>Exit (x)</B> to quit this course.</UI>]]></endcoursenotetxt>
+	</additionaltext>
+
+</globalcontent>

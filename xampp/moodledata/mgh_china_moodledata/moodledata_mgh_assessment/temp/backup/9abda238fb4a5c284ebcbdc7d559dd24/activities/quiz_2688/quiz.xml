@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="29" moduleid="2688" modulename="quiz" contextid="3786">
+  <quiz id="29">
+    <name>Assessment 1</name>
+    <intro>&lt;p&gt;&lt;img src="@@PLUGINFILE@@/Koala.jpg" height="111" width="149" /&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timeopen>0</timeopen>
+    <timeclose>0</timeclose>
+    <preferredbehaviour>deferredfeedback</preferredbehaviour>
+    <attempts_number>0</attempts_number>
+    <attemptonlast>0</attemptonlast>
+    <grademethod>1</grademethod>
+    <decimalpoints>2</decimalpoints>
+    <questiondecimalpoints>-1</questiondecimalpoints>
+    <reviewattempt>69904</reviewattempt>
+    <reviewcorrectness>4368</reviewcorrectness>
+    <reviewmarks>4368</reviewmarks>
+    <reviewspecificfeedback>4368</reviewspecificfeedback>
+    <reviewgeneralfeedback>4368</reviewgeneralfeedback>
+    <reviewrightanswer>4368</reviewrightanswer>
+    <reviewoverallfeedback>4368</reviewoverallfeedback>
+    <questionsperpage>1</questionsperpage>
+    <shufflequestions>0</shufflequestions>
+    <shuffleanswers>1</shuffleanswers>
+    <questions>268,0,277,0,264,0,265,0,266,0,267,0</questions>
+    <sumgrades>6.00000</sumgrades>
+    <grade>100.00000</grade>
+    <timecreated>0</timecreated>
+    <timemodified>1365160840</timemodified>
+    <timelimit>0</timelimit>
+    <password>Password1!</password>
+    <subnet></subnet>
+    <browsersecurity>-</browsersecurity>
+    <delay1>0</delay1>
+    <delay2>0</delay2>
+    <showuserpicture>0</showuserpicture>
+    <showblocks>0</showblocks>
+    <question_instances>
+      <question_instance id="72">
+        <question>268</question>
+        <grade>1.0000000</grade>
+      </question_instance>
+      <question_instance id="73">
+        <question>277</question>
+        <grade>1.0000000</grade>
+      </question_instance>
+      <question_instance id="74">
+        <question>264</question>
+        <grade>1.0000000</grade>
+      </question_instance>
+      <question_instance id="75">
+        <question>265</question>
+        <grade>1.0000000</grade>
+      </question_instance>
+      <question_instance id="76">
+        <question>266</question>
+        <grade>1.0000000</grade>
+      </question_instance>
+      <question_instance id="77">
+        <question>267</question>
+        <grade>1.0000000</grade>
+      </question_instance>
+    </question_instances>
+    <feedbacks>
+      <feedback id="35">
+        <feedbacktext></feedbacktext>
+        <feedbacktextformat>1</feedbacktextformat>
+        <mingrade>0.00000</mingrade>
+        <maxgrade>101.00000</maxgrade>
+      </feedback>
+    </feedbacks>
+    <overrides>
+    </overrides>
+    <grades>
+      <grade id="3">
+        <userid>396</userid>
+        <gradeval>50.00000</gradeval>
+        <timemodified>1366029682</timemodified>
+      </grade>
+      <grade id="4">
+        <userid>413</userid>
+        <gradeval>50.00000</gradeval>
+        <timemodified>1366030064</timemodified>
+      </grade>
+    </grades>
+    <attempts>
+      <attempt id="55">
+        <uniqueid>119</uniqueid>
+        <userid>396</userid>
+        <attemptnum>1</attemptnum>
+        <sumgrades>3.00000</sumgrades>
+        <timestart>1365489878</timestart>
+        <timefinish>1366029682</timefinish>
+        <timemodified>1366029682</timemodified>
+        <layout>1,0,2,0,3,0,4,0,5,0,6,0</layout>
+        <preview>0</preview>
+        <question_usage id="119">
+          <component>mod_quiz</component>
+          <preferredbehaviour>deferredfeedback</preferredbehaviour>
+          <question_attempts>
+            <question_attempt id="261">
+              <slot>1</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>268</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>1. A set consists of three integers: x, y, and z such that they do not share any common factor with any other element in the set. Also,(i) x  y = 11305(ii) y  z = 33649 What is the sum of the smallest and the biggest number in the set?: 85; 133; 253; 471</questionsummary>
+              <rightanswer>471</rightanswer>
+              <responsesummary>85</responsesummary>
+              <timemodified>1366029682</timemodified>
+              <steps>
+                <step id="594">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1365489879</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>_order</name>
+                      <value>698,699,700,701</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="630">
+                  <sequencenumber>1</sequencenumber>
+                  <state>complete</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1365601311</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>answer</name>
+                      <value>0</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="636">
+                  <sequencenumber>2</sequencenumber>
+                  <state>gradedwrong</state>
+                  <fraction>0.0000000</fraction>
+                  <timecreated>1366029682</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>-finish</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+            <question_attempt id="262">
+              <slot>2</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>277</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>10. The height and slant height of a solid right circular cone are 8 cm and 10 cm, respectively. What is the area of the circular base?: 36; 100; 64; cannot be determined.</questionsummary>
+              <rightanswer>cannot be determined.</rightanswer>
+              <responsesummary>100</responsesummary>
+              <timemodified>1366029682</timemodified>
+              <steps>
+                <step id="595">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1365489879</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>_order</name>
+                      <value>734,736,735,737</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="631">
+                  <sequencenumber>1</sequencenumber>
+                  <state>complete</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1365601325</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>answer</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="637">
+                  <sequencenumber>2</sequencenumber>
+                  <state>gradedwrong</state>
+                  <fraction>0.0000000</fraction>
+                  <timecreated>1366029682</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>-finish</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+            <question_attempt id="263">
+              <slot>3</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>264</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>Taking the train across town is quicker than taking the bus.
+
+ Taking the bus across town is slower than driving a car.
+
+ Taking the train across town is quicker than driving a car.
+
+ If the first two statements are true, the third statement is: Uncertain; False; True</questionsummary>
+              <rightanswer>True</rightanswer>
+              <responsesummary>False</responsesummary>
+              <timemodified>1366029682</timemodified>
+              <steps>
+                <step id="596">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1365489879</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>_order</name>
+                      <value>690,689,688</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="632">
+                  <sequencenumber>1</sequencenumber>
+                  <state>complete</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366029657</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>answer</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="638">
+                  <sequencenumber>2</sequencenumber>
+                  <state>gradedwrong</state>
+                  <fraction>0.0000000</fraction>
+                  <timecreated>1366029682</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>-finish</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+            <question_attempt id="264">
+              <slot>4</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>265</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>All Lamels are Signots with buttons.
+
+ No yellow Signots have buttons.
+
+ No Lamels are yellow.
+
+ If the first two statements are true, the third statement is: True; False; Uncertain</questionsummary>
+              <rightanswer>True</rightanswer>
+              <responsesummary>True</responsesummary>
+              <timemodified>1366029682</timemodified>
+              <steps>
+                <step id="597">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1365489880</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>_order</name>
+                      <value>691,692,693</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="633">
+                  <sequencenumber>1</sequencenumber>
+                  <state>complete</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366029664</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>answer</name>
+                      <value>0</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="639">
+                  <sequencenumber>2</sequencenumber>
+                  <state>gradedright</state>
+                  <fraction>1.0000000</fraction>
+                  <timecreated>1366029682</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>-finish</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+            <question_attempt id="265">
+              <slot>5</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>266</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>Soft skill is development of interpersonal skill.</questionsummary>
+              <rightanswer>True</rightanswer>
+              <responsesummary>True</responsesummary>
+              <timemodified>1366029682</timemodified>
+              <steps>
+                <step id="598">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1365489880</timecreated>
+                  <userid>396</userid>
+                  <response>
+                  </response>
+                </step>
+                <step id="634">
+                  <sequencenumber>1</sequencenumber>
+                  <state>complete</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366029669</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>answer</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="640">
+                  <sequencenumber>2</sequencenumber>
+                  <state>gradedright</state>
+                  <fraction>1.0000000</fraction>
+                  <timecreated>1366029682</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>-finish</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+            <question_attempt id="266">
+              <slot>6</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>267</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>It is easy to develop soft skills</questionsummary>
+              <rightanswer>True</rightanswer>
+              <responsesummary>True</responsesummary>
+              <timemodified>1366029682</timemodified>
+              <steps>
+                <step id="599">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1365489880</timecreated>
+                  <userid>396</userid>
+                  <response>
+                  </response>
+                </step>
+                <step id="635">
+                  <sequencenumber>1</sequencenumber>
+                  <state>complete</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366029675</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>answer</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="641">
+                  <sequencenumber>2</sequencenumber>
+                  <state>gradedright</state>
+                  <fraction>1.0000000</fraction>
+                  <timecreated>1366029682</timecreated>
+                  <userid>396</userid>
+                  <response>
+                    <variable>
+                      <name>-finish</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+          </question_attempts>
+        </question_usage>
+      </attempt>
+      <attempt id="59">
+        <uniqueid>123</uniqueid>
+        <userid>413</userid>
+        <attemptnum>1</attemptnum>
+        <sumgrades>3.00000</sumgrades>
+        <timestart>1366029914</timestart>
+        <timefinish>1366030064</timefinish>
+        <timemodified>1366030064</timemodified>
+        <layout>1,0,2,0,3,0,4,0,5,0,6,0</layout>
+        <preview>0</preview>
+        <question_usage id="123">
+          <component>mod_quiz</component>
+          <preferredbehaviour>deferredfeedback</preferredbehaviour>
+          <question_attempts>
+            <question_attempt id="282">
+              <slot>1</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>268</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>1. A set consists of three integers: x, y, and z such that they do not share any common factor with any other element in the set. Also,(i) x  y = 11305(ii) y  z = 33649 What is the sum of the smallest and the biggest number in the set?: 471; 253; 85; 133</questionsummary>
+              <rightanswer>471</rightanswer>
+              <responsesummary>471</responsesummary>
+              <timemodified>1366030064</timemodified>
+              <steps>
+                <step id="642">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366029914</timecreated>
+                  <userid>413</userid>
+                  <response>
+                    <variable>
+                      <name>_order</name>
+                      <value>701,700,698,699</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="648">
+                  <sequencenumber>1</sequencenumber>
+                  <state>complete</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366029920</timecreated>
+                  <userid>413</userid>
+                  <response>
+                    <variable>
+                      <name>answer</name>
+                      <value>0</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="654">
+                  <sequencenumber>2</sequencenumber>
+                  <state>gradedright</state>
+                  <fraction>1.0000000</fraction>
+                  <timecreated>1366030064</timecreated>
+                  <userid>413</userid>
+                  <response>
+                    <variable>
+                      <name>-finish</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+            <question_attempt id="283">
+              <slot>2</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>277</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>10. The height and slant height of a solid right circular cone are 8 cm and 10 cm, respectively. What is the area of the circular base?: cannot be determined.; 64; 36; 100</questionsummary>
+              <rightanswer>cannot be determined.</rightanswer>
+              <responsesummary>100</responsesummary>
+              <timemodified>1366030064</timemodified>
+              <steps>
+                <step id="643">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366029914</timecreated>
+                  <userid>413</userid>
+                  <response>
+                    <variable>
+                      <name>_order</name>
+                      <value>737,735,734,736</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="649">
+                  <sequencenumber>1</sequencenumber>
+                  <state>complete</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366030031</timecreated>
+                  <userid>413</userid>
+                  <response>
+                    <variable>
+                      <name>answer</name>
+                      <value>3</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="655">
+                  <sequencenumber>2</sequencenumber>
+                  <state>gradedwrong</state>
+                  <fraction>0.0000000</fraction>
+                  <timecreated>1366030064</timecreated>
+                  <userid>413</userid>
+                  <response>
+                    <variable>
+                      <name>-finish</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+            <question_attempt id="284">
+              <slot>3</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>264</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>Taking the train across town is quicker than taking the bus.
+
+ Taking the bus across town is slower than driving a car.
+
+ Taking the train across town is quicker than driving a car.
+
+ If the first two statements are true, the third statement is: True; False; Uncertain</questionsummary>
+              <rightanswer>True</rightanswer>
+              <responsesummary>True</responsesummary>
+              <timemodified>1366030064</timemodified>
+              <steps>
+                <step id="644">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366029914</timecreated>
+                  <userid>413</userid>
+                  <response>
+                    <variable>
+                      <name>_order</name>
+                      <value>688,689,690</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="650">
+                  <sequencenumber>1</sequencenumber>
+                  <state>complete</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366030038</timecreated>
+                  <userid>413</userid>
+                  <response>
+                    <variable>
+                      <name>answer</name>
+                      <value>0</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="656">
+                  <sequencenumber>2</sequencenumber>
+                  <state>gradedright</state>
+                  <fraction>1.0000000</fraction>
+                  <timecreated>1366030064</timecreated>
+                  <userid>413</userid>
+                  <response>
+                    <variable>
+                      <name>-finish</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+            <question_attempt id="285">
+              <slot>4</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>265</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>All Lamels are Signots with buttons.
+
+ No yellow Signots have buttons.
+
+ No Lamels are yellow.
+
+ If the first two statements are true, the third statement is: False; Uncertain; True</questionsummary>
+              <rightanswer>True</rightanswer>
+              <responsesummary>False</responsesummary>
+              <timemodified>1366030064</timemodified>
+              <steps>
+                <step id="645">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366029915</timecreated>
+                  <userid>413</userid>
+                  <response>
+                    <variable>
+                      <name>_order</name>
+                      <value>692,693,691</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="651">
+                  <sequencenumber>1</sequencenumber>
+                  <state>complete</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366030044</timecreated>
+                  <userid>413</userid>
+                  <response>
+                    <variable>
+                      <name>answer</name>
+                      <value>0</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="657">
+                  <sequencenumber>2</sequencenumber>
+                  <state>gradedwrong</state>
+                  <fraction>0.0000000</fraction>
+                  <timecreated>1366030064</timecreated>
+                  <userid>413</userid>
+                  <response>
+                    <variable>
+                      <name>-finish</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+            <question_attempt id="286">
+              <slot>5</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>266</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>Soft skill is development of interpersonal skill.</questionsummary>
+              <rightanswer>True</rightanswer>
+              <responsesummary>False</responsesummary>
+              <timemodified>1366030064</timemodified>
+              <steps>
+                <step id="646">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366029915</timecreated>
+                  <userid>413</userid>
+                  <response>
+                  </response>
+                </step>
+                <step id="652">
+                  <sequencenumber>1</sequencenumber>
+                  <state>complete</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366030051</timecreated>
+                  <userid>413</userid>
+                  <response>
+                    <variable>
+                      <name>answer</name>
+                      <value>0</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="658">
+                  <sequencenumber>2</sequencenumber>
+                  <state>gradedwrong</state>
+                  <fraction>0.0000000</fraction>
+                  <timecreated>1366030064</timecreated>
+                  <userid>413</userid>
+                  <response>
+                    <variable>
+                      <name>-finish</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+            <question_attempt id="287">
+              <slot>6</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>267</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>It is easy to develop soft skills</questionsummary>
+              <rightanswer>True</rightanswer>
+              <responsesummary>True</responsesummary>
+              <timemodified>1366030064</timemodified>
+              <steps>
+                <step id="647">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366029915</timecreated>
+                  <userid>413</userid>
+                  <response>
+                  </response>
+                </step>
+                <step id="653">
+                  <sequencenumber>1</sequencenumber>
+                  <state>complete</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366030056</timecreated>
+                  <userid>413</userid>
+                  <response>
+                    <variable>
+                      <name>answer</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+                <step id="659">
+                  <sequencenumber>2</sequencenumber>
+                  <state>gradedright</state>
+                  <fraction>1.0000000</fraction>
+                  <timecreated>1366030064</timecreated>
+                  <userid>413</userid>
+                  <response>
+                    <variable>
+                      <name>-finish</name>
+                      <value>1</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+          </question_attempts>
+        </question_usage>
+      </attempt>
+      <attempt id="60">
+        <uniqueid>124</uniqueid>
+        <userid>413</userid>
+        <attemptnum>2</attemptnum>
+        <sumgrades>$@NULL@$</sumgrades>
+        <timestart>1366097452</timestart>
+        <timefinish>0</timefinish>
+        <timemodified>1366097452</timemodified>
+        <layout>1,0,2,0,3,0,4,0,5,0,6,0</layout>
+        <preview>0</preview>
+        <question_usage id="124">
+          <component>mod_quiz</component>
+          <preferredbehaviour>deferredfeedback</preferredbehaviour>
+          <question_attempts>
+            <question_attempt id="288">
+              <slot>1</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>268</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>1. A set consists of three integers: x, y, and z such that they do not share any common factor with any other element in the set. Also,(i) x  y = 11305(ii) y  z = 33649 What is the sum of the smallest and the biggest number in the set?: 85; 133; 253; 471</questionsummary>
+              <rightanswer>471</rightanswer>
+              <responsesummary>$@NULL@$</responsesummary>
+              <timemodified>1366097454</timemodified>
+              <steps>
+                <step id="660">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366097452</timecreated>
+                  <userid>413</userid>
+                  <response>
+                    <variable>
+                      <name>_order</name>
+                      <value>698,699,700,701</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+            <question_attempt id="289">
+              <slot>2</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>277</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>10. The height and slant height of a solid right circular cone are 8 cm and 10 cm, respectively. What is the area of the circular base?: 36; 64; 100; cannot be determined.</questionsummary>
+              <rightanswer>cannot be determined.</rightanswer>
+              <responsesummary>$@NULL@$</responsesummary>
+              <timemodified>1366097454</timemodified>
+              <steps>
+                <step id="661">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366097453</timecreated>
+                  <userid>413</userid>
+                  <response>
+                    <variable>
+                      <name>_order</name>
+                      <value>734,735,736,737</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+            <question_attempt id="290">
+              <slot>3</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>264</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>Taking the train across town is quicker than taking the bus.
+
+ Taking the bus across town is slower than driving a car.
+
+ Taking the train across town is quicker than driving a car.
+
+ If the first two statements are true, the third statement is: True; Uncertain; False</questionsummary>
+              <rightanswer>True</rightanswer>
+              <responsesummary>$@NULL@$</responsesummary>
+              <timemodified>1366097454</timemodified>
+              <steps>
+                <step id="662">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366097453</timecreated>
+                  <userid>413</userid>
+                  <response>
+                    <variable>
+                      <name>_order</name>
+                      <value>688,690,689</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+            <question_attempt id="291">
+              <slot>4</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>265</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>All Lamels are Signots with buttons.
+
+ No yellow Signots have buttons.
+
+ No Lamels are yellow.
+
+ If the first two statements are true, the third statement is: True; False; Uncertain</questionsummary>
+              <rightanswer>True</rightanswer>
+              <responsesummary>$@NULL@$</responsesummary>
+              <timemodified>1366097454</timemodified>
+              <steps>
+                <step id="663">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366097454</timecreated>
+                  <userid>413</userid>
+                  <response>
+                    <variable>
+                      <name>_order</name>
+                      <value>691,692,693</value>
+                    </variable>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+            <question_attempt id="292">
+              <slot>5</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>266</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>Soft skill is development of interpersonal skill.</questionsummary>
+              <rightanswer>True</rightanswer>
+              <responsesummary>$@NULL@$</responsesummary>
+              <timemodified>1366097454</timemodified>
+              <steps>
+                <step id="664">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366097454</timecreated>
+                  <userid>413</userid>
+                  <response>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+            <question_attempt id="293">
+              <slot>6</slot>
+              <behaviour>deferredfeedback</behaviour>
+              <questionid>267</questionid>
+              <maxmark>1.0000000</maxmark>
+              <minfraction>0.0000000</minfraction>
+              <flagged>0</flagged>
+              <questionsummary>It is easy to develop soft skills</questionsummary>
+              <rightanswer>True</rightanswer>
+              <responsesummary>$@NULL@$</responsesummary>
+              <timemodified>1366097454</timemodified>
+              <steps>
+                <step id="665">
+                  <sequencenumber>0</sequencenumber>
+                  <state>todo</state>
+                  <fraction>$@NULL@$</fraction>
+                  <timecreated>1366097454</timecreated>
+                  <userid>413</userid>
+                  <response>
+                  </response>
+                </step>
+              </steps>
+            </question_attempt>
+          </question_attempts>
+        </question_usage>
+      </attempt>
+    </attempts>
+  </quiz>
+</activity>

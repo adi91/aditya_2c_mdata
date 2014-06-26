@@ -1,0 +1,10 @@
+username, password, firstname, lastname,email,site_fk,course1,type1,group1,enrolperiod1,course2,type2,group2,enrolperiod2
+csvuser_student1,Password1!,csvuser_student1,1,csvuser_student1@mghc2c.com,58,postassessment,1,Class1,,,,,
+csvuser_student2,Password1!,csvuser_student2,2,csvuser_student2@mghc2c.com,58,postassessment,1,Class1,,,,,
+csvuser_student3,Password1!,csvuser_student3,3,csvuser_student3@mghc2c.com,58,postassessment,1,Class1,,,,,
+csvuser_student4,Password1!,csvuser_student4,4,csvuser_student4@mghc2c.com,58,postassessment,1,Class1,,,,,
+csvuser_student5,Password1!,csvuser_student5,5,csvuser_student5@mghc2c.com,58,postassessment,1,Class1,,,,,
+csvuser_instructor1,Password1!,csvuser_instructor1,1,csvuser_instructor1@mghc2c.com,58,postassessment,2,Class1,,,,,
+csvuser_instructor2,Password1!,csvuser_instructor2,2,csvuser_instructor2@mghc2c.com,58,postassessment,2,Class1,,,,,
+csvuser_instructor3,Password1!,csvuser_instructor3,3,csvuser_instructor3@mghc2c.com,58,postassessment,2,Class1,,,,,
+csvuser_instructor4,Password1!,csvuser_instructor4,4,csvuser_instructor4@mghc2c.com,58,postassessment,2,Class1,,,,,

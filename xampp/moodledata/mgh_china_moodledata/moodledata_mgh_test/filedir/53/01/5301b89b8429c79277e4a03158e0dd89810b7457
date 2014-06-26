@@ -1,0 +1,1032 @@
+<assessment>
+		<module moduleID="m1" quesToAsk="5" isSolutionNeeded="yes">
+
+		<pool isAllGroupDisplay="yes" numGroupToDisplay="3" isRandomize="true" isShowSolution="true">
+			
+			<bank numQuesToDisplay="4" isRandomize="false">
+			<question type="m01_t05_p04">
+				
+				<body>
+				 	<!-- ////////////////////////////////for external asset loading/////////////////////////////-->
+					<assets>
+						<audio> 
+							<path><![CDATA[module_01/audio/en/test.mp3]]></path>
+							<disableChoice><![CDATA[Yes]]></disableChoice>  <!--  Yes/No -->
+						</audio>
+					</assets>
+						<remedialPage><![CDATA[2]]></remedialPage>
+					<steps isFullScreen="true">
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>Using the information provided for this scenario, enter the station here then click Continue.</B>]]></instructionText>
+							<correctFeedback><![CDATA[Correct]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B>Not quite. Your are helping Janet fill their station is MSP. Enter MSP.</B>]]></incorrectFeedback>
+							<answer><![CDATA[MSP]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>Using the information provided for this scenario, enter the date (mm/dd/yy) here and then click Continue.</B>]]></instructionText>
+							<correctFeedback><![CDATA[Correct]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B>Not quite. Your are helping Janet fill the date is 12/15/10. Enter 12/15/10.</B>]]></incorrectFeedback>
+							<answer><![CDATA[12/15/10]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>Using the information provided for this scenario, enter the deicing vehicle number then click Continue. </B>]]></instructionText>
+							<correctFeedback><![CDATA[Correct]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B>Not quite. Enter vehical number 24 and then click Continue.</B>]]></incorrectFeedback>
+							<answer><![CDATA[24]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "click">
+							<instructionText><![CDATA[<B>Merwin and Janet have inspected the vehicle so click the Yes box for Vehicle Inspection, then click Continue.</B>]]></instructionText>
+							<correctFeedback><![CDATA[Correct]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B>No you want to click the Yes box.</B>]]></incorrectFeedback>
+							<answer><![CDATA[]]></answer>
+							<totalTabs><![CDATA[1]]></totalTabs>
+							<scoreable><![CDATA[No]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>Using the information provided for this scenario, enter the driver's name then click Continue.</B>]]></instructionText>
+							<correctFeedback><![CDATA[Correct.]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B>Not quite. Enter Merwin Perkins for the drivers name then click Continue.</B>]]></incorrectFeedback>
+							<answer><![CDATA[Merwin Perkins]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>Using the information provided for this scenario, enter the driver's Employee number then click Continue.</B>]]></instructionText>
+							<correctFeedback><![CDATA[Correct.]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B>Enter 301357 for driver's employee number then click Continue.</B>]]></incorrectFeedback>
+							<answer><![CDATA[301357]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>Using the information provided for this scenario, enter the deicer's name then click Continue.</B>]]></instructionText>
+							<correctFeedback><![CDATA[Correct.]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B>Not quite. Enter Janet Snow for the deicer's name then click Continue.</B>]]></incorrectFeedback>
+							<answer><![CDATA[Janet Snow]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>Using the information provided for this scenario, enter the deicer's employee number then click Continue.</B>]]></instructionText>
+							<correctFeedback><![CDATA[Correct.]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B>Not quite. Enter 302468 then click Continue.</B>]]></incorrectFeedback>
+							<answer><![CDATA[302468]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "continue">
+							<instructionText><![CDATA[It is important that the System De/Anti-icing worksheet be completed accurately. Before checking your answer review all the information you entered. If corrections need to be made click the Reset button and resubmit your answers. If you are satisfied with your answers click the Check Answer button.]]></instructionText>
+							<correctFeedback><![CDATA[]]></correctFeedback>
+							<incorrectFeedback><![CDATA[]]></incorrectFeedback>
+							<answer><![CDATA[]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[No]]></scoreable>
+						</step>
+						<step type = "continue">
+							<instructionText><![CDATA[b]]></instructionText>
+							<correctFeedback><![CDATA[]]></correctFeedback>
+							<incorrectFeedback><![CDATA[]]></incorrectFeedback>
+							<answer><![CDATA[]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[No]]></scoreable>
+						   
+						</step>
+					</steps>
+						<finalFeedback><![CDATA[<B>Congratulations, you successfully answered the questions for the System De/Anti-icing worksheet, click the Close button in the upper right hand corner to continue.</B>]]></finalFeedback>
+						<finalCorrectFeedback><![CDATA[<B>Congratulations, you successfully answered the questions for the System De/Anti-icing worksheet, click the Close button in the upper right hand corner to continue.</B>]]></finalCorrectFeedback>
+						<finalIncorrectFeedback><![CDATA[<B>Unfortunately, some of your responses are incorrect. Please review your responses compared to the correct answers. Incorrect responses are highlighted in red. When you are finished, click the Close button in the upper right hand corner to continue.</B>]]></finalIncorrectFeedback>
+
+						<ostText><![CDATA[<p>The next four assessment questions require you to complete a portion of the Deicing/Anti-icing worksheet.<br><br>To receive credit, you must complete all entries correctly. Please review all of your answers carefully prior to clicking continue. To correct errors, start over by clicking on the reset button. Remember - your responses must match the data provided in the instructions, including spelling.<br><br><font color="#0066CC">Click <b>Start</b> to fill in the worksheet.</font><p>]]></ostText>	
+				</body>
+
+			</question>	
+			<question type="m01_t05_p05">	
+				<body>
+				<!-- ////////////////////////////////for external asset loading/////////////////////////////-->
+					<assets>
+						<audio> 
+							<path><![CDATA[module_01/audio/en/M5_33608.mp3]]></path>
+							<disableChoice><![CDATA[No]]></disableChoice>  <!--  Yes/No -->
+						</audio>
+					</assets>
+					<steps isFullScreen="true">
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>Enter the ship number then click Continue.</B>]]></instructionText>
+							<correctFeedback><![CDATA[<B><font color = "#003300">Correct</B></font>]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B><font color="#FF0000">Not quite. The ship number is 9106.</font><B>]]></incorrectFeedback>
+							<answer><![CDATA[9106]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>It is important to enter the specific location (gate, remote, hanger) here. Enter the location (including the word "Gate" and then click Continue.</B>]]></instructionText>
+							<correctFeedback><![CDATA[<B>Correct</B>]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B><font color="#FF0000">Not quite. Ship number 9106 was deiced at Gate 5. Enter Gate 5 then click Continue.</font></b>]]></incorrectFeedback>
+							<answer><![CDATA[Gate 5]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>Enter the weather code for frost then click Continue.</B> ]]></instructionText>
+							<correctFeedback><![CDATA[<B>Correct</B>]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B><font color="#FF0000">Not quite. It is currently frost weather. The code for frost at the bottom is 1. Enter 1 and then click Continue.</font></b>]]></incorrectFeedback>
+							<answer><![CDATA[1]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>Enter the temperature in degrees Celsius then click Continue.</B> ]]></instructionText>
+							<correctFeedback><![CDATA[<B>Correct</B>]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B><font color="#FF0000">Not quite. The current temperature is -3 degrees Celsius. Enter -3 for temp then click Continue.</font></b>]]></incorrectFeedback>
+							<answer><![CDATA[-3]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+					   
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>It is the driver's responsibility to ensure the deicer is using safety harness. The driver will verbally verify this and initial this field. Enter the driver's initials then click Continue.</B>]]></instructionText>
+							<correctFeedback><![CDATA[<B>Correct.</B>]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B><font color="#FF0000">Not quite. Enter MP - the initials for the driver, Merwin Perkins, then click Continue.</font></b>]]></incorrectFeedback>
+							<answer><![CDATA[MP]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[It is important that the Deicing/Anti-icing worksheet be completed accurately. Before checking your answer, review all of the information you entered. If corrections need to be made, click the Reset button and resubmit your answers. If you are satisfied with your answers, click the Check Answer button.]]></instructionText>
+							<correctFeedback><![CDATA[]]></correctFeedback>
+							<incorrectFeedback><![CDATA[]]></incorrectFeedback>
+							<answer><![CDATA[]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[No]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[]]></instructionText>
+							<correctFeedback><![CDATA[]]></correctFeedback>
+							<incorrectFeedback><![CDATA[]]></incorrectFeedback>
+							<answer><![CDATA[]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[No]]></scoreable>
+						</step>
+					</steps>
+						<finalFeedback><![CDATA[<b><font color ="#009900"><b>Congratulations, you successfully answered the questions for the System De/Anti-icing worksheet, click the Close button in the upper right hand corner to continue.</b></font>]]></finalFeedback>
+						<finalCorrectFeedback><![CDATA[<B>Congratulations, you successfully answered the questions for the System De/Anti-icing worksheet, click the Close button in the upper right hand corner to continue.</B>]]></finalCorrectFeedback>
+						<finalIncorrectFeedback><![CDATA[<B>Unfortunately, some of your responses are incorrect. Please review your responses compared to the correct answers. Incorrect responses are highlighted in red. When you are finished, click the Close button in the upper right hand corner to continue.</B>]]></finalIncorrectFeedback>		
+
+						<ostText><![CDATA[<p><font color="#0066CC">Click <b>Start</b> to fill in the worksheet.</font><p>]]></ostText>
+				</body>
+			</question>
+			<question type="m01_t05_p06">	
+				<body>
+
+					<!-- ////////////////////////////////for external asset loading/////////////////////////////-->
+					<assets>
+						<audio> 
+							<path><![CDATA[module_01/audio/en/M5_38731.mp3]]></path>
+							<disableChoice><![CDATA[No]]></disableChoice>  <!--  Yes/No -->
+						</audio>
+					</assets>
+					<steps isFullScreen="true">
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>Enter the freeze point for the Type I Fluid applied then click the Continue button.]]></instructionText>
+							<correctFeedback><![CDATA[<B>Correct.</B>]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B><font color="#FF0000">Not quite. The freeze point for the Type I Fluid applied is -34 degrees Celsius. Enter -34 then click Continue.</font></b>]]></incorrectFeedback>
+							<answer><![CDATA[-34]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>Enter the time that Type I Fluid application started then Continue. (Reminder times for this worksheet are to entered using 24 hour clock format.)</B>]]></instructionText>
+							<correctFeedback><![CDATA[<B>Correct.</B>]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B><font color="#FF0000">Not quite. Type I Fluid being applied at 1:01 PM or 1301 in 24 hour clock format. Enter 1301 in the Start field then click Continue.</font></b>]]></incorrectFeedback>
+							<answer><![CDATA[1301]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>Enter the time that Type I Fluid application finished then click Continue. (Reminder times for this worksheet are to entered using 24 hour clock format.)</B>]]></instructionText>
+							<correctFeedback><![CDATA[<B>Correct.</B>]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B><font color="#FF0000">Not quite. Type I Fluid finished being applied at 1:05 PM or 1305 in 24 hour clock format. Enter 1305 in the Finish field then click Continue.</font></b>]]></incorrectFeedback>
+							<answer><![CDATA[1305]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "continue">
+							<instructionText><![CDATA[<b>Only when anti-ice fluid is applied</b>, circle the applicable box of type and enter the brand of anti-ice fluid applied.<br><br>No anti-ice fluid was applied.<br><br>Please click Continue.]]></instructionText>
+							<correctFeedback><![CDATA[]]></correctFeedback>
+							<incorrectFeedback><![CDATA[]]></incorrectFeedback>
+							<answer><![CDATA[]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>	
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>No Type II or Type IV Fluid was applied (started). Enter N/A to indicate Non-applicable then click Continue.</B>]]></instructionText>
+							<correctFeedback><![CDATA[<B>Correct.</B>]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B><font color="#FF0000">Not quite. Since no Type II or Type IV Fluid was applied, enter N/A(for not applicable) then click Continue.</font></b>]]></incorrectFeedback>
+							<answer><![CDATA[N/A]]></answer>
+							<answer_1><![CDATA[X]]></answer_1>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>No Type II or Type IV Fluid was applied (finished). Enter N/A to indicate Non-applicable then click Continue.</B>]]></instructionText>
+							<correctFeedback><![CDATA[<B>Correct.</B>]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B><font color="#FF0000">Not quite. Since no Type II or Type IV Fluid was applied, Enter "N/A"(not applicable) then click Continue.</font></b>]]></incorrectFeedback>
+							<answer><![CDATA[N/A]]></answer>
+							<answer_1><![CDATA[X]]></answer_1>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[It is important that the Deicing/Anti-icing worksheet be completed accurately. Before checking your answer, review all of the information you entered. If corrections need to be made, click Reset and resubmit your answers. If you are satisfied with your answers, click the Check Answer button.]]></instructionText>
+							<correctFeedback><![CDATA[]]></correctFeedback>
+							<incorrectFeedback><![CDATA[]]></incorrectFeedback>
+							<answer><![CDATA[]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[No]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[]]></instructionText>
+							<correctFeedback><![CDATA[]]></correctFeedback>
+							<incorrectFeedback><![CDATA[]]></incorrectFeedback>
+							<answer><![CDATA[]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[No]]></scoreable>
+						</step>
+					</steps>
+						<finalFeedback><![CDATA[<b><font color ="#009900"><b>Congratulations, you successfully answered the questions for the System De/Anti-icing worksheet, click Close in the upper right hand corner to continue.</b></font>]]></finalFeedback>
+						<finalCorrectFeedback><![CDATA[<b>Congratulations, you successfully answered the questions for the System De/Anti-icing worksheet, click Close in the upper right hand corner to continue.</b>]]></finalCorrectFeedback>
+						<finalIncorrectFeedback><![CDATA[<b>Unfortunately, some of your responses are incorrect. Please review your responses compared to the correct answers. Incorrect responses are highlighted in red. When you are finished, click the Close button in the upper right hand corner to continue.</b>]]></finalIncorrectFeedback>
+
+						<ostText><![CDATA[<p><font color="#0066CC">Click <b>Start</b> to fill in the worksheet.</font><p>]]></ostText>
+				</body>
+			</question>	
+			<question type="m01_t05_p07">
+				<body>
+					<!-- ////////////////////////////////for external asset loading/////////////////////////////-->
+					<assets>
+						<audio> 
+							<path><![CDATA[module_01/audio/en/M5_38731.mp3]]></path>
+							<disableChoice><![CDATA[No]]></disableChoice>  <!--  Yes/No -->
+						</audio>
+					</assets>
+
+					<steps isFullScreen="true">
+						<step type = "click">
+							<instructionText><![CDATA[<B>When anti-ice fluid is applied, circle the applicable type in the highlighted box. Click IV and then click Continue.</B>]]></instructionText>
+							<correctFeedback><![CDATA[<B>Correct</B>]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B><font color="#FF0000">Not quite. You used Type IV fluid for anti-icing so you need to circle Type IV in the highlighted box. Try again and click Continue.</font></b>]]></incorrectFeedback>
+							<answer><![CDATA[]]></answer>
+							<totalTabs><![CDATA[1]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>You need to enter the product name of the Type IV anti-icing fluid applied. Enter Type IV Octagon Max Flight 04 and click Continue.</B>]]></instructionText>
+							<correctFeedback><![CDATA[<B>Correct.</B>]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B><font color="#FF0000">Not quite. You used Type IV fluid for anti-icing. Enter Type IV Octagon Max Flight 04. Try again and click Continue.</font></b>]]></incorrectFeedback>
+							<answer><![CDATA[Type IV Octagon Max Flight 04]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>Enter the time you began application of Type IV Fluid then click Continue. (Reminder times for this worksheet are to be entered using 24 hour clock format.)</B>]]></instructionText>
+							<correctFeedback><![CDATA[<B>Correct.</B>]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B><font color="#FF0000">Not quite. Type IV Fluid was applied at 4:50 PM or 1650 military time. Enter 1650 in the Start field then click Continue.</font></b>]]></incorrectFeedback>
+							<answer><![CDATA[1650]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>Enter the time you finished application of Type IV Fluid then click Continue. (Reminder times for this worksheet are to be entered using 24 hour clock format.)</B>]]></instructionText>
+							<correctFeedback><![CDATA[<B>Correct.</B>]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B><font color="#FF0000">Not quite. Type IV Fluid finished being applied at 4:54 PM or 1654 military time. Enter 1654 in the Finish field then click Continue.</font></b>]]></incorrectFeedback>
+							<answer><![CDATA[1654]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>Truck number 24 is equipped with a Type I Fluid Meter, enter the amount of Type I Fluid applied. (used)</B>]]></instructionText>
+							<correctFeedback><![CDATA[<B>Correct.</B>]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B><font color="#FF0000">Not quite. Truck number 24 is equipped with a Type I Fluid Meter. Enter 40 for the gallons of Type I Fluid used then click Continue.</font></b>]]></incorrectFeedback>
+							<answer><![CDATA[40]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>Document the section of the aircraft that was deiced. Enter ALL in the Section of Aircraft Field then click Continue.</B>]]></instructionText>
+							<correctFeedback><![CDATA[<B>Correct.</B>]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B><font color="#FF0000">Not quite. Enter ALL to designate that the entire aircraft has been deiced then click Continue.</font></b>]]></incorrectFeedback>
+							<answer><![CDATA[ALL]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[<B>Lastly, you need to sign the entry in the worksheet. To sign the entry, enter Merwin Perkins in the Signature field then click Continue and Merwin's signature will appear in this field.</B>]]></instructionText>
+							<correctFeedback><![CDATA[<B>Correct.</B>]]></correctFeedback>
+							<incorrectFeedback><![CDATA[<B><font color="#FF0000">Not quite. Enter Merwin Perkins in the Signature field then click Continue and Merwin's signature will appear in this field.</font></b>]]></incorrectFeedback>
+							<answer><![CDATA[Merwin Perkins]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[Yes]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[It is important that the Deicing/Anti-icing worksheet be completed accurately. Before checking your answer, review all of the information you entered. If corrections need to be made, click Reset and resubmit your answers.<br>If you are satisfied with your answers, click the Check Answer button.]]></instructionText>
+							<correctFeedback><![CDATA[]]></correctFeedback>
+							<incorrectFeedback><![CDATA[]]></incorrectFeedback>
+							<answer><![CDATA[]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[No]]></scoreable>
+						</step>
+						<step type = "inputText">
+							<instructionText><![CDATA[]]></instructionText>
+							<correctFeedback><![CDATA[]]></correctFeedback>
+							<incorrectFeedback><![CDATA[]]></incorrectFeedback>
+							<answer><![CDATA[]]></answer>
+							<totalTabs><![CDATA[]]></totalTabs>
+							<scoreable><![CDATA[No]]></scoreable>
+						</step>
+					</steps>
+
+					<finalFeedback><![CDATA[<b><font color ="#009900"><b>Congratulations, you successfully answered the questions for the System Deicing/Anti-icing worksheet, click Close in the upper right hand corner to continue.</b></font>]]></finalFeedback>
+					<finalCorrectFeedback><![CDATA[<b>Congratulations, you successfully answered the questions for the System Deicing/Anti-icing worksheet, click Close in the upper right hand corner to continue.</b>]]></finalCorrectFeedback>
+					<finalIncorrectFeedback><![CDATA[<b>Unfortunately, some of your responses are incorrect. Please review your responses compared to the correct answers. Incorrect responses are highlighted in red. When you are finished, click the Close button in the upper right hand corner to continue.</b>]]></finalIncorrectFeedback>
+
+					<ostText><![CDATA[<p><font color="#0066CC">Click <b>Start</b> to fill in the worksheet.</font><p>]]></ostText>
+				</body>
+			</question>	
+			</bank>
+
+			<bank numQuesToDisplay="1" isRandomize="true">
+		<!--  Question -1 -->
+
+			<question type="mcq">	
+				<body>
+					<remedialPage><![CDATA[4 ]]></remedialPage>
+					<pageheading type='text' x='30' y='100' width='500'><![CDATA[<bodyAssess><B>Question: 1</B></bodyAssess>]]></pageheading>
+					<question type='text' x='30' y='128' width='700'><![CDATA[<bodyAssess>_________ is the removal of contaminants from critical aircraft surfaces.</bodyAssess>]]></question>
+					<instruction type='text' x='30' y='157' width='700'><![CDATA[<bodyAssess><ui>Select the correct answer and click <B>Submit</B>.</ui></bodyAssess>]]></instruction>
+
+					<MCQ category='MCSS' type='selfcheck' isTrueFalse='n' totalAttempts='1' randomizeOptions='y' correctAnswer='1' responseType='generic' feedbackStartX='300' feedbackStartY='300'>
+
+						<choices questionOffSet='20' choiceOffSet ='20' choicesWidth='600'>		
+						
+							<choice correct='1'><![CDATA[Deicing]]></choice>
+							<choice correct='0'><![CDATA[Anti-icing]]></choice>
+						</choices>
+						
+						<button x='100' y='500'>
+						
+							<submit><![CDATA[<B>Submit</B>]]></submit>
+							<reset><![CDATA[<B>Reset</B>]]></reset>
+							<solution><![CDATA[<B>Solution</B>]]></solution>
+
+						</button>
+
+					<feedback leftOffset='20' topOffset='90' rightOffset='38' bottomOffset='160' enableCloseBtn="yes">
+					
+						<genericResponse>
+							
+							<tryAgain><![CDATA[Click <B>Close</B> to try again.]]></tryAgain>
+							<solution><![CDATA[Click <B>Close</B> to continue.]]></solution>
+							<correct><![CDATA[Correct. Click <B>Close</B> to continue.]]></correct>
+							<partialCorrect><![CDATA[Incorrect.]]></partialCorrect>
+							<incorrect><![CDATA[Incorrect.]]></incorrect>
+							
+						</genericResponse>
+
+						<specificResponse>
+
+							<response id='1' isCorrect='y'><![CDATA[response 1]]></response>
+							<response id='2' isCorrect='n'><![CDATA[response 2]]></response>	
+							<response id='3' isCorrect='n'><![CDATA[response 3]]></response>
+							<response id='4' isCorrect='n'><![CDATA[response 4]]></response>
+
+						</specificResponse>			
+					</feedback>
+
+					</MCQ>
+
+					</body>
+				</question>
+
+			<!--Question -2 -->
+			
+				<question type="mcq">
+				<body>
+					<remedialPage><![CDATA[4]]></remedialPage>
+					<pageheading type='text' x='30' y='100' width='500'><![CDATA[<bodyAssess><B>Question: 2</B></bodyAssess>]]></pageheading>
+					<question type='text' x='30' y='128' width='700'><![CDATA[<bodyAssess>_________ is the removal of contaminants from critical aircraft surfaces.</bodyAssess>]]></question>
+					<instruction type='text' x='30' y='157' width='700'><![CDATA[<ui>Select the correct answer and click <B>Submit</B>.</ui>]]></instruction>
+
+					<MCQ category='MCSS' type='selfcheck' isTrueFalse='n' totalAttempts='1' randomizeOptions='y' correctAnswer='1' responseType='generic' feedbackStartX='300' feedbackStartY='300'>
+
+						<choices questionOffSet='20' choiceOffSet ='20' choicesWidth='600'>		
+						
+							<choice correct='1'><![CDATA[Deicing]]></choice>
+							<choice correct='0'><![CDATA[Anti-icing]]></choice>
+					
+						</choices>	
+						
+						<button x='100' y='500'>
+						
+							<submit><![CDATA[<B>Submit</B>]]></submit>
+							<reset><![CDATA[<B>Reset</B>]]></reset>
+							<solution><![CDATA[<B>Solution</B>]]></solution>
+
+						</button>
+
+					<feedback leftOffset='20' topOffset='90' rightOffset='38' bottomOffset='160' enableCloseBtn="yes">
+					
+						<genericResponse>
+							
+							<tryAgain><![CDATA[Click <B>Close</B> to try again.]]></tryAgain>
+							<solution><![CDATA[Click <B>Close</B> to continue.]]></solution>
+							<correct><![CDATA[Correct. Click <B>Close</B> to continue.]]></correct>
+							<partialCorrect><![CDATA[Incorrect.]]></partialCorrect>
+							<incorrect><![CDATA[Incorrect.]]></incorrect>
+							
+						</genericResponse>
+
+						<specificResponse>
+
+							<response id='1' isCorrect='y'><![CDATA[response 1]]></response>
+							<response id='2' isCorrect='n'><![CDATA[response 2]]></response>	
+							<response id='3' isCorrect='n'><![CDATA[response 3]]></response>
+							<response id='4' isCorrect='n'><![CDATA[response 4]]></response>
+
+						</specificResponse>			
+					</feedback>
+
+					</MCQ>
+
+					</body>
+				</question>
+				</bank>
+
+				<bank numQuesToDisplay="1" isRandomize="true">
+
+				<!--Question -3-->
+				
+				<question type="mcq">
+				<body>
+					<remedialPage><![CDATA[4]]></remedialPage>
+					<pageheading type='text' x='30' y='100' width='500'><![CDATA[<bodyAssess><B>Question: 3</B></bodyAssess>]]></pageheading>
+					<question type='text' x='30' y='128' width='700'><![CDATA[<bodyAssess>What are acceptable methods of deicing Delta aircraft?</bodyAssess>]]></question>
+					<instruction type='text' x='30' y='157' width='700'><![CDATA[<ui>Select the correct answers and click <B>Submit</B>.</ui>]]></instruction>
+
+					<MCQ category='MCSS' type='selfcheck' isTrueFalse='n' totalAttempts='1' randomizeOptions='y' correctAnswer='1' responseType='generic' feedbackStartX='300' feedbackStartY='300'>
+
+						<choices questionOffSet='20' choiceOffSet ='20' choicesWidth='600'>		
+						
+							<choice correct='1'><![CDATA[Heated Type I fluid in North American locations.]]></choice>
+							<choice correct='1'><![CDATA[Mechanical.]]></choice>
+							<choice correct='1'><![CDATA[Heated or forced air.]]></choice>
+							<choice correct='0'><![CDATA[Unheated Type I fluid.]]></choice>
+
+						</choices>	
+						
+						<button x='100' y='500'>
+						
+							<submit><![CDATA[<B>Submit</B>]]></submit>
+							<reset><![CDATA[<B>Reset</B>]]></reset>
+							<solution><![CDATA[<B>Solution</B>]]></solution>
+
+						</button>
+
+					<feedback leftOffset='20' topOffset='90' rightOffset='38' bottomOffset='160' enableCloseBtn="yes">
+					
+						<genericResponse>
+							
+							<tryAgain><![CDATA[Click <B>Close</B> to try again.]]></tryAgain>
+							<solution><![CDATA[Click <B>Close</B> to continue.]]></solution>
+							<correct><![CDATA[Correct. Click <B>Close</B> to continue.]]></correct>
+							<partialCorrect><![CDATA[Incorrect.]]></partialCorrect>
+							<incorrect><![CDATA[Incorrect.]]></incorrect>
+							
+						</genericResponse>
+
+						<specificResponse>
+
+							<response id='1' isCorrect='y'><![CDATA[response 1]]></response>
+							<response id='2' isCorrect='n'><![CDATA[response 2]]></response>	
+							<response id='3' isCorrect='n'><![CDATA[response 3]]></response>
+							<response id='4' isCorrect='n'><![CDATA[response 4]]></response>
+
+						</specificResponse>			
+					</feedback>
+
+					</MCQ>
+
+					</body>
+				</question>
+
+				
+				<question type="mcq">
+						
+
+				<body>
+					<remedialPage><![CDATA[4]]></remedialPage>
+					<pageheading type='text' x='30' y='100' width='500'><![CDATA[<bodyAssess><B>Question: 4</B></bodyAssess>]]></pageheading>
+					<question type='text' x='30' y='128' width='700'><![CDATA[<bodyAssess>What are acceptable methods of deicing Delta aircraft?</bodyAssess>]]></question>
+					<instruction type='text' x='30' y='157' width='700'><![CDATA[<ui>Select the correct answers and click <B>Submit</B>.</ui>]]></instruction>
+
+					<MCQ category='MCSS' type='selfcheck' isTrueFalse='n' totalAttempts='1' randomizeOptions='y' correctAnswer='1' responseType='generic' feedbackStartX='300' feedbackStartY='300'>
+
+						<choices questionOffSet='20' choiceOffSet ='20' choicesWidth='600'>		
+						
+							<choice correct='1'><![CDATA[Using heated Type I fluid (in North American locations) from de/anti-icing vehicles.]]></choice>
+							<choice correct='1'><![CDATA[The use of brushes, brooms, squeegees, and other soft objects.]]></choice>
+							<choice correct='1'><![CDATA[Using heated or forced air.]]></choice>
+							<choice correct='0'><![CDATA[Striking aircraft surfaces with hard, sharp objects.]]></choice>
+							<choice correct='0'><![CDATA[The application of unheated fluids.]]></choice>
+						</choices>	
+						
+						<button x='100' y='500'>
+						
+							<submit><![CDATA[<B>Submit</B>]]></submit>
+							<reset><![CDATA[<B>Reset</B>]]></reset>
+							<solution><![CDATA[<B>Solution</B>]]></solution>
+
+						</button>
+
+					<feedback leftOffset='20' topOffset='90' rightOffset='38' bottomOffset='160' enableCloseBtn="yes">
+					
+						<genericResponse>
+							
+							<tryAgain><![CDATA[Click <B>Close</B> to try again.]]></tryAgain>
+							<solution><![CDATA[Click <B>Close</B> to continue.]]></solution>
+							<correct><![CDATA[Correct. Click <B>Close</B> to continue.]]></correct>
+							<partialCorrect><![CDATA[Incorrect.]]></partialCorrect>
+							<incorrect><![CDATA[Incorrect.]]></incorrect>
+							
+						</genericResponse>
+
+						<specificResponse>
+
+							<response id='1' isCorrect='y'><![CDATA[response 1]]></response>
+							<response id='2' isCorrect='n'><![CDATA[response 2]]></response>	
+							<response id='3' isCorrect='n'><![CDATA[response 3]]></response>
+							<response id='4' isCorrect='n'><![CDATA[response 4]]></response>
+
+						</specificResponse>			
+					</feedback>
+
+					</MCQ>
+
+					</body>
+				</question>
+
+				</bank>
+
+				<bank numQuesToDisplay="1" isRandomize="true">
+
+				<question type="mcq">
+						
+
+				<body>
+					<remedialPage><![CDATA[4]]></remedialPage>
+					<pageheading type='text' x='30' y='100' width='500'><![CDATA[<bodyAssess><B>Question: 5</B></bodyAssess>]]></pageheading>
+					<question type='text' x='30' y='128' width='700'><![CDATA[<bodyAssess>________ is the application that provides extended holdover to protect critical aircraft surfaces.</bodyAssess>]]></question>
+					<instruction type='text' x='30' y='157' width='700'><![CDATA[<ui>Select the correct answer and click <B>Submit</B>.</ui>]]></instruction>
+
+					<MCQ category='MCSS' type='selfcheck' isTrueFalse='n' totalAttempts='1' randomizeOptions='y' correctAnswer='1' responseType='generic' feedbackStartX='300' feedbackStartY='300'>
+
+						<choices questionOffSet='20' choiceOffSet ='20' choicesWidth='600'>		
+						
+							<choice correct='0'><![CDATA[Deicing]]></choice>
+							<choice correct='1'><![CDATA[Anti-icing]]></choice>
+							
+						</choices>	
+						
+						<button x='100' y='500'>
+						
+							<submit><![CDATA[<B>Submit</B>]]></submit>
+							<reset><![CDATA[<B>Reset</B>]]></reset>
+							<solution><![CDATA[<B>Solution</B>]]></solution>
+
+						</button>
+
+					<feedback leftOffset='20' topOffset='90' rightOffset='38' bottomOffset='160' enableCloseBtn="yes">
+					
+						<genericResponse>
+							
+							<tryAgain><![CDATA[Click <B>Close</B> to try again.]]></tryAgain>
+							<solution><![CDATA[Click <B>Close</B> to continue.]]></solution>
+							<correct><![CDATA[Correct. Click <B>Close</B> to continue.]]></correct>
+							<partialCorrect><![CDATA[Incorrect.]]></partialCorrect>
+							<incorrect><![CDATA[Incorrect.]]></incorrect>
+							
+						</genericResponse>
+
+						<specificResponse>
+
+							<response id='1' isCorrect='y'><![CDATA[response 1]]></response>
+							<response id='2' isCorrect='n'><![CDATA[response 2]]></response>	
+							<response id='3' isCorrect='n'><![CDATA[response 3]]></response>
+							<response id='4' isCorrect='n'><![CDATA[response 4]]></response>
+
+						</specificResponse>			
+					</feedback>
+
+					</MCQ>
+
+					</body>
+				</question>
+				
+				<question type="mcq">
+						
+
+				<body>
+					<remedialPage><![CDATA[4]]></remedialPage>
+					<pageheading type='text' x='30' y='100' width='500'><![CDATA[<bodyAssess><B>Question: 6</B></bodyAssess>]]></pageheading>
+					<question type='text' x='30' y='128' width='700'><![CDATA[<bodyAssess>________ is the application that provides extended holdover to protect critical aircraft surfaces.</bodyAssess>]]></question>
+					<instruction type='text' x='30' y='157' width='700'><![CDATA[<ui>Select the correct answer and click <B>Submit</B>.</ui>]]></instruction>
+
+					<MCQ category='MCSS' type='selfcheck' isTrueFalse='n' totalAttempts='1' randomizeOptions='y' correctAnswer='1' responseType='generic' feedbackStartX='300' feedbackStartY='300'>
+
+						<choices questionOffSet='20' choiceOffSet ='20' choicesWidth='600'>		
+						
+							<choice correct='0'><![CDATA[Deicing]]></choice>
+							<choice correct='1'><![CDATA[Anti-icing]]></choice>
+							
+						</choices>	
+						
+						<button x='100' y='500'>
+						
+							<submit><![CDATA[<B>Submit</B>]]></submit>
+							<reset><![CDATA[<B>Reset</B>]]></reset>
+							<solution><![CDATA[<B>Solution</B>]]></solution>
+
+						</button>
+
+					<feedback leftOffset='20' topOffset='90' rightOffset='38' bottomOffset='160' enableCloseBtn="yes">
+					
+						<genericResponse>
+							
+							<tryAgain><![CDATA[Click <B>Close</B> to try again.]]></tryAgain>
+							<solution><![CDATA[Click <B>Close</B> to continue.]]></solution>
+							<correct><![CDATA[Correct. Click <B>Close</B> to continue.]]></correct>
+							<partialCorrect><![CDATA[Incorrect.]]></partialCorrect>
+							<incorrect><![CDATA[Incorrect.]]></incorrect>
+							
+						</genericResponse>
+
+						<specificResponse>
+
+							<response id='1' isCorrect='y'><![CDATA[response 1]]></response>
+							<response id='2' isCorrect='n'><![CDATA[response 2]]></response>	
+							<response id='3' isCorrect='n'><![CDATA[response 3]]></response>
+							<response id='4' isCorrect='n'><![CDATA[response 4]]></response>
+
+						</specificResponse>			
+					</feedback>
+
+					</MCQ>
+
+					</body>
+				</question>
+
+				</bank>
+
+				<bank numQuesToDisplay="1" isRandomize="true">
+
+				<question type="mcq">
+						
+
+				<body>
+					<remedialPage><![CDATA[4]]></remedialPage>
+					<pageheading type='text' x='30' y='100' width='500'><![CDATA[<bodyAssess><B>Question: 7</B></bodyAssess>]]></pageheading>
+					<question type='text' x='30' y='128' width='700'><![CDATA[<bodyAssess>True or False? Title 14 of the Code of Federal Regulations, Part 121 (14 CFR 121.629) known as the <B>Clean Aircraft Concept</B> requires that wings, control surfaces, propellers, engine inlets, or other critical surfaces must be free of snow, ice, slush and frost prior to dispatch, release, or take off.</bodyAssess>]]></question>
+					<instruction type='text' x='30' y='157' width='700'><![CDATA[<ui>Select the correct answer and click <B>Submit</B>.</ui>]]></instruction>
+
+					<MCQ category='MCSS' type='selfcheck' isTrueFalse='n' totalAttempts='1' randomizeOptions='y' correctAnswer='1' responseType='generic' feedbackStartX='300' feedbackStartY='300'>
+
+						<choices questionOffSet='20' choiceOffSet ='20' choicesWidth='600'>		
+						
+							<choice correct='1'><![CDATA[True]]></choice>
+							<choice correct='0'><![CDATA[False]]></choice>
+						
+						</choices>	
+						
+						<button x='100' y='500'>
+						
+							<submit><![CDATA[<B>Submit</B>]]></submit>
+							<reset><![CDATA[<B>Reset</B>]]></reset>
+							<solution><![CDATA[<B>Solution</B>]]></solution>
+
+						</button>
+
+					<feedback leftOffset='20' topOffset='90' rightOffset='38' bottomOffset='160' enableCloseBtn="yes">
+					
+						<genericResponse>
+							
+							<tryAgain><![CDATA[Click <B>Close</B> to try again.]]></tryAgain>
+							<solution><![CDATA[Click <B>Close</B> to continue.]]></solution>
+							<correct><![CDATA[Correct. Click <B>Close</B> to continue.]]></correct>
+							<partialCorrect><![CDATA[Incorrect.]]></partialCorrect>
+							<incorrect><![CDATA[Incorrect.]]></incorrect>
+							
+						</genericResponse>
+
+						<specificResponse>
+
+							<response id='1' isCorrect='y'><![CDATA[response 1]]></response>
+							<response id='2' isCorrect='n'><![CDATA[response 2]]></response>	
+							<response id='3' isCorrect='n'><![CDATA[response 3]]></response>
+							<response id='4' isCorrect='n'><![CDATA[response 4]]></response>
+
+						</specificResponse>			
+					</feedback>
+
+					</MCQ>
+
+					</body>
+				</question><question type="mcq">
+						
+
+				<body>
+					<remedialPage><![CDATA[4]]></remedialPage>
+					<pageheading type='text' x='30' y='100' width='500'><![CDATA[<bodyAssess><B>Question: 8</B></bodyAssess>]]></pageheading>
+					<question type='text' x='30' y='128' width='700'><![CDATA[<bodyAssess>Title 14 of the Code of Federal Regulations, Part 121 (14 CFR 121.629) that requires aircraft to be free of snow, ice, slush, and frost prior to dispatch, release or takeoff, is commonly known as:</bodyAssess>]]></question>
+					<instruction type='text' x='30' y='157' width='700'><![CDATA[<ui>Select the correct answer and click <B>Submit</B>.</ui>]]></instruction>
+
+					<MCQ category='MCSS' type='selfcheck' isTrueFalse='n' totalAttempts='1' randomizeOptions='y' correctAnswer='1' responseType='generic' feedbackStartX='300' feedbackStartY='300'>
+
+						<choices questionOffSet='20' choiceOffSet ='20' choicesWidth='600'>		
+						
+							<choice correct='1'><![CDATA[Clean Aircraft Concept.]]></choice>
+							<choice correct='0'><![CDATA[ADM (Aircraft De/Anti-icing Manual).]]></choice>
+							<choice correct='0'><![CDATA[MSDS (Material Safety Data Sheet).]]></choice>
+							<choice correct='0'><![CDATA[IATA (International Air Transport Association).]]></choice>
+
+						</choices>	
+						
+						<button x='100' y='500'>
+						
+							<submit><![CDATA[<B>Submit</B>]]></submit>
+							<reset><![CDATA[<B>Reset</B>]]></reset>
+							<solution><![CDATA[<B>Solution</B>]]></solution>
+
+						</button>
+
+					<feedback leftOffset='20' topOffset='90' rightOffset='38' bottomOffset='160' enableCloseBtn="yes">
+					
+						<genericResponse>
+							
+							<tryAgain><![CDATA[Click <B>Close</B> to try again.]]></tryAgain>
+							<solution><![CDATA[Click <B>Close</B> to continue.]]></solution>
+							<correct><![CDATA[Correct. Click <B>Close</B> to continue.]]></correct>
+							<partialCorrect><![CDATA[Incorrect.]]></partialCorrect>
+							<incorrect><![CDATA[Incorrect.]]></incorrect>
+							
+						</genericResponse>
+
+						<specificResponse>
+
+							<response id='1' isCorrect='y'><![CDATA[response 1]]></response>
+							<response id='2' isCorrect='n'><![CDATA[response 2]]></response>	
+							<response id='3' isCorrect='n'><![CDATA[response 3]]></response>
+							<response id='4' isCorrect='n'><![CDATA[response 4]]></response>
+
+						</specificResponse>			
+					</feedback>
+
+					</MCQ>
+
+					</body>
+				</question>
+
+				</bank>
+
+				<bank numQuesToDisplay="1" isRandomize="true">
+
+				<question type="mcq">
+						
+
+				<body>
+					<remedialPage><![CDATA[4]]></remedialPage>
+					<pageheading type='text' x='30' y='100' width='500'><![CDATA[<bodyAssess><B>Question: 9</B></bodyAssess>]]></pageheading>
+					<question type='text' x='30' y='128' width='800'><![CDATA[<bodyAssess>Which of the following effects are potential risks of contaminants (snow, ice, slush or frost) on critical aircraft surfaces?</bodyAssess>]]></question>
+					<instruction type='text' x='30' y='157' width='700'><![CDATA[<ui>Select the correct answers and click <B>Submit</B>.</ui>]]></instruction>
+
+					<MCQ category='MCSS' type='selfcheck' isTrueFalse='n' totalAttempts='1' randomizeOptions='y' correctAnswer='1' responseType='generic' feedbackStartX='300' feedbackStartY='300'>
+
+						<choices questionOffSet='20' choiceOffSet ='20' choicesWidth='600'>		
+						
+							<choice correct='1'><![CDATA[Chunks of ice can break off and damage engines, rudders and other critical aircraft parts.]]></choice>
+							<choice correct='1'><![CDATA[Contaminants disturb the normal air flow over the air foils and the distribution of weight on the aircraft.]]></choice>
+							<choice correct='1'><![CDATA[Undetected ice on the upper surfaces of cold soaked wings may detach from the wing surface during takeoff roll and damage horizontal and vertical tail surfaces.]]></choice>
+							<choice correct='1'><![CDATA[Contaminants may produce errors in critical instrument readings.]]></choice>
+							<choice correct='1'><![CDATA[Contaminants on the leading edge and upper and lower surfaces of the wing can reduce lift by as much as 30% and increase drag by as much as 40%.]]></choice>
+							<choice correct='0'><![CDATA[Contaminants on the wings have no effect on the lift of an aircraft.]]></choice>
+						</choices>	
+						
+						<button x='100' y='500'>
+						
+							<submit><![CDATA[<B>Submit</B>]]></submit>
+							<reset><![CDATA[<B>Reset</B>]]></reset>
+							<solution><![CDATA[<B>Solution</B>]]></solution>
+
+						</button>
+
+					<feedback leftOffset='20' topOffset='90' rightOffset='38' bottomOffset='160' enableCloseBtn="yes">
+					
+						<genericResponse>
+							
+							<tryAgain><![CDATA[Click <B>Close</B> to try again.]]></tryAgain>
+							<solution><![CDATA[Click <B>Close</B> to continue.]]></solution>
+							<correct><![CDATA[Correct. Click <B>Close</B> to continue.]]></correct>
+							<partialCorrect><![CDATA[Incorrect.]]></partialCorrect>
+							<incorrect><![CDATA[Incorrect.]]></incorrect>
+							
+						</genericResponse>
+
+						<specificResponse>
+
+							<response id='1' isCorrect='y'><![CDATA[response 1]]></response>
+							<response id='2' isCorrect='n'><![CDATA[response 2]]></response>	
+							<response id='3' isCorrect='n'><![CDATA[response 3]]></response>
+							<response id='4' isCorrect='n'><![CDATA[response 4]]></response>
+
+						</specificResponse>			
+					</feedback>
+
+					</MCQ>
+
+					</body>
+				</question>
+				
+				<question type="mcq">
+						
+
+				<body>
+					<remedialPage><![CDATA[4]]></remedialPage>
+					<pageheading type='text' x='30' y='100' width='500'><![CDATA[<bodyAssess><B>Question: 10</B></bodyAssess>]]></pageheading>
+					<question type='text' x='30' y='128' width='700'><![CDATA[<bodyAssess>True or False? Contaminants on the wing of an aircraft can reduce lift by as much as 30% and increase drag by as much as 40%.</bodyAssess>]]></question>
+					<instruction type='text' x='30' y='157' width='700'><![CDATA[<ui>Select the correct answer and click <B>Submit</B>.</ui>]]></instruction>
+
+					<MCQ category='MCSS' type='selfcheck' isTrueFalse='n' totalAttempts='1' randomizeOptions='y' correctAnswer='1' responseType='generic' feedbackStartX='300' feedbackStartY='300'>
+
+						<choices questionOffSet='20' choiceOffSet ='20' choicesWidth='600'>		
+						
+							<choice correct='0'><![CDATA[False]]></choice>
+							<choice correct='1'><![CDATA[True]]></choice>
+						
+						</choices>	
+						
+						<button x='100' y='500'>
+						
+							<submit><![CDATA[<B>Submit</B>]]></submit>
+							<reset><![CDATA[<B>Reset</B>]]></reset>
+							<solution><![CDATA[<B>Solution</B>]]></solution>
+
+						</button>
+
+					<feedback leftOffset='20' topOffset='90' rightOffset='38' bottomOffset='160' enableCloseBtn="yes">
+					
+						<genericResponse>
+							
+							<tryAgain><![CDATA[Click <B>Close</B> to try again.]]></tryAgain>
+							<solution><![CDATA[Click <B>Close</B> to continue.]]></solution>
+							<correct><![CDATA[Correct. Click <B>Close</B> to continue.]]></correct>
+							<partialCorrect><![CDATA[Incorrect.]]></partialCorrect>
+							<incorrect><![CDATA[Incorrect.]]></incorrect>
+							
+						</genericResponse>
+
+						<specificResponse>
+
+							<response id='1' isCorrect='y'><![CDATA[response 1]]></response>
+							<response id='2' isCorrect='n'><![CDATA[response 2]]></response>	
+							<response id='3' isCorrect='n'><![CDATA[response 3]]></response>
+							<response id='4' isCorrect='n'><![CDATA[response 4]]></response>
+
+						</specificResponse>			
+					</feedback>
+
+					</MCQ>
+
+					</body>
+				</question>
+
+				</bank>
+
+				<bank numQuesToDisplay="1" isRandomize="true">
+
+				<question type="mcq">
+						
+
+				<body>
+					<remedialPage><![CDATA[4]]></remedialPage>
+					<pageheading type='text' x='30' y='100' width='500'><![CDATA[<bodyAssess><B>Question: 11</B></bodyAssess>]]></pageheading>
+					<question type='text' x='30' y='128' width='700'><![CDATA[<bodyAssess>In which of the following situations are tactile inspections required?</bodyAssess>]]></question>
+					<instruction type='text' x='30' y='157' width='700'><![CDATA[<ui>Select the correct answers and click <B>Submit</B>.</ui>]]></instruction>
+
+					<MCQ category='MCSS' type='selfcheck' isTrueFalse='n' totalAttempts='1' randomizeOptions='y' correctAnswer='1' responseType='generic' feedbackStartX='300' feedbackStartY='300'>
+
+						<choices questionOffSet='20' choiceOffSet ='20' choicesWidth='600'>		
+						
+							<choice correct='1'><![CDATA[During blowing snow or poor lighting conditions which limit visibility.]]></choice>
+							<choice correct='1'><![CDATA[On certain aircraft per company policy and/or Airworthiness Directives.]]></choice>
+							<choice correct='0'><![CDATA[Only where ice is visible.]]></choice>
+							<choice correct='1'><![CDATA[If a visual inspection cannot verify that the wing is contaminant free.]]></choice>
+							<choice correct='1'><![CDATA[At the Captains request.]]></choice>
+
+						</choices>	
+						
+						<button x='100' y='500'>
+						
+							<submit><![CDATA[<B>Submit</B>]]></submit>
+							<reset><![CDATA[<B>Reset</B>]]></reset>
+							<solution><![CDATA[<B>Solution</B>]]></solution>
+
+						</button>
+
+					<feedback leftOffset='20' topOffset='90' rightOffset='38' bottomOffset='160' enableCloseBtn="yes">
+					
+						<genericResponse>
+							
+							<tryAgain><![CDATA[Click <B>Close</B> to try again.]]></tryAgain>
+							<solution><![CDATA[Click <B>Close</B> to continue.]]></solution>
+							<correct><![CDATA[Correct. Click <B>Close</B> to continue.]]></correct>
+							<partialCorrect><![CDATA[Incorrect.]]></partialCorrect>
+							<incorrect><![CDATA[Incorrect.]]></incorrect>
+							
+						</genericResponse>
+
+						<specificResponse>
+
+							<response id='1' isCorrect='y'><![CDATA[response 1]]></response>
+							<response id='2' isCorrect='n'><![CDATA[response 2]]></response>	
+							<response id='3' isCorrect='n'><![CDATA[response 3]]></response>
+							<response id='4' isCorrect='n'><![CDATA[response 4]]></response>
+
+						</specificResponse>			
+					</feedback>
+
+					</MCQ>
+
+					</body>
+				</question><question type="mcq">
+						
+
+				<body>
+					<remedialPage><![CDATA[4]]></remedialPage>
+					<pageheading type='text' x='30' y='100' width='500'><![CDATA[<bodyAssess><B>Question: 12</B></bodyAssess>]]></pageheading>
+					<question type='text' x='30' y='128' width='700'><![CDATA[<bodyAssess>True or False? While inspecting aircraft surfaces for contaminants, if one side of the aircraft is visually clean, it is safe to assume the other side is as well.</bodyAssess>]]></question>
+					<instruction type='text' x='30' y='157' width='700'><![CDATA[<ui>Select the correct answer and click <B>Submit</B>.</ui>]]></instruction>
+
+					<MCQ category='MCSS' type='selfcheck' isTrueFalse='n' totalAttempts='1' randomizeOptions='y' correctAnswer='1' responseType='generic' feedbackStartX='300' feedbackStartY='300'>
+
+						<choices questionOffSet='20' choiceOffSet ='20' choicesWidth='600'>		
+						
+							<choice correct='0'><![CDATA[True]]></choice>
+							<choice correct='1'><![CDATA[False]]></choice>
+							
+						</choices>	
+						
+						<button x='100' y='500'>
+						
+							<submit><![CDATA[<B>Submit</B>]]></submit>
+							<reset><![CDATA[<B>Reset</B>]]></reset>
+							<solution><![CDATA[<B>Solution</B>]]></solution>
+
+						</button>
+
+					<feedback leftOffset='20' topOffset='90' rightOffset='38' bottomOffset='160' enableCloseBtn="yes">
+					
+						<genericResponse>
+							
+							<tryAgain><![CDATA[Click <B>Close</B> to try again.]]></tryAgain>
+							<solution><![CDATA[Click <B>Close</B> to continue.]]></solution>
+							<correct><![CDATA[Correct. Click <B>Close</B> to continue.]]></correct>
+							<partialCorrect><![CDATA[Incorrect.]]></partialCorrect>
+							<incorrect><![CDATA[Incorrect.]]></incorrect>
+							
+						</genericResponse>
+
+						<specificResponse>
+
+							<response id='1' isCorrect='y'><![CDATA[response 1]]></response>
+							<response id='2' isCorrect='n'><![CDATA[response 2]]></response>	
+							<response id='3' isCorrect='n'><![CDATA[response 3]]></response>
+							<response id='4' isCorrect='n'><![CDATA[response 4]]></response>
+
+						</specificResponse>			
+					</feedback>
+
+					</MCQ>
+
+					</body>
+				</question>
+
+				</bank>
+
+			</pool>			
+				
+		</module>
+</assessment>

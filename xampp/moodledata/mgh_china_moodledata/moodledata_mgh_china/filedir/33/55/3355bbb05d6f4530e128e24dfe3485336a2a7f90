@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<resource icon='html' extern='true' image='true'>
+		<title><![CDATA[My Dictionary—Vocabulary]]></title>
+		<url><![CDATA[resources/m05_t01_p02.html]]></url>
+		<image><![CDATA[]]></image>
+	</resource>
+		<resource icon='html' extern='true' image='true'>
+		<title><![CDATA[My Dictionary—Grammar]]></title>
+		<url><![CDATA[resources/m05_t01_p03.html]]></url>
+		<image><![CDATA[]]></image>
+	</resource>
+		<resource icon='html' extern='true' image='true'>
+		<title><![CDATA[My Dictionary—Phrases]]></title>
+		<url><![CDATA[resources/m05_t01_p04.html]]></url>
+		<image><![CDATA[]]></image>
+	</resource>
+		<resource icon='html' extern='true' image='true'>
+		<title><![CDATA[My Dictionary—The ^Kiddush*]]></title>
+		<url><![CDATA[resources/m05_t01_p05.html]]></url>
+		<image><![CDATA[]]></image>
+	</resource>
+
+		<resource icon='html' extern='true' image='true'>
+		<title><![CDATA[About]]></title>
+		<url><![CDATA[resources/About.html]]></url>
+		<image><![CDATA[]]></image>
+	</resource>
+
+	
+	
+</resources>

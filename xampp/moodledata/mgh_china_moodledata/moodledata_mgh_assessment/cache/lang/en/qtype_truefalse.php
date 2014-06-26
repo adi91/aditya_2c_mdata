@@ -1,0 +1,17 @@
+<?php $this->cache['en']['qtype_truefalse'] = array (
+  'correctanswer' => 'Correct answer',
+  'correctanswerfalse' => 'The correct answer is \'False\'.',
+  'correctanswertrue' => 'The correct answer is \'True\'.',
+  'false' => 'False',
+  'feedbackfalse' => 'Feedback for the response \'False\'.',
+  'feedbacktrue' => 'Feedback for the response \'True\'.',
+  'pleaseselectananswer' => 'Please select an answer.',
+  'selectone' => 'Select one:',
+  'true' => 'True',
+  'pluginname' => 'True/False',
+  'pluginname_help' => 'In response to a question (that may include a image) the respondent chooses from true or false.',
+  'pluginname_link' => 'question/type/truefalse',
+  'pluginnameadding' => 'Adding a True/False question',
+  'pluginnameediting' => 'Editing a True/False question',
+  'pluginnamesummary' => 'A simple form of multiple choice question with just the two choices \'True\' and \'False\'.',
+);

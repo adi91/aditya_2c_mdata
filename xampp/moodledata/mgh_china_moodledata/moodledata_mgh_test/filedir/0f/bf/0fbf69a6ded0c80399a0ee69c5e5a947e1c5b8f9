@@ -1,0 +1,15 @@
+   H1 {
+          font-family: "Verdana";
+          font-size: 14pt;
+		  background: #CCCCCC;
+      }  
+	H2{
+          font-family: "Verdana";
+          font-size: 10pt;
+		  font-weight: normal;
+      }
+	transscriptText{
+		font-family: "Verdana";
+		font-size: 12pt;
+	
+	}

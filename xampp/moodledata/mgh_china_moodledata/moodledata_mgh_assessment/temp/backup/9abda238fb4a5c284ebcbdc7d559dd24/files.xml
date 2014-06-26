@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file id="246459">
+    <contenthash>9c3dcb1f9185a314ea25d51aed3b5881b32f420c</contenthash>
+    <contextid>3786</contextid>
+    <component>mod_quiz</component>
+    <filearea>intro</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Koala.jpg</filename>
+    <userid>2</userid>
+    <filesize>780831</filesize>
+    <mimetype>image/jpeg</mimetype>
+    <status>0</status>
+    <timecreated>1365160711</timecreated>
+    <timemodified>1365160711</timemodified>
+    <source>$@NULL@$</source>
+    <author>Admin User</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+  </file>
+  <file id="246460">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>3786</contextid>
+    <component>mod_quiz</component>
+    <filearea>intro</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>2</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1365160711</timecreated>
+    <timemodified>1365160711</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+  </file>
+  <file id="246463">
+    <contenthash>1b4605b0e20ceccf91aa278d10e81fad64e24e27</contenthash>
+    <contextid>3781</contextid>
+    <component>course</component>
+    <filearea>summary</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Lighthouse.jpg</filename>
+    <userid>2</userid>
+    <filesize>561276</filesize>
+    <mimetype>image/jpeg</mimetype>
+    <status>0</status>
+    <timecreated>1365161086</timecreated>
+    <timemodified>1365161086</timemodified>
+    <source>$@NULL@$</source>
+    <author>Admin User</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+  </file>
+  <file id="246464">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>3781</contextid>
+    <component>course</component>
+    <filearea>summary</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>2</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1365161139</timecreated>
+    <timemodified>1365161139</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+  </file>
+</files>

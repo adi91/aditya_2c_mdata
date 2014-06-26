@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+	
+		<title>Delta</title>
+		<link REL="STYLESHEET" TYPE="text/css" HREF="skins/style/ACS/transcript.css">
+		<script type="text/javascript" src="js/swfObject.js"></script>
+		<!----><script type="text/javascript" src="js/scorm1_2_api.js"></script>
+	
+		<script type="text/javascript">
+				 
+
+		function fnPrint()
+		{
+			printBtn.style.visibility="hidden";
+			window.print();	
+			printBtn.style.visibility="visible";
+		}
+		 var transcriptText=window.top.opener.parent.transcriptString;
+		 var CourseNameText=window.top.opener.parent.CourseNameString;
+			document.write('<div  id="printBtn" align="right"><input type="button" value="Print" onclick="fnPrint()" /></div>');
+			document.write("<h1>" + CourseNameText + "</h1>")
+			document.writeln('<br>');
+			document.write("<h2>"+transcriptText+"</h2>")
+</script>
+</head>
+</html>

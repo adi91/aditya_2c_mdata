@@ -1,0 +1,57 @@
+<data>
+<meta>
+</meta>
+<body>
+
+	<clickdrop color="0xFFFBC">
+		<hclick> 
+			<click><![CDATA[<h1></h1>]]></click>
+			<click><![CDATA[<h1></h1>]]></click>
+			<click><![CDATA[<h1></h1>]]></click>	
+			<click><![CDATA[<h1></h1>]]></click>
+			<click><![CDATA[<h1></h1>]]></click>
+			<click><![CDATA[<h1></h1>]]></click>
+			<click><![CDATA[<h1></h1>]]></click>
+			<click><![CDATA[<h1></h1>]]></click>
+			<click><![CDATA[<h1></h1>]]></click>
+			<click><![CDATA[<h1></h1>]]></click>
+			<click><![CDATA[<h1></h1>]]></click>
+			<click><![CDATA[<h1></h1>]]></click>
+			<click><![CDATA[<h1></h1>]]></click>
+
+		</hclick>
+		<htargets>
+			<target ans="13"><![CDATA[]]></target>
+		</htargets>
+		<eclick> 
+			<click><![CDATA[<h1></h1>]]></click>
+			<click><![CDATA[<h1></h1>]]></click>
+			<click><![CDATA[<h1></h1>]]></click>
+			<click><![CDATA[<h1></h1>]]></click>
+			<click><![CDATA[<h1></h1>]]></click>
+			<click><![CDATA[<h1></h1>]]></click>
+			<click><![CDATA[<h1></h1>]]></click>
+			<click><![CDATA[<h1></h1>]]></click>
+			<click><![CDATA[<h1></h1>]]></click>		
+		</eclick>
+		<etargets>
+			<target ans="9"><![CDATA[]]></target>
+		</etargets>
+			<feedback enableCloseBtn="yes">
+			<first_attempt>
+				<wrong><![CDATA[<p>Oops! Not quite right. Click <B>Close (x)</B> and try again.</p>]]></wrong>
+				<right><![CDATA[<p>That's right!<br>Click <B>Close (x)</B> and move to the next page.</p>]]></right>
+				<!--partial><![CDATA[<p>You are partially correct! Click <B>Close (x)</B> to view the correct answer.</p>]]></partial-->
+			</first_attempt>
+			<second_attempt>
+				<wrong><![CDATA[<p>Nice try, but still not correct. Click <B>Close (x)</B> to see the correct answers.</p>]]></wrong>
+				<right><![CDATA[<p>That's right!<br>Click <B>Close (x)</B> and move to the next page.</p>]]></right>
+				<!--partial><![CDATA[<p>You are partially correct! Click <B>Close (x)</B> to view the correct answer.</p>]]></partial-->
+			</second_attempt>
+		</feedback>
+		<total_attempts>2</total_attempts>
+	</clickdrop>
+</body>
+		<transcripts>
+		</transcripts>
+</data>  

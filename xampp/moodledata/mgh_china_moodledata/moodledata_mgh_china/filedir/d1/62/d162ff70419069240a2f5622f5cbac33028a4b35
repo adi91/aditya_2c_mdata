@@ -1,0 +1,53 @@
+<data>
+<meta>
+</meta>
+<body>
+
+	<dragdrop>
+		<drags spacing="30"> 
+			<drag ans="1"><![CDATA[<h1></h1>]]></drag>
+			<drag ans="2"><![CDATA[<h1></h1>]]></drag>
+			<drag ans="3"><![CDATA[<h1></h1>]]></drag>			
+			<drag ans="4"><![CDATA[<h1></h1>]]></drag>		
+			<drag ans="5"><![CDATA[<h1></h1>]]></drag>		
+			<drag ans="6"><![CDATA[<h1></h1>]]></drag>
+			<drag ans="7"><![CDATA[<h1></h1>]]></drag>
+			<drag ans="8"><![CDATA[<h1></h1>]]></drag>
+			<drag ans="9"><![CDATA[<h1></h1>]]></drag>
+			<drag ans="10"><![CDATA[<h1></h1>]]></drag>
+			<drag ans="11"><![CDATA[<h1></h1>]]></drag>
+			
+			
+		</drags>
+		<targets spacing="30">
+			<target><![CDATA[]]></target>
+			<target><![CDATA[]]></target>
+			<target><![CDATA[]]></target>
+			<target><![CDATA[]]></target>
+			<target><![CDATA[]]></target>
+			<target><![CDATA[]]></target>
+			<target><![CDATA[]]></target>
+			<target><![CDATA[]]></target>
+			<target><![CDATA[]]></target>
+			<target><![CDATA[]]></target>
+			<target><![CDATA[]]></target>
+			
+		</targets>
+		<feedback enableCloseBtn="yes">
+			<first_attempt>
+				<wrong><![CDATA[<p>Oops! Not quite right. Click <B>Close (x)</B> and try again.</p>]]></wrong>
+				<right><![CDATA[<p>That's right!<br>Click <B>Close (x)</B> and move to the next page.</p>]]></right>
+				<partial><![CDATA[<p>Oops! Not quite right. Click <B>Close (x)</B> and try again.</p>]]></partial>
+			</first_attempt>
+			<second_attempt>
+				<wrong><![CDATA[<p>Nice try, but still not correct. Click <B>Close (x)</B> to see the correct answers.</p>]]></wrong>
+				<right><![CDATA[<p>That's right!<br>Click <B>Close (x)</B> and move to the next page.</p>]]></right>
+				<partial><![CDATA[<p>Nice try, but still not correct. Click <B>Close (x)</B> to see the correct answers.</p>]]></partial>
+			</second_attempt>
+		</feedback>
+		<total_attempts>2</total_attempts>
+	</dragdrop>
+</body>
+		<transcripts>
+		</transcripts>
+</data>  

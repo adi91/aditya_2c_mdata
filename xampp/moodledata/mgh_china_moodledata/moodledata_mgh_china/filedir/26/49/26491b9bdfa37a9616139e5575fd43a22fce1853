@@ -1,0 +1,1340 @@
+function ParseElementName( element )
+   {
+   var aElement = new Array()
+   var pos = element.indexOf( '.' )
+   var i = 0
+
+   element = element.toLowerCase()
+
+   while (pos != -1)
+      {
+      aElement[i] = new String( element.substring( 0, pos ) )
+      element = element.substring( pos+1, element.length )
+      pos = element.indexOf( '.' )
+      i++
+      }
+
+   if (element.length > 0)
+      {
+      aElement[i] = element
+      }
+
+   return aElement
+   }
+
+function FindError( code )
+   {
+   if (isNaN(code))
+      code = parseInt( code )
+
+   for (var i=0; i < SCORMErrors.length; i++)
+      {
+      if (SCORMErrors[i].code == code)
+         {
+         return SCORMErrors[i]
+         }
+      }
+
+   return null
+   }
+
+function SetError( code, api, element )
+   {
+   API.error = FindError( code )
+   return
+   }
+
+   function SCORM_ERROR( code, msg, vmsg )
+   {
+   this.code   = code
+   this.msg    = msg
+   this.vmsg   = vmsg
+
+   return this
+   }
+
+var SCORMErrors = new Array()
+var ecNoError           = 0
+var ecGeneralException  = 101
+var ecInvalidArgument   = 201
+var ecNoChildren        = 202
+var ecNoCount           = 203
+var ecNoValue           = 204
+var ecNotInitialized    = 301
+var ecNotImplemented    = 401
+var ecInvalidSetValue   = 402
+var ecElementIsReadOnly = 403
+var ecElementIsWriteOnly= 404
+var ecIncorrectDataType = 405
+
+SCORMErrors[0] = new SCORM_ERROR( ecNoError,          "No error", "" )
+SCORMErrors[1] = new SCORM_ERROR( ecGeneralException, "General exception", "" )
+SCORMErrors[2] = new SCORM_ERROR( ecInvalidArgument,  "Invalid argument error", "" )
+SCORMErrors[3] = new SCORM_ERROR( ecNoChildren,       "Element cannot have children", "" )
+SCORMErrors[4] = new SCORM_ERROR( ecNoCount,          "Element not an array - cannot have count", "" )
+SCORMErrors[5] = new SCORM_ERROR( ecNoValue,          "Element cannot have a value", "Element value is read-only." )
+SCORMErrors[6] = new SCORM_ERROR( ecNotInitialized,   "Not initialized", "" )
+SCORMErrors[7] = new SCORM_ERROR( ecNotImplemented,   "Not implemented error", "" )
+SCORMErrors[8] = new SCORM_ERROR( ecInvalidSetValue,  "Invalid set value, element is a keyword", "" )
+SCORMErrors[9] = new SCORM_ERROR( ecElementIsReadOnly, "Element is read only", "" )
+SCORMErrors[10] = new SCORM_ERROR( ecElementIsWriteOnly,"Element is write only", "" )
+SCORMErrors[11] = new SCORM_ERROR( ecIncorrectDataType,  "Incorrect Data Type", "" )
+//
+// SCORM API - Begin
+//
+function LMSInitialize( param )
+   {
+   if (API.initialized)
+		{
+		SetError( ecGeneralException );
+		return "false";
+		}
+
+	if (param)
+		{
+		if (param.length > 0)
+			{
+			SetError( ecInvalidArgument );
+			return "false";
+			}
+		}
+
+   SetError( ecNoError );;
+   API.lastAPI     = "LMSInitialize()"
+   API.lastElement = "";
+   API.initialized = true;
+  //alert('API initialize called');
+   return "true";
+   }
+
+function LMSFinish( param )
+   {
+   SetError( ecNoError );
+   API.lastAPI     = "LMSFinish()";
+   API.lastElement = "";
+
+   if (!API.initialized)
+      {
+      SetError( ecNotInitialized );
+      return "false";
+      }
+
+   API.finished = true
+   setTimeout("courseWindow.close()",1000);
+   return "true";
+   }
+
+
+//
+//  LMSGetValue support functions
+//
+function GetCoreValue( aElement )
+   {
+   if (aElement[2] == "_children")
+      {
+      return "student_id,student_name,lesson_location,credit,lesson_status,score,entry,exit,total_time,session_time"
+      }
+   else if (aElement[2] == "student_id")
+      {
+      return cmi.student_id.value;
+      }
+   else if (aElement[2] == "student_name")
+      {
+      return cmi.student_name.value;
+      }
+   else if (aElement[2] == "lesson_location")
+      {
+      return cmi.lesson_location.value;
+      }
+   else if (aElement[2] == "credit")
+      {
+      return "credit";
+      }
+   else if (aElement[2] == "lesson_status")
+      {
+      return cmi.lesson_status.value;
+      }
+   else if (aElement[2] == "entry")
+      {
+      return "";
+      }
+   else if (aElement[2] == "exit")
+      {
+		SetError( ecElementIsWriteOnly );
+		return "";
+      }
+   else if (aElement[2] == "score")
+      {
+      if (aElement[3] == "_children")
+         {
+         return "raw,max,min";
+         }
+      else if (aElement[3] == "raw")
+         {
+         return cmi.score_raw.value;
+         }
+      else if (aElement[3] == "max")
+         {
+         return "100";
+         }
+      else if (aElement[3] == "min")
+         {
+		return "0";
+         }
+      }
+   else if (aElement[2] == "total_time")
+      {
+      return "00:00:00.0";
+      }
+   else if (aElement[2] == "lesson_mode")
+      {
+      return "normal";
+      }
+
+   SetError( ecInvalidArgument );
+   return "";
+   }
+
+function GetEvaluationValue( aElement )
+   {
+   if (aElement[2] == "_children")
+      {
+      return "course_id,comments,interactions,objectives_status,path,performance,lesson_id,date";
+      }
+   else if (aElement[2] == "course_id")
+      {
+      return "abc123";
+      }
+   else if (aElement[2] == "comments")
+      {
+      return "true";
+      }
+   else if (aElement[2] == "objectives_status")
+      {
+      return "";
+      }
+   else if (aElement[2] == "path")
+      {
+      return "";
+      }
+   else if (aElement[2] == "performance")
+      {                          
+      return "";
+      }
+   else if (aElement[2] == "lesson_id")
+      {
+      return "abc123_01";
+      }
+   else if (aElement[2] == "date")
+      {
+      return "";
+      }
+
+   SetError( ecInvalidArgument );
+   return "";
+   }
+
+function GetAttemptRecordsValue( aElement )
+   {
+	  return ""
+   }
+
+function GetProperties()
+	{
+	var coursefs = GetCourseFS();
+	
+	if (coursefs.curTopicIndex == -1)
+		return coursefs.currContent.properties;
+		
+	return coursefs.currContent.topics[coursefs.curTopicIndex].properties;
+	}
+	
+function GetStudentDataValue( aElement )
+   {
+   if (aElement[2] == "_children")
+      {
+      return "attempt_number,mastery_score,max_time_allowed,time_limit_action"
+      }
+   else if (aElement[2] == "attempt_number")
+      {
+      return "";
+      }
+   else if (aElement[2] == "mastery_score")
+      {
+		return cmi.mastery_score.value
+      }
+   else if (aElement[2] == "max_time_allowed")
+      {
+      var properties = GetProperties();
+      
+      return FormatTime( properties.maxTime );
+      }
+   else if (aElement[2] == "time_limit_action")
+      {
+      return "";
+      }
+   else if (aElement[2] == "attempt_records")
+      {
+      return GetAttemptRecordsValue( aElement )
+      }
+
+   SetError( ecInvalidArgument );
+   return "";
+   }
+
+function GetStudentPreferenceValue( aElement )
+   {
+   return "";
+   }
+
+function GetCommentsValue()
+   {
+   return "";
+   }
+
+function GetCommentsFromLMSValue()
+   {
+   return "";
+   }
+
+function GetStudentDemographicsValue( aElement )
+   {
+   if (aElement[2] == "_children")
+      {
+      return "";
+      }
+   else if (aElement[2] == "city"               ||
+            aElement[2] == "class"              ||
+            aElement[2] == "company"            ||
+            aElement[2] == "country"            ||
+            aElement[2] == "experience"         ||
+            aElement[2] == "familiar_name"      ||
+            aElement[2] == "instructor_name"    ||
+            aElement[2] == "title"              ||
+            aElement[2] == "native_language"    ||
+            aElement[2] == "state"              ||
+            aElement[2] == "street_address"     ||
+            aElement[2] == "telephone"          ||
+            aElement[2] == "years_experience" )
+      {
+      SetError( ecNotImplemented )
+      return "";
+      }
+
+   SetError( ecInvalidArgument )
+   return "";
+   }
+
+function GetObjectivesValue( aElement )
+   {
+   if (aElement[2] == "_children")
+      {
+      return "id,score,status";
+      }
+   else if (aElement[2] == "_count")
+      {
+      return _aObjectives.length;
+      } 
+   else
+		{
+		var index = parseInt( aElement[2] );
+   
+		if (isNaN( index ))
+			{
+			SetError( ecInvalidArgument );
+			return "";	// all of these returns - interactions and objectives??
+			}
+		
+		if (index >= _aObjectives.length)
+			{
+			SetError( ecInvalidArgument );
+			return "";
+			}
+
+		// make sub-functions
+		if (aElement[3] == "id")
+			{
+			if (_aObjectives[index].id == null)
+				return "";
+			else
+				return _aObjectives[index].id;
+			}
+		else if (aElement[3] == "score")
+			{
+			// _children, _count, raw, min, max
+			if (aElement[4] == "_children")
+				return "raw,min,max";
+			else if (aElement[4] == "raw")
+				{
+				if (_aObjectives[index].score.raw != null)	// and !isNaN
+					return _aObjectives[index].score.raw.toString();
+				else
+					return "";
+				}
+			else if (aElement[4] == "min")
+				{
+				if (_aObjectives[index].score.min != null)	// and !isNaN
+					return _aObjectives[index].score.min.toString();
+				else
+					return "";
+				}
+			else if (aElement[4] == "max")
+				{
+				if (_aObjectives[index].score.max != null)	// and !isNaN
+					return _aObjectives[index].score.max.toString();
+				else
+					return "";
+				}
+			}
+		else if (aElement[3] == "status")
+			{
+			if (_aObjectives[index].status == null)
+				return "";
+			else
+				return _aObjectives[index].status;
+			}
+		}
+		
+   SetError( ecInvalidArgument );
+   return "";
+   }
+
+function GetInteractionsValue( aElement )
+   {
+   if (aElement[2] == "_children")
+      {
+      return "id,objectives,time,type,correct_responses,weighting,student_response,result,latency";
+      }
+   else if (aElement[2] == "_count")
+      {
+      return _aInteractions.length;
+      } 
+   else
+		{
+	   var index = parseInt( aElement[2] );
+   
+		if (isNaN( index ))
+			{
+			SetError( ecInvalidArgument )
+			return "";	// all of these returns - interactions and objectives??
+			}
+			
+		if (index >= _aInteractions.length)
+			{
+			if (aElement[3] == "objectives" && aElement[4] == "_count")
+				{
+				return "0";
+				}
+			if (aElement[3] == "correct_responses" && aElement[4] == "_count")
+				{
+				return "0";
+				}
+
+			SetError( ecInvalidArgument )
+			return "";
+			}
+
+		// make sub-functions
+		if (aElement[3] == "id")
+			{
+			//return _aInteractions[index].id; - - spec doesn't allow getting this value
+			SetError( ecElementIsWriteOnly );
+			return "";
+			}
+		else if (aElement[3] == "objectives")
+			{
+			if (aElement[4] == "_count")
+				{
+				return _aInteractions[index].objectives.length;
+				}
+			else
+				{
+				// the objective[index].id is write only - can't get
+				var sindexObj = aElement[4];
+				var indexObj = parseInt( sindexObj );
+   
+				if (isNaN( indexObj ))
+					{
+					SetError( ecInvalidArgument );
+					return "";	// return true if i set the error - so higher function doesn't set?
+					}
+		
+				if (indexObj > _aInteractions[index].objectives.length)
+					{
+					SetError( ecInvalidArgument );
+					return "";
+					}
+		
+				if (aElement[5] == "id")
+					{
+					SetError( ecElementIsWriteOnly );
+					return "";
+					}
+				}
+			}
+		else if (aElement[3] == "time")
+			{
+			//return _aInteractions[index].time; - - spec doesn't allow getting this value
+			SetError( ecElementIsWriteOnly );
+			return "";
+			}
+		else if (aElement[3] == "type")
+			{
+			//return _aInteractions[index].type; - - spec doesn't allow getting this value
+			SetError( ecElementIsWriteOnly );
+			return "";
+			}
+		else if (aElement[3] == "correct_responses")
+			{
+			if (aElement[4] == "_count")
+				{
+				return _aInteractions[index].correct_responses.length;
+				}
+			else
+				{
+				var sindexCR = aElement[4];
+				var indexCR = parseInt( sindexCR );
+   
+				if (isNaN( indexCR ))
+					{
+					SetError( ecInvalidArgument );
+					return "";	// return true if i set the error - so higher function doesn't set?
+					}
+		
+				if (indexCR > _aInteractions[index].correct_responses.length)
+					{
+					SetError( ecInvalidArgument );
+					return "";
+					}
+		
+				if (aElement[5] == "pattern")
+					{
+					SetError( ecElementIsWriteOnly );
+					return "";
+					}		
+				}		
+			}
+		else if (aElement[3] == "weighting")
+			{
+			//return _aInteractions[index].weighting; - - spec doesn't allow getting this value
+			SetError( ecElementIsWriteOnly );
+			return "";
+			}
+		else if (aElement[3] == "student_response")
+			{
+			//return _aInteractions[index].student_response; - - spec doesn't allow getting this value
+			SetError( ecElementIsWriteOnly );
+			return "";
+			}
+		else if (aElement[3] == "result")
+			{
+			//return _aInteractions[index].result; - - spec doesn't allow getting this value
+			SetError( ecElementIsWriteOnly );
+			return "";
+			}
+		else if (aElement[3] == "latency")
+			{
+			//return _aInteractions[index].latency; - - spec doesn't allow getting this value
+			SetError( ecElementIsWriteOnly );
+			return "";
+			}
+		}
+				
+   SetError( ecInvalidArgument );
+   return "";
+   }
+
+
+function LMSGetValue( element )
+   {
+   SetError( ecNoError )
+   API.lastAPI     = "LMSGetValue()"
+   API.lastElement = element
+
+   if (!API.initialized)
+      {
+      SetError( ecNotInitialized )
+      return "";
+      }
+
+   var aElement = ParseElementName( element )
+
+   if (aElement[0] != 'cmi')
+      {
+      SetError( ecNotImplemented )
+      return "";
+      }
+
+   if (aElement[1] == '_version')
+      {
+      return "1.2"
+      }
+   else if (aElement[1] == '_children')
+      {
+      return "core,suspend_data,launch_data,student_data,student_preferences,comments"
+      }
+   else if (aElement[1] == 'core')
+      {
+      return GetCoreValue( aElement )
+      }
+   else if (aElement[1] == 'suspend_data')
+      {
+      return cmi.suspend_data.value;
+      }
+   else if (aElement[1] == 'launch_data')
+      {
+      return cmi.launch_data.value;
+      }
+   else if (aElement[1] == 'evaluation')
+      {
+      return GetEvaluationValue( aElement )
+      }
+   else if (aElement[1] == 'objectives')
+      {
+      return GetObjectivesValue( aElement );
+      }
+   else if (aElement[1] == 'student_data')
+      {
+      return GetStudentDataValue( aElement )
+      }
+   else if (aElement[1] == 'student_preference')
+      {
+      return GetStudentPreferenceValue( aElement )
+      }
+   else if (aElement[1] == 'comments')
+      {
+      return GetCommentsValue();
+      }
+   else if (aElement[1] == 'comments_from_lms')
+      {
+      return GetCommentsFromLMSValue();
+      }
+   else if (aElement[1] == 'student_demographics')
+      {
+      return GetStudentDemographicsValue( aElement )
+      }
+   else if (aElement[1] == 'interactions')
+      {
+      return GetInteractionsValue( aElement );
+      }
+
+   SetError( ecNotImplemented )
+   return ""
+   }
+
+function SetTime( value )
+   {
+	   cmi.session_time.value = value;
+   return true;
+   }
+
+function GetFloatScore( valueStr )
+	{
+   var valueFloat = parseFloat( valueStr );
+        
+   if (isNaN( valueFloat ))
+		{
+		SetError( ecIncorrectDataType );
+		return -1;
+		}
+
+	if (valueFloat < 0 || valueFloat > 100)		// and in min<->max range?!
+		{
+		SetError( ecIncorrectDataType );
+		return -1;
+		}
+		
+	return valueFloat;
+	}
+	
+function SetCoreValue( aElement, value )
+   {
+	var fRet = false
+
+   if (aElement[2] == "lesson_location")
+      {
+      if (value.length > 255)
+			{
+			SetError( ecIncorrectDataType );
+			fRet = false;
+			}
+		else
+			{
+			cmi.lesson_location.value = value;
+			fRet = true;
+			}
+      }
+   else if (aElement[2] == "lesson_status")
+      {
+      if (value == "passed" ||
+          value == "failed" ||
+          value == "browsed" ||
+          value == "completed" ||
+          value == "incomplete" ||
+          //value == "not attempted" ||
+          value == "suspend")
+         {
+	         cmi.lesson_status.value = value;
+         fRet = true;
+         }
+      else
+			{
+			SetError( ecIncorrectDataType );
+			fRet = false;
+			}
+      }
+   else if (aElement[2] == "exit")
+      {
+      if (value == "" ||
+          value == "time-out" ||
+          value == "suspend" ||
+          value == "logout")
+         {
+         fRet = true;
+         }
+      else
+			{
+			SetError( ecIncorrectDataType );
+			fRet = false;
+			}
+      }
+   else if (aElement[2] == "score")
+      {
+      if (aElement[3] == "raw")
+         {
+         var valueFloat = GetFloatScore( value );
+         
+			if (valueFloat > -1)
+				{
+		      var valueInt = Math.round( valueFloat );
+		      cmi.score_raw.value = valueInt;
+				fRet = true;
+
+				if (fRet)
+					{
+					fRet = true;
+					}
+				}
+			else
+				{
+				fRet = false;
+				}
+         }
+      else if (aElement[3] == "max")
+         {
+         var valueFloat = GetFloatScore( value );
+         
+         if (valueFloat > -1)
+				fRet = true;
+			else
+				fRet = false;
+         }
+      else if (aElement[3] == "min")
+         {
+         var valueFloat = GetFloatScore( value );
+         
+         if (valueFloat > -1)
+				fRet = true;
+			else
+				fRet = false;
+         }
+		else
+			{                    
+			SetError( ecInvalidArgument )
+			fRet = false;
+			}
+      }
+   else if (aElement[2] == "session_time")
+      {
+      fRet = SetTime( value );
+      }
+	else
+		{
+		if (aElement[2] == "student_id"		|| 
+			 aElement[2] == "student_name"	||
+			 aElement[2] == "_children"		|| 
+			 aElement[2] == "credit"			|| 
+			 aElement[2] == "entry"				||                  
+			 aElement[2] == "credit"			||                  
+			 aElement[2] == "total_time")                  
+			{
+			SetError( ecElementIsReadOnly );
+			fRet = false;
+			}
+		else
+			{
+			SetError( ecInvalidArgument );
+			fRet = false;
+			}
+		}
+
+	return fRet;
+   }
+
+function SetStudentPreferenceValue( aElement, value )
+   {
+   if (aElement[2] == "audio")
+      {
+      var audioInt = parseInt( value );
+      if (!isNaN( audioInt ))
+			{
+			if (audioInt >= -1 && audioInt <= 100)
+				{
+		      return true;
+		      }
+			}
+      }
+   else if (aElement[2] == "language")
+      {
+		if (value.length <= 255)
+			{
+			return true;
+			}
+      }
+   else if (aElement[2] == "lesson_type")
+      {
+      return parent.psSetVariable( "cmi.student_preference.lesson_type", value )
+      }
+   else if (aElement[2] == "speed")
+      {
+      var speedInt = parseInt( value );
+      if (!isNaN( speedInt ))
+			{
+			if (speedInt >= -100 && speedInt <= 100)
+				{
+				 return parent.psSetVariable( "cmi.student_preference.speed", value );
+		      }
+			}
+      }
+   else if (aElement[2] == "text")
+      {
+      var textInt = parseInt( value );
+      if (!isNaN( textInt ))
+			{
+			if (textInt >= -1 && textInt <= 1)
+				{
+		      return parent.psSetVariable( "cmi.student_preference.text", value );
+		      }
+			}
+		}
+   else if (aElement[2] == "text_color")
+      {
+      return parent.psSetVariable( "cmi.student_preference.text_color", value )
+      }
+   else if (aElement[2] == "text_location")
+      {
+      return parent.psSetVariable( "cmi.student_preference.text_location", value )
+      }
+   else if (aElement[2] == "text_size")
+      {
+      return parent.psSetVariable( "cmi.student_preference.text_size", value )
+      }
+   else if (aElement[2] == "video")
+      {
+      return parent.psSetVariable( "cmi.student_preference.video", value )
+      }
+   else if (aElement[2] == "windows")
+      {
+      var index = parseInt( aElement[3] )
+
+      if (!isNaN(index))
+         {
+         return SetArrayValue( "cmi.student_preference.windows", index, value )
+         }
+      }
+
+   SetError( ecInvalidArgument );
+   return false;
+   }
+
+function SetCommentsValue( value )
+   {
+   if (value.length > 4096)
+		{
+		SetError( ecIncorrectDataType );
+		return false;
+		}
+		
+   var comments = GetCommentsValue();
+   
+   comments += value;
+   
+   return parent.psSetVariable( "cmi.comments", comments );
+   }
+
+function SetEvaluationValue( aElement, value )
+   {
+   if (aElement[2] == "lesson_id")
+      {
+      return parent.psSetVariable( "cmi.evaluation.lesson_id", value )
+      }
+   else if (aElement[2] == "date")
+      {
+      return parent.psSetVariable( "cmi.evaluation.date", value )
+      }
+
+   SetError( ecInvalidArgument );
+   return false;
+   }
+
+
+function SetObjectivesValue( aElement, value )
+   {
+   var sindex = aElement[2];
+   var index = parseInt( sindex );
+   var fNewObjective = false;
+   
+   if (isNaN( index ))
+		{
+	   SetError( ecInvalidArgument );
+		return false;
+		}
+		
+	if (index > _aObjectives.length)
+		{
+	   SetError( ecInvalidArgument );
+		return false;
+		}
+		
+	if (index == _aObjectives.length)
+		{
+		fNewObjective = true;
+		_aObjectives[index] = new objective();
+		}
+
+	if (aElement[3] == "id")	// use eval - just check for any of the valid props - then do eval
+		{
+		if (value.length == 0 || value.length > 255)
+			{
+			SetError( ecIncorrectDataType );
+		   if (fNewObjective)
+				{
+				_aObjectives[index] = null;
+				// set length too!
+				}
+			return false;	
+			}
+			
+		_aObjectives[index].id = value;
+		return true;
+		}
+	else if (aElement[3] == "score")
+		{
+		// create sub-function to handle these - also - 
+		// check for valid aElement[4] before trying to convert value - ecInvalidSetValue before ecIncorrectDataType
+		if (aElement[4] == "_children")
+			{
+			SetError( ecInvalidSetValue )
+		   if (fNewObjective)
+				{
+				_aObjectives[index] = null;
+				// set length too!?
+				}
+			return false;
+			}
+
+		var score = GetFloatScore( value );
+
+		if (score == -1)	
+			{
+			SetError( ecIncorrectDataType );
+		   if (fNewObjective)
+				{
+				_aObjectives[index] = null;
+				// set length too!?
+				}
+			return false;	
+			}
+			
+		if (aElement[4] == "raw")
+			{
+			_aObjectives[index].score.raw = score;
+			}
+		else if (aElement[4] == "min")
+			{
+			_aObjectives[index].score.min = score;
+			}
+		else if (aElement[4] == "max")
+			{
+			_aObjectives[index].score.max = score;
+			}
+			
+		return true;
+		}
+	else if (aElement[3] == "status")
+		{
+      if (value == "passed" ||
+          value == "failed" ||
+          value == "browsed" ||
+          value == "completed" ||
+          value == "incomplete" ||
+          value == "not attempted" ||
+          value == "suspend")
+         {
+			_aObjectives[index].status = value;
+			return true;
+         }
+      else
+			{
+			SetError( ecIncorrectDataType );
+			if (fNewObjective)
+				{
+				_aObjectives[index] = null;
+				}
+			return false;
+			}
+		}
+
+   SetError( ecInvalidArgument );
+   if (fNewObjective)
+		{
+		_aObjectives[index] = null;
+		}
+
+   return false;
+   }
+
+function SetInteractionsValue( aElement, value )
+   {
+   var sindex = aElement[2];
+   var index = parseInt( sindex );
+   
+   if (isNaN( index ))
+		{
+		SetError( ecInvalidArgument );
+		return false;	// return true if i set the error - so higher function doesn't set?
+		}
+		
+	if (index > _aInteractions.length)
+		{
+		SetError( ecInvalidArgument );
+		return false;
+		}
+		
+	if (index == _aInteractions.length)
+		{
+		_aInteractions[index] = new interaction();
+		}
+
+	if (aElement[3] == "id")	// use eval - just check for any of the valid props - then do eval
+		{
+      if (value.length == 0 || value.length > 255)
+			{
+			SetError( ecIncorrectDataType );
+			return false;
+			}
+			
+		_aInteractions[index].id = value;
+		return true;
+		}
+	else if (aElement[3] == "objectives")
+		{
+		var sindexObj = aElement[4];
+	   var indexObj = parseInt( sindexObj );
+   
+		if (isNaN( indexObj ))
+			{
+			SetError( ecInvalidArgument );
+			return false;	// return true if i set the error - so higher function doesn't set?
+			}
+		
+		if (indexObj > _aInteractions[index].objectives.length)
+			{
+			SetError( ecInvalidArgument );
+			return false;
+			}
+		
+		if (aElement[5] != "id")
+			{
+			SetError( ecInvalidArgument );
+			return false;
+			}
+
+      if (value.length == 0 || value.length > 255)
+			{
+			SetError( ecIncorrectDataType );
+			return false;
+			}
+		
+		if (indexObj == _aInteractions[index].objectives.length)
+			{
+			_aInteractions[index].objectives[indexObj] = new interactiontoobjective();
+			}
+			
+		_aInteractions[index].objectives[indexObj].id = value;
+		return true;
+		}
+	else if (aElement[3] == "time")
+		{
+		if (ValidTime( value ))
+			{
+			_aInteractions[index].time = value;
+			return true;
+			}
+			
+		SetError( ecIncorrectDataType );	
+		return false;			
+		}
+	else if (aElement[3] == "type")
+		{
+		if (value == "true-false"	||
+			 value == "choice"		||
+			 value == "fill-in"		||
+			 value == "matching"		||
+			 value == "performance"	||
+			 value == "sequencing"	||
+			 value == "likert"		||
+			 value == "numeric")
+			{
+			_aInteractions[index].type = value;
+			return true;
+			}
+			
+		SetError( ecIncorrectDataType );
+		return false;
+		}
+	else if (aElement[3] == "correct_responses")
+		{
+		var sindexCR = aElement[4];
+	   var indexCR = parseInt( sindexCR );
+   
+		if (isNaN( indexCR ))
+			{
+			SetError( ecInvalidArgument );
+			return false;	// return true if i set the error - so higher function doesn't set?
+			}
+		
+		if (indexCR > _aInteractions[index].correct_responses.length)
+			{
+			SetError( ecInvalidArgument );
+			return false;
+			}
+		
+		if (aElement[5] != "pattern")
+			{
+			SetError( ecInvalidArgument );
+			return false;
+			}
+		
+		if (indexCR == _aInteractions[index].correct_responses.length)
+			{
+			_aInteractions[index].correct_responses[indexCR] = new correct_response();
+			}
+			
+		_aInteractions[index].correct_responses[indexCR].pattern = value;
+		return true;
+		}
+	else if (aElement[3] == "weighting")
+		{
+		if (isNaN( parseFloat( value ) ))
+			{
+			SetError( ecIncorrectDataType );
+			return false;
+			}
+			
+		_aInteractions[index].weighting = value;
+		return true;
+		}
+	else if (aElement[3] == "student_response")
+		{
+		_aInteractions[index].student_response = value;
+		return true;
+		}
+	else if (aElement[3] == "result")
+		{
+		if (value == "correct"			||
+			 value == "wrong"				||
+			 value == "unanticipated"	||
+			 value == "neutral"			||
+			 (!isNaN( parseFloat( value ) )))
+			{
+			_aInteractions[index].result = value;
+			return true;
+			}
+			
+		SetError( ecIncorrectDataType );
+		return false;
+		}
+	else if (aElement[3] == "latency")
+		{
+		var secs = TimeToSecs( value );
+
+		if (secs == -1)
+			{
+			SetError( ecIncorrectDataType );
+			return false;
+			}
+			
+		_aInteractions[index].latency = value;
+		return true;
+		}
+		
+   SetError( ecInvalidArgument );
+   return false;
+   }
+
+function LMSSetValue( element, value )
+   {
+   //alert( element + ": " value );
+   SetError( ecNoError )
+   API.lastAPI     = "LMSSetValue()"
+   API.lastElement = element
+   
+   if (!API.initialized)
+      {
+      SetError( ecNotInitialized )
+      return "false"
+      }
+   
+	var fAPIRet  = false;
+   var aElement = ParseElementName( element )
+
+   if (aElement[0] != 'cmi')
+      {
+      SetError( ecNotImplemented )
+      return "false"
+      }
+
+   if (aElement[1] == 'core')
+      {
+		fAPIRet = SetCoreValue( aElement, value );
+      }
+   else if (aElement[1] == 'suspend_data')
+      {
+      if (value.length > 4096)
+			{
+			SetError( ecIncorrectDataType );
+			fAPIRet = false;
+			}
+		else
+			{
+			cmi.suspend_data.value = value;
+			fAPIRet = true;
+			}
+      }
+   else if (aElement[1] == 'student_preference')
+      {
+      fAPIRet = SetStudentPreferenceValue( aElement, value )
+      }
+   else if (aElement[1] == 'comments')
+      {
+      fAPIRet = SetCommentsValue( value )
+      }
+   else if (aElement[1] == 'evaluation')
+      {
+      fAPIRet = SetEvaluationValue( aElement, value )
+      }
+   else if (aElement[1] == 'objectives')
+      {
+      fAPIRet = SetObjectivesValue( aElement, value );
+      }
+   else if (aElement[1] == 'interactions')
+      {
+      fAPIRet = SetInteractionsValue( aElement, value );
+      }
+	else
+		{
+		if (aElement[1] == "lesson_mode"	|| aElement[1] == "launch_data" || aElement[1] == "comments_from_lms")
+			{
+			SetError( ecElementIsReadOnly );
+			}
+		else
+			{
+			SetError( ecNotImplemented ); // or invalid?!  differentiate - all should be listed
+			}
+		fAPIRet = false;	
+		}
+	
+	return (fAPIRet ? "true" : "false");
+   }
+
+function LMSCommit( param )
+   {
+   SetError( ecNoError )
+   API.lastAPI     = "LMSCommit()"
+   API.lastElement = ""
+
+   if (!API.initialized)
+      {
+      SetError( ecNotInitialized )
+      return "false"
+      }
+
+	if (param)
+		{
+		if (param.length > 0)
+			{
+			SetError( ecInvalidArgument )
+			return "false"
+			}
+		}
+
+
+
+   return "true"	// should look at success of submit
+   }
+
+function LMSGetLastError()
+   {
+   return API.error.code.toString()
+   }
+
+function LMSGetErrorString( code )
+   {
+   if (code != null)
+      {
+      var error = FindError( code )
+      if (error == null)
+         {
+         return ""
+         }
+
+      return error.msg
+      }
+
+   return API.error.msg
+   }
+
+function LMSGetDiagnostic( code )
+   {
+   if (code != null)
+      {
+      var error = FindError( code )
+      if (error == null)
+         {
+         return ""
+         }
+
+      return (error.vmsg.length > 0 ? error.vmsg : error.msg)
+      }
+
+   var msg = (API.error.vmsg.length > 0 ? API.error.vmsg  : API.error.msg) + " - " +
+             "API: " + API.lastAPI +
+             (API.lastElement.length > 0 ? ("  Element: " + API.lastElement) : "")
+
+   return msg
+   }
+
+function SCORM_API()
+   {
+   this.initialized = false
+   this.finished = false
+
+   this.lastAPI = ""
+   this.lastElement = ""
+   this.error = SCORMErrors[0]
+
+   // API
+   this.LMSInitialize      = LMSInitialize
+   this.LMSFinish          = LMSFinish
+   this.LMSGetValue        = LMSGetValue
+   this.LMSSetValue        = LMSSetValue
+   this.LMSCommit          = LMSCommit
+   this.LMSGetLastError    = LMSGetLastError
+   this.LMSGetErrorString  = LMSGetErrorString        
+   this.LMSGetDiagnostic   = LMSGetDiagnostic
+
+   return this
+   }
+
+var API = new SCORM_API()

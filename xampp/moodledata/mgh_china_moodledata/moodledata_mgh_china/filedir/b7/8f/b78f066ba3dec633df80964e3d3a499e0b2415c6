@@ -1,0 +1,53 @@
+﻿<data>
+	<meta>
+		<author><![CDATA[]]></author>
+		<version><![CDATA[]]></version>
+		<keywords><![CDATA[]]></keywords>
+	</meta>
+
+	<body>
+
+		<assets>
+
+			 
+		<!-- <image x='610' y='97' width='280' height='220' border='false' borderColor='0x000000' borderthickness='2' caption='true' captionPosition='centerbottom' captionOffset='-7' effect='false' resize='true' delay='3'>
+				<source>
+					<caption><![CDATA[<h1>Delta AirLines</h1>]]></caption>
+						<path><![CDATA[module_01/images/test_CYK.jpg]]></path>
+				</source>
+		 </image>-->
+		</assets>
+
+		<pageheading type='text' x='30' y='0' width='850'><![CDATA[<p></p>]]></pageheading>
+		<instruction type='text' x='0' y='0' width='850'><![CDATA[<p></p>]]></instruction>
+		<transition x='50' y='400' width='500'><![CDATA[<p></p>]]></transition>
+		<question type='text' x='30' y='130' width='800'><![CDATA[<ui>Click the images that represent the correct answers. When you are ready, click <B>Submit</B>.</ui>]]></question>
+
+		<textInput type='selfcheck' totalAttempts='2' sending_attempts="4">
+			<!-- type='selfcheck/assessment' isTrueFalse='y/n'  -->
+			<datalink>sample.php</datalink>
+			<totaltextfields>1</totaltextfields>
+			
+		
+		<feedback leftOffset='20' topOffset='90' rightOffset='38' bottomOffset='160' enableCloseBtn="Yes">
+		
+			<genericResponse>
+				
+				<tryAgain><![CDATA[<p>Sending Failed please check network Connection</p>]]></tryAgain>
+				<solution><![CDATA[<p>I.<p>]]></solution>
+				<correct><![CDATA[<p>Your responses have been sent to your teacher.<p>]]></correct>
+		<!-- 		<partialCorrect><![CDATA[<p>You are partially correct! Click <B>Close</B> to try again.<p>]]></partialCorrect>
+				<incorrect><![CDATA[<p>That's incorrect!<p>]]></incorrect> -->
+				
+			</genericResponse>
+		
+		</feedback>
+
+		</textInput>
+
+	</body>
+
+	<transcripts>
+	</transcripts>
+
+</data>  

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="_6VBGrZMgB9V_course_id" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+      <general>
+        <title>
+          <langstring xml:lang="x-none">Responding to Criticism</langstring>
+        </title>
+      </general>
+      <lifecycle>
+        <version>
+          <langstring xml:lang="x-none">1</langstring>
+        </version>
+        <status>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">Final</langstring>
+          </value>
+        </status>
+      </lifecycle>
+      <metametadata>
+        <metadatascheme>ADL SCORM 1.2</metadatascheme>
+      </metametadata>
+      <educational>
+        <typicallearningtime>
+          <datetime>PT0H0M0S</datetime>
+        </typicallearningtime>
+      </educational>
+      <rights>
+        <cost>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </cost>
+        <copyrightandotherrestrictions>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </copyrightandotherrestrictions>
+      </rights>
+    </lom>
+  </metadata>
+  <organizations default="Responding_to_Criticism_ORG">
+    <organization identifier="Responding_to_Criticism_ORG">
+      <title>Responding to Criticism</title>
+      <item identifier="test_SCO" isvisible="true" identifierref="__6VBGrZMgB9V_course_id_RES">
+        <title>test</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="__6VBGrZMgB9V_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+      <file href="story_content/thumbnail.jpg" />
+      <file href="story_content/5nVEPQlWqRn_DX1034_DY1034.jpg" />
+      <file href="story_content/6ewUBKrJy5s_DX166_DY166.jpg" />
+      <file href="story_content/5WcBa9W3uEk_DX166_DY166.jpg" />
+      <file href="story_content/5gfznbacfiH_DX204_DY204.jpg" />
+      <file href="story_content/6Fp9yPvaZcb_DX298_DY298.swf" />
+      <file href="story_content/63AkfkQLhlM_DX298_DY298.swf" />
+      <file href="story_content/6MnegqVefOZ_X_DX36_DY36.swf" />
+      <file href="story_content/5oQsXSC7d36_DX36_DY36.swf" />
+      <file href="story_content/5oQsXSC7d36_X_DX36_DY36.swf" />
+      <file href="story_content/6bGtpskwdPJ_DX190_DY190.jpg" />
+      <file href="story_content/6YwiQZB7fjW_DX2038_DY2038.jpg" />
+      <file href="story_content/68tt8DvisiD_DX290_DY290.jpg" />
+      <file href="story_content/5XUjQ91KUtS_DX290_DY290.jpg" />
+      <file href="story_content/6N1RhwwrAkJ_DX380_DY380.swf" />
+      <file href="story_content/6akGMKeLO9a_DX44_DY44.swf" />
+      <file href="story_content/6eGBnN0oVaM_DX380_DY380.swf" />
+      <file href="story_content/5aQ5WTFta8f_DX34_DY34.swf" />
+      <file href="story_content/6LZpxvelKaK_DX1898_DY1898.jpg" />
+      <file href="story_content/69NFcfNBkCS_DX248_DY248.jpg" />
+      <file href="story_content/5hrESurBMog_DX242_DY242.jpg" />
+      <file href="story_content/6i2MTRHtu2Y_DX246_DY246.jpg" />
+      <file href="story_content/6Na5bI9T1BU_DX470_DY470.jpg" />
+      <file href="story_content/5gSaVIroZlh_DX208_DY208.jpg" />
+      <file href="story_content/6p2Q7MGPa5V_DX208_DY208.jpg" />
+      <file href="story_content/6E2zYXkv1ra_DX190_DY190.jpg" />
+      <file href="story_content/5cR4kYXpVtH_DX190_DY190.jpg" />
+      <file href="story_content/5vbwMkFDBAO_DX30_DY30.swf" />
+      <file href="story_content/6MnegqVefOZ_DX36_DY36.swf" />
+      <file href="story_content/61ZPFv8gQuF_DX204_DY204.jpg" />
+      <file href="story_content/6Paj8uVBtKf_DX204_DY204.jpg" />
+      <file href="story_content/5gn7yJ9zFQO_DX1034_DY1034.jpg" />
+      <file href="story_content/5hjYEPtNnS8_DX298_DY298.swf" />
+      <file href="story_content/5aUDqVfkvyR_DX298_DY298.swf" />
+      <file href="story_content/6piC3ivkEgL_DX42_DY42.swf" />
+      <file href="story_content/6Fp9yPvaZcb_RG_DX298_DY298.swf" />
+      <file href="story_content/6cIuaxuOTSI_DX1034_DY1034.swf" />
+      <file href="story_content/6N3M5PTuo41_DX1034_DY1034.jpg" />
+      <file href="story_content/6BrYF5i1MT0_DX1006_DY1006.swf" />
+      <file href="story_content/6B9Id9Jnv4p_DX968_DY968.swf" />
+      <file href="story_content/6blsHolny8U_DX1006_DY1006.jpg" />
+      <file href="story_content/6Fhfbgf5eAg_DX1034_DY1034.jpg" />
+      <file href="story_content/6WNBGUPA9wF_DX1034_DY1034.jpg" />
+      <file href="story_content/6Sh21XncAiR_DX1034_DY1034.jpg" />
+      <file href="story_content/6PdorhwYaLV_DX208_DY208.swf" />
+      <file href="story_content/5a0jEa7ABaO_P_0_0_365_280_DX730_DY730.swf" />
+      <file href="story_content/5gL4l2ABFXo_DX1034_DY1034.jpg" />
+      <file href="story_content/5ZDEdcZ3kgS_DX600_DY600.jpg" />
+      <file href="story_content/6ecD093XMyo_DX1034_DY1034.jpg" />
+      <file href="story_content/6n9ZDvpT0pX_DX1076_DY1076.swf" />
+      <file href="story_content/5e5Vzj1YOvJ_DX942_DY942.swf" />
+      <file href="story_content/640HrQslxic_DX946_DY946.swf" />
+      <file href="story_content/6reeslHEjKz_DX842_DY842.swf" />
+      <file href="story_content/6nQicXbkBf3_DX1034_DY1034.jpg" />
+      <file href="meta.xml" />
+      <file href="story_content/frame.xml" />
+      <file href="story_content/user.js" />
+      <file href="story_content/fonts.swf" />
+      <file href="story.swf" />
+      <file href="story_content/frame.swf" />
+      <file href="story_content/data.swf" />
+      <file href="story.html" />
+      <file href="story_content/blank.html" />
+      <file href="story_content/story.js" />
+      <file href="story_content/zoom.html" />
+      <file href="index_lms.html" />
+      <file href="lms/AICCComm.html" />
+      <file href="lms/AICCFunctions.js" />
+      <file href="lms/API.js" />
+      <file href="lms/APIConstants.js" />
+      <file href="lms/blank.html" />
+      <file href="lms/browsersniff.js" />
+      <file href="lms/Configuration.js" />
+      <file href="lms/goodbye.html" />
+      <file href="lms/lms.js" />
+      <file href="lms/LMSAPI.js" />
+      <file href="lms/NONEFunctions.js" />
+      <file href="lms/SCORM2004Functions.js" />
+      <file href="lms/SCORMFunctions.js" />
+      <file href="lms/UtilityFunctions.js" />
+    </resource>
+  </resources>
+</manifest>

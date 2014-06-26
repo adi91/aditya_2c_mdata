@@ -1,0 +1,61 @@
+<data>
+	<meta>
+		<author><![CDATA[]]></author>
+		<version><![CDATA[]]></version>
+		<keywords><![CDATA[]]></keywords>
+	</meta>
+
+	<body>
+
+		<assets>
+
+			 
+		<!-- <image x='610' y='97' width='280' height='220' border='false' borderColor='0x000000' borderthickness='2' caption='true' captionPosition='centerbottom' captionOffset='-7' effect='false' resize='true' delay='3'>
+				<source>
+					<caption><![CDATA[<h1>Delta AirLines</h1>]]></caption>
+						<path><![CDATA[module_01/images/test_CYK.jpg]]></path>
+				</source>
+		 </image>-->
+		</assets>
+
+		<pageheading type='text' x='30' y='-100' width='850'><![CDATA[<p></p>]]></pageheading>
+		<instruction type='text' x='30' y='-150' width='850'><![CDATA[<p></p>]]></instruction>
+		<transition x='50' y='400' width='500'><![CDATA[<p></p>]]></transition>
+		<question type='text' x='30' y='-130' width='800'><![CDATA[<ui>Click the images that represent the correct answers. When you are ready, click <B>Submit</B>.</ui>]]></question>
+
+		<textInput type='selfcheck' totalAttempts='2'>
+			<!-- type='selfcheck/assessment' isTrueFalse='y/n'  -->
+			<datalink>sample.php</datalink>
+			<totaltargets>6</totaltargets>
+			<totalDraggables>54</totalDraggables>
+			<answers>
+			<answer draggables='6,9,15,43,2'></answer>
+			<answer draggables='9,15,43,2,6'></answer>
+			<answer draggables='18,20,23,24,53,46,47'></answer>
+			<answer draggables='20,23,24,53,46,47,18'></answer>
+			<answer draggables='19,21,24,40,44,47'></answer>
+			<answer draggables='21,24,40,44,47,19'></answer>
+			</answers>
+		
+		<feedback leftOffset='20' topOffset='90' rightOffset='38' bottomOffset='160' enableCloseBtn="Yes">
+		
+			<genericResponse>
+				
+				<tryAgain><![CDATA[<p>Oops! Not quite right. Click <B>Close (x)</B> and try again.</p>]]></tryAgain>
+				<solution><![CDATA[<p>Nice try, but still not correct. Click <B>Close (x)</B> to see the correct answers.<p>]]></solution>
+				<correct><![CDATA[<p>That's right! Click <B>Close (x)</B> and move to the next page.<p>]]></correct>
+		<!-- 		<partialCorrect><![CDATA[<p>You are partially correct! Click <B>Close</B> to try again.<p>]]></partialCorrect>
+				<incorrect><![CDATA[<p>That's incorrect!<p>]]></incorrect> -->
+				
+			</genericResponse>
+		
+		</feedback>
+
+		</textInput>
+
+	</body>
+
+	<transcripts>
+	</transcripts>
+
+</data>  

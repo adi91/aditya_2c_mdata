@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<manifest identifier="CQFaceism" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1">
+			<general>
+				<title>
+					<langstring>The Really Difficult Puzzle Quiz</langstring>
+				</title>
+				<catalogentry>
+					<catalog>ISBN</catalog>
+					<entry>
+						<langstring>NA</langstring>
+					</entry>
+				</catalogentry>
+				<description>
+					<langstring>The Really Difficult Puzzle Quiz</langstring>
+				</description>
+				<keyword><langstring>The Really Difficult Puzzles Quiz</langstring></keyword><keyword><langstring>Puzzles</langstring></keyword><keyword><langstring>Quiz</langstring></keyword><keyword><langstring>Brainteasers</langstring></keyword><keyword><langstring>Lateral Thinking</langstring></keyword><keyword><langstring>Eureka</langstring></keyword><keyword><langstring>Quiz</langstring></keyword><keyword><langstring>Test</langstring></keyword><keyword><langstring>Assessment</langstring></keyword>
+				<aggregationlevel>
+					<source>
+						<langstring xml:lang="x-none">LOMv1.0</langstring>
+					</source>
+					<value>
+						<langstring xml:lang="x-none">2</langstring>
+					</value>
+				</aggregationlevel>
+			</general>
+			<lifecycle>
+				<version>
+					<langstring xml:lang="x-none">1.0</langstring>
+				</version>
+				<status>
+					<source>
+						<langstring xml:lang="x-none">LOMv1.0</langstring>
+					</source>
+					<value>
+						<langstring xml:lang="x-none">Final</langstring>
+					</value>
+				</status>
+			</lifecycle>
+			<metametadata>
+				<metadatascheme>ADL SCORM 1.2</metadatascheme>
+			</metametadata>
+			<technical>
+				<format>text/html</format>
+				<format>application/x-shockwave-flash</format>
+				<location type="URI">http://www.questionwriter.com</location>
+			</technical>
+			<educational>
+				<learningresourcetype>
+					<source>
+						<langstring xml:lang="x-none">LOMv1.0</langstring>
+					</source>
+					<value>
+						<langstring xml:lang="x-none">Exam</langstring>
+					</value>
+				</learningresourcetype>
+			</educational>
+			<rights>
+				<cost>
+					<source>
+						<langstring xml:lang="x-none">LOMv1.0</langstring>
+					</source>
+					<value>
+						<langstring xml:lang="x-none">yes</langstring>
+					</value>
+				</cost>
+				<copyrightandotherrestrictions>
+					<source>
+						<langstring xml:lang="x-none">LOMv1.0</langstring>
+					</source>
+					<value>
+						<langstring xml:lang="x-none">yes</langstring>
+					</value>
+				</copyrightandotherrestrictions>
+			</rights>
+			<classification>
+				<purpose>
+					<source>
+						<langstring xml:lang="x-none">LOMv1.0</langstring>
+					</source>
+					<value>
+						<langstring xml:lang="x-none">Educational Objective</langstring>
+					</value>
+				</purpose>
+				<description>
+					<langstring>The Really Difficult Puzzle Quiz</langstring>
+				</description>
+				<keyword><langstring>The Really Difficult Puzzles Quiz</langstring></keyword><keyword><langstring>Puzzles</langstring></keyword><keyword><langstring>Quiz</langstring></keyword><keyword><langstring>Brainteasers</langstring></keyword><keyword><langstring>Lateral Thinking</langstring></keyword><keyword><langstring>Eureka</langstring></keyword><keyword><langstring>Quiz</langstring></keyword><keyword><langstring>Test</langstring></keyword><keyword><langstring>Assessment</langstring></keyword>
+			</classification>
+		</lom>
+	</metadata>
+	<organizations default="TOC1">
+		<organization identifier="TOC1">
+			<title>The Really Difficult Puzzle Quiz</title>
+			<item identifier="thequiz" identifierref="qwquiz" isvisible="true">
+				<title>The Really Difficult Puzzle Quiz</title>
+			</item>
+		</organization>
+	</organizations>
+	<resources>
+		<resource adlcp:scormtype="sco" href="index.html" identifier="qwquiz" type="webcontent">
+			<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1">
+			<general>
+				<title>
+					<langstring>The Really Difficult Puzzle Quiz</langstring>
+				</title>
+				<catalogentry>
+					<catalog>ISBN</catalog>
+					<entry>
+						<langstring>NA</langstring>
+					</entry>
+				</catalogentry>
+				<description>
+					<langstring>The Really Difficult Puzzle Quiz</langstring>
+				</description>
+				<keyword><langstring>The Really Difficult Puzzles Quiz</langstring></keyword><keyword><langstring>Puzzles</langstring></keyword><keyword><langstring>Quiz</langstring></keyword><keyword><langstring>Brainteasers</langstring></keyword><keyword><langstring>Lateral Thinking</langstring></keyword><keyword><langstring>Eureka</langstring></keyword><keyword><langstring>Quiz</langstring></keyword><keyword><langstring>Test</langstring></keyword><keyword><langstring>Assessment</langstring></keyword>
+				<aggregationlevel>
+					<source>
+						<langstring xml:lang="x-none">LOMv1.0</langstring>
+					</source>
+					<value>
+						<langstring xml:lang="x-none">2</langstring>
+					</value>
+				</aggregationlevel>
+			</general>
+			<lifecycle>
+				<version>
+					<langstring xml:lang="x-none">1.0</langstring>
+				</version>
+				<status>
+					<source>
+						<langstring xml:lang="x-none">LOMv1.0</langstring>
+					</source>
+					<value>
+						<langstring xml:lang="x-none">Final</langstring>
+					</value>
+				</status>
+			</lifecycle>
+			<metametadata>
+				<metadatascheme>ADL SCORM 1.2</metadatascheme>
+			</metametadata>
+			<technical>
+				<format>text/html</format>
+				<format>application/x-shockwave-flash</format>
+				<location type="URI">http://www.questionwriter.com</location>
+			</technical>
+			<educational>
+				<learningresourcetype>
+					<source>
+						<langstring xml:lang="x-none">LOMv1.0</langstring>
+					</source>
+					<value>
+						<langstring xml:lang="x-none">Exam</langstring>
+					</value>
+				</learningresourcetype>
+			</educational>
+			<rights>
+				<cost>
+					<source>
+						<langstring xml:lang="x-none">LOMv1.0</langstring>
+					</source>
+					<value>
+						<langstring xml:lang="x-none">yes</langstring>
+					</value>
+				</cost>
+				<copyrightandotherrestrictions>
+					<source>
+						<langstring xml:lang="x-none">LOMv1.0</langstring>
+					</source>
+					<value>
+						<langstring xml:lang="x-none">yes</langstring>
+					</value>
+				</copyrightandotherrestrictions>
+			</rights>
+			<classification>
+				<purpose>
+					<source>
+						<langstring xml:lang="x-none">LOMv1.0</langstring>
+					</source>
+					<value>
+						<langstring xml:lang="x-none">Educational Objective</langstring>
+					</value>
+				</purpose>
+				<description>
+					<langstring>The Really Difficult Puzzle Quiz</langstring>
+				</description>
+				<keyword><langstring>The Really Difficult Puzzles Quiz</langstring></keyword><keyword><langstring>Puzzles</langstring></keyword><keyword><langstring>Quiz</langstring></keyword><keyword><langstring>Brainteasers</langstring></keyword><keyword><langstring>Lateral Thinking</langstring></keyword><keyword><langstring>Eureka</langstring></keyword><keyword><langstring>Quiz</langstring></keyword><keyword><langstring>Test</langstring></keyword><keyword><langstring>Assessment</langstring></keyword>
+			</classification>
+		</lom>
+	</metadata>
+			<file href="adlcp_rootv1p2.xsd"/><file href="APIWrapper.js"/><file href="imscp_root1p1p2.xsd"/><file href="imsmanifest.xml"/><file href="imsmd_rootv1p2p1.xsd"/><file href="ims_xml.xsd"/><file href="index.html"/><file href="scormfs.js"/><file href="writeFlash.js"/><file href="qwsco.swf"/>
+		</resource>
+	</resources>
+</manifest>

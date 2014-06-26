@@ -1,0 +1,68 @@
+<data>
+	<meta>
+		<author><![CDATA[]]></author>
+		<version><![CDATA[]]></version>
+		<keywords><![CDATA[]]></keywords>
+	</meta>
+
+	<body>
+
+		<assets>
+
+			 
+		<!-- <image x='610' y='97' width='280' height='220' border='false' borderColor='0x000000' borderthickness='2' caption='true' captionPosition='centerbottom' captionOffset='-7' effect='false' resize='true' delay='3'>
+				<source>
+					<caption><![CDATA[<h1>Delta AirLines</h1>]]></caption>
+						<path><![CDATA[module_01/images/test_CYK.jpg]]></path>
+				</source>
+		 </image>-->
+		</assets>
+
+		<pageheading type='text' x='30' y='100' width='850'><![CDATA[<p>If you have a question about a hazardous chemical in your work area, what should you do?</p>]]></pageheading>
+		<transition x='50' y='400' width='500'><![CDATA[<p></p>]]></transition>
+		<question type='text' x='30' y='130' width='800'><![CDATA[<ui>Click the images that represent the correct answers. When you are ready, click <B>Submit</B>.</ui>]]></question>
+
+		<textSelection category='Word' type='selfcheck' totalAttempts='2'>
+			<!--totalText is not used in static template  -->
+			<totalText>Lorem Ipsum </totalText>
+			<answers>
+			    <answer id='1' word='Lorem' colour='red' ul='false' fillcolorcode='0xFFCC33' linecolorcode='0x000000'/>
+				<answer id='3' word='Lorem' colour='red' ul='false' fillcolorcode='0xFFCC33' linecolorcode='0x000000'/>
+				<answer id='15' word='Lorem' colour='red' ul='false' fillcolorcode='0xFFCC33' linecolorcode='0x000000'/>
+				<answer id='17' word='Lorem' colour='red' ul='false' fillcolorcode='0xFFCC33' linecolorcode='0x000000'/>
+			</answers>
+			<!-- tool of type 'fill' can appear any number of times.but 'ul' and 'clear' should not come more than once  -->
+			<tools toolMode="single">
+			<tool type='fill' name='red' colorcode='0xFFCC33'/>		
+			<tool type='clear' name='Clear' colorcode='0xFFFFFF'/>
+			</tools>
+			<button x='95' y='530'>
+			
+				<submit><![CDATA[<btn>Submit</btn>]]></submit>
+				<reset><![CDATA[<btn>Reset</btn>]]></reset>
+				<solution><![CDATA[<btn>Solution</btn>]]></solution>
+
+			</button>
+		
+		<feedback leftOffset='20' topOffset='90' rightOffset='38' bottomOffset='160' enableCloseBtn="Yes">
+		
+			<genericResponse>
+				
+				<tryAgain><![CDATA[<p>Oops! Not quite right. Click <B>Close (x)</B> and try again.</p>]]></tryAgain>
+				<solution><![CDATA[<p>Nice try, but still not correct. Click <B>Close (x)</B> to see the correct answers.<p>]]></solution>
+				<correct><![CDATA[<p>That's right! Click <B>Close (x)</B> and move to the next page.<p>]]></correct>
+		<!-- 		<partialCorrect><![CDATA[<p>You are partially correct! Click <B>Close</B> to try again.<p>]]></partialCorrect>
+				<incorrect><![CDATA[<p>That's incorrect!<p>]]></incorrect> -->
+				
+			</genericResponse>
+		
+		</feedback>
+
+		</textSelection>
+
+	</body>
+
+	<transcripts>
+	</transcripts>
+
+</data>  

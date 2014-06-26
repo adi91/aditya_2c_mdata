@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>URJ - Mitkadem</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<script type="text/javascript" src="js/swfObject.js"></script>
+		<!----><script type="text/javascript" src="js/scorm1_2_api.js"></script>
+<style type="text/css" media="all">
+	body {
+		background-color:#464646;
+		margin: 0px
+	}
+	#horizon  {
+		background-color: #666666;
+		text-align: center;
+		position: absolute;
+		top: 47%;
+		left: 0px;
+		width: 100%;
+		height: 0px;
+		overflow: visible;
+		visibility: visible;
+		display: block;
+	}
+	#content    {
+		font-family: Verdana, Geneva, Arial, sans-serif;
+		background-color: #666666;
+		margin-left: -505px;
+		position: absolute;
+		top: -305px;
+		left: 50%;
+		width: 1012px;
+		height: 650px;
+		visibility: visible;
+}
+</style>		
+		<script type="text/javascript">
+		//	
+		//
+		var flashvars = true;
+		var params = {
+		menu: "false",
+		flashvars: "name1=hello&name2=world&name3=foobar"
+		//TODO update the params
+		//flashvars: "BookMark_data="+fnGetBookMark()+"&stdName="+fnGetStudentName()+"&stdId="+fnGetStudentId()+"&APIFlag="+APIFound
+		};
+		var attributes = {
+		  id: "shell",
+		  name: "shell"
+		};
+		params.allowscriptaccess = "always"; 
+		swfobject.embedSWF("shellLoader.swf", "AS3", 1012, 650, "9.22.0","./assets/swf/expressInstall.swf", flashvars, params, attributes);
+		function fnGlobalTranscript( str,str1)
+		{
+			CourseNameString=str1;
+			transcriptString=str;
+window.open('GlobalTranscript.html','Transcript','resizable=yes,toolbar=no,location=no,status=yes,menubar=no,scrollbars=yes,height=400, width=600');
+		}
+			
+			
+	function fromas(str){
+
+    var win = "popup";    
+    var winWidth=1012;
+    var winHeight=650;
+   // var screenWidth=screen.width/2
+   // var screenHeight=screen.height/2
+    var xPos=0//screenWidth-(winWidth/2)
+    var yPos=0//screenHeight-(winHeight/2)
+    var option = "width="+winWidth+",height="+winHeight+",fullscreen=false,toolbar=no,titlebar=0,status=0,location=0,scrollbars=no, top="+yPos+",left="+xPos+"";
+    //var option = "width="+winWidth+",height="+winHeight+", fullscreen = no,status = yes, scrollbars=no, top="+yPos+",left="+xPos+"";
+	
+   newWin =  window.open(str,"Pop",option);
+   newWin.focus()
+ }
+			
+//etInterval("window.clipboardData.setData('text','')",20);
+		</script>
+	</head>
+	<body scroll=no leftmargin="0" onload="initSco()" topmargin="0" marginwidth="0" marginheight="0" onUnLoad="finish()" bgcolor="#ffffff">
+		<div id="horizon">
+		  <div id="content">	
+				<div id="AS3">
+					<P align=center>
+					<FONT face="Arial, Helvetica, sans-serif" size=2>
+					<STRONG><BR>This tutorial requires Macromedia Flash Player 9.<BR>Please click the image below to install latest flash player.</STRONG></FONT><BR><BR><A href="http://www.adobe.com/go/getflashplayer" target=_blank>
+					<IMG alt="Get Adobe Flash player" src="./assets/images/get_flash_player.gif"></A></P>
+				</div>
+			</div>
+		  </div>
+	</body>
+</html>

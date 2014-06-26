@@ -1,0 +1,16 @@
+<?php $this->cache['en']['repository_webdav'] = array (
+  'configplugin' => 'WebDAV configuration',
+  'http' => 'HTTP',
+  'https' => 'HTTPS',
+  'pluginname' => 'WebDAV repository',
+  'webdav_password' => 'WebDAV server password',
+  'webdav_port' => 'WebDAV server port',
+  'webdav_server' => 'WebDAV server',
+  'webdav_path' => 'WebDAV path',
+  'webdav_type' => 'WebDAV type',
+  'webdav_user' => 'WebDAV server user',
+  'webdavbasicauth' => 'WebDAV basic authentication',
+  'webdavdigestauth' => 'WebDAV digest authentication',
+  'webdav' => 'WebDAV',
+  'webdav:view' => 'View WebDav repository',
+);

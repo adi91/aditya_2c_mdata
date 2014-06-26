@@ -1,0 +1,32 @@
+/* CSS Document */
+
+body {
+background-color: #ffcccc;
+width: 400px;
+height: 300 px;
+border: 1px solid #ffcccc;
+margin: 10px auto;
+text-align: center;
+}
+h1 {
+margin: 0;
+font-family: verdana, arial, sans-serif;
+color: #4c4c4c;
+font-size: 14px;
+font-weight: bold;
+}
+h2 {
+color: #999999;
+font-family: verdana, arial, sans-serif;
+font-size: 12px;
+font-weight: bold;
+}
+p {
+font-family: verdana, arial, sans-serif;
+color: #ffcccc;
+font-size: 15px;
+font-weight: bold;
+}
+.myColor {
+    color: #FF00CC;
+} 
