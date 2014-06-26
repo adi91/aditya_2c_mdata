@@ -1,0 +1,81 @@
+#body {
+	width:100%;
+	position:relative;
+	float:left;
+}
+#header ul.nav{
+	border:1px solid red;
+}
+.loginbox h2, .loginbox .subcontent {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.login-box {
+    height: 415px;
+    margin: 100px auto 24px;
+    position: relative;
+    width: 403px;
+}
+.login-box h2 {
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 24px;
+    padding: 11px;
+    width: 90%;
+}
+
+.login-title-box {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 4px;
+}
+.login-shadow-box {
+    background: url("../pix/login-box.png") no-repeat scroll -5px -5px transparent;
+    float: left;
+    height: 289px;
+    overflow: hidden;
+    padding: 14px;
+    position: relative;
+    width: 339px;
+}
+.login-shadow-box label.cl1 {
+    font-size: 14px;
+    font-weight: bold;
+}
+.login-shadow-box label {
+    float: left;
+    padding: 5px 0;
+    width: 96%;
+}
+.login-shadow-box label.cl2 {
+	font-size:12px;
+}
+span[lang="eng"] {
+	padding:0 12px 0 0;
+}
+label a {
+	color:#000;
+	text-decoration:underline;
+	font-size:12px;
+}
+.nat-input {
+	padding:0 0 25px 0;
+}
+/* input box Css */
+.txtinput, .passinput {
+    border: 1px solid #BFBFBF;
+    color: #000;
+    font-size: 13px;
+    padding: 4px 3px;
+    width: 94% !important;
+}
+#login .loginerrors
+{
+	float: left;
+    padding: 5px 0;
+    width: 96%;
+    color:#ff0000;
+    font-weight:bold;
+}

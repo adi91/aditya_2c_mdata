@@ -1,0 +1,70 @@
+/*#content {
+	background-color: #AAAAAA;
+	padding: 3em;
+	margin:0.2em 2em;
+}*/
+
+.copyrightnotice {
+	font-size: 70%;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	text-indent: 0;
+}
+#mycustomscroll {
+	/* Typical fixed height and fixed width example */
+width: 377px;
+	height: 200px;
+	overflow: auto;
+	/* IE overflow fix, position must be relative or absolute*/
+position: relative;
+	/*margin: 0.3em auto;*/
+padding:0 15px 15px 5px;
+	text-align: left;
+}
+#mycustomscroll2 {
+	/* Typical fixed height and fixed width example */
+width: 177px;
+	height: 185px;
+	overflow: auto;
+	/* IE overflow fix, position must be relative or absolute*/
+position: relative;
+	/*background-color: #D5EADE;
+margin: 0.3em auto;*/
+padding:5px 15px;
+	margin-top:10px;
+}
+#mycustomscroll3 {
+	/* Typical fixed height and fixed width example */
+width: 200px;
+	height: 195px;
+	overflow: auto;
+	/* IE overflow fix, position must be relative or absolute*/
+position: relative;
+	/*background-color: #D5EADE;
+margin: 0.3em auto;*/
+padding:5px 15px;
+}
+#mycustomscroll4 {
+	/* Typical fixed height and fixed width example */
+width: 300px;
+	height: 175px;
+	overflow: auto;
+	/* IE overflow fix, position must be relative or absolute*/
+position: relative;
+	/*background-color: #D5EADE;
+margin: 0.3em auto;*/
+padding:5px 15px;
+	margin-top:10px;
+}
+.fixedwidth {
+	/* a wide div is used for creating horizontal scrollbars for demonstration purposes 
+width: 550px;*/
+height: auto;
+	position: relative;
+	color: black;
+	padding: 1px;
+}
+#mycustomscroll2_vscrollerbase {
+	left:0 !important;
+}

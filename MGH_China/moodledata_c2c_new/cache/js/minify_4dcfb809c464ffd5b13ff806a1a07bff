@@ -1,0 +1,31 @@
+M.core_group={hoveroverlay:null};M.core_group.init_hover_events=function(Y,events){this.hoveroverlay=this.hoveroverlay||(function(){var overlay=new Y.Overlay({bodyContent:'Loading',visible:false,zIndex:2});overlay.render(Y.one('#page'));return overlay;})();for(var id in events){var node=Y.one('#'+id);if(node){node=node.ancestor();node.on('mouseenter',function(e,content){M.core_group.hoveroverlay.set('xy',[this.getX()+(this.get('offsetWidth')/2),this.getY()+this.get('offsetHeight')-5]);M.core_group.hoveroverlay.set("bodyContent",content);M.core_group.hoveroverlay.show();M.core_group.hoveroverlay.get('boundingBox').setStyle('visibility','visible');},node,events[id]);node.on('mouseleave',function(e){M.core_group.hoveroverlay.hide();M.core_group.hoveroverlay.get('boundingBox').setStyle('visibility','hidden');},node);}}};M.core_group.init_index=function(Y,wwwroot,courseid)
+{M.core_group.groupsCombo=new UpdatableGroupsCombo(wwwroot,courseid);var node=document.getElementById("groups");if(node.selectedIndex==-1&&node.options.length>0)
+{node.options[0].selected=true;}
+M.core_group.membersCombo=new UpdatableMembersCombo(wwwroot,courseid);M.core_group.membersCombo.refreshMembers();};function getendtime(starttime,endtime)
+{endtime=document.getElementById(endtime);starttime=document.getElementById(starttime);if(endtime&&starttime)
+{var lasttime=endtime.value;try
+{endtime.options.length=0;}
+catch(e)
+{for(i=0;i<endtime.options.length;i++)
+{endtime.remove(oOption);}}
+for(i=(starttime.selectedIndex+1);i<starttime.options.length;i++)
+{var option=document.createElement("option");option.text=starttime.options[i].text;option.value=starttime.options[i].value;if(lasttime==option.value)
+{option.selected=true;}
+try
+{endtime.add(option,endtime.options[null]);}
+catch(e)
+{endtime.add(option,null);}}}
+if(endtime.parentNode.parentNode.parentNode)
+{if(endtime.parentNode.parentNode.parentNode.style.display=='none')
+{endtime.disabled=true;}}}
+function selectLesson(val,val2,val3)
+{if(document.getElementById(val2).checked==true)
+{document.getElementById('lesson'+val).style.display='';}
+else
+{document.getElementById('lesson'+val).style.display='none';}}
+function show_lesson(val1,val)
+{var val2=val+1;document.getElementById(val1+'button_'+val).style.display='none';document.getElementById(val1+'_starttime_'+val2).disabled=false;document.getElementById(val1+'lesson_'+val2).style.display='';document.getElementById(val1+'button_'+val2).style.display='';}
+function remove_lesson(val1,val)
+{var val2=val-1;document.getElementById(val1+'button_'+val2).style.display='';document.getElementById(val1+'_starttime_'+val).disabled='disabled';document.getElementById(val1+'lesson_'+val).style.display='none';document.getElementById(val1+'button_'+val).style.display='none';}
+M.core_group.init_fill_call=function(Y)
+{getendtime('id_starttime','id_endtime');getendtime('id_starttime2','id_endtime2');}

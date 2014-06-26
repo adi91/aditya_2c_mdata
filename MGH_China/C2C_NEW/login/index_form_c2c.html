@@ -1,0 +1,55 @@
+<link href="<?php echo $CFG->wwwroot;?>/login/css/main.css" rel="stylesheet" type="text/css">
+<?php
+if ($show_instructions) {
+    $columns = 'twocolumns';
+} else {
+    $columns = 'onecolumn';
+}
+
+if (empty($CFG->xmlstrictheaders) and !empty($CFG->loginpasswordautocomplete)) {
+    $autocomplete = 'autocomplete="off"';
+} else {
+    $autocomplete = '';
+}
+?>
+
+<div id="container">
+	<div id="header">
+    	<ul class="nav" style="float:right;padding-top:0px;margin-top:0px;">
+            <li class="h-nav"><a href="http://www.mhes-india.com" target="_blank">MHES India</a></li>
+            <li class="n-nav"><a href="http://www.mhes-india.com/mhes/new-programs/" target="_blank">New Programs</a></li>
+        </ul>        
+    </div>	
+ <div id="body">
+	<div class="login-box">
+	
+    <form action="<?php echo $CFG->httpswwwroot; ?>/login/index.php" method="post" id="login" <?php echo $autocomplete; ?> >
+    <?php
+		if (!empty($errormsg)) {
+              echo '<div class="loginerrors" style="float: right;margin-top: -30px;padding-right: 150px;position: relative;text-align: right;">';
+              if($errorcode != 4){
+				echo $OUTPUT->error_text($errormsg);
+			  }else{
+				echo $OUTPUT->error_text('You have been logged out due to inactivity. Please login again.');
+			  }
+              echo '</div>';
+          }
+	?>
+	 <div class="login-title-box">Welcome to McGraw-Hill Educational Services</div>
+    <div class="login-shadow-box">
+    	<label class="cl1"><span lang="eng">Email</label>
+    <div class="nat-input">
+        	<input class="txtinput" type="text" name="username" id="username" size="42" value="<?php p($frm->username) ?>"></input>
+            <label class="cl2"> <input type="checkbox" name="rememberusername" id="rememberusername" value="" /> <span lang="eng">Keep me logged in</span></label>
+    </div>
+        <label class="cl1"><span lang="eng">Password</span> </label>
+        <div class="nat-input">
+       	<input  class="passinput"  type="password" name="password" id="password" size="42" value="" <?php echo $autocomplete; ?>/>
+            <label><span lang="eng"><a href="forgot_password.php">Forgot your password?</a></span></label>
+            <label class="cl2"><input name="submit" id="loginbtn" type="image" src="../images/login.png" style="float:right" /></label>
+        </div>
+    </div>
+    </form>
+   </div>        
+  </div>
+  

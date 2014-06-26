@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="blocks/sites/db" VERSION="2011112300" COMMENT="Admin sites block to maintain sites"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
+>
+  <TABLES>
+    <TABLE NAME="sites" COMMENT="Table to store sites data" >
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="4" NOTNULL="true" UNSIGNED="false" SEQUENCE="true" NEXT="site_id"/>
+        <FIELD NAME="site_id" TYPE="char" LENGTH="255" NOTNULL="false" UNSIGNED="false" SEQUENCE="false" PREVIOUS="id" NEXT="site_name"/>
+        <FIELD NAME="site_name" TYPE="char" LENGTH="255" NOTNULL="false" UNSIGNED="false" SEQUENCE="false" PREVIOUS="site_id" NEXT="site_desc"/>
+        <FIELD NAME="site_desc" TYPE="text" NOTNULL="false" UNSIGNED="false" SEQUENCE="false" PREVIOUS="site_name" NEXT="site_author"/>
+        <FIELD NAME="site_author" TYPE="char" LENGTH="255" NOTNULL="false" UNSIGNED="false" SEQUENCE="false" PREVIOUS="site_desc" NEXT="site_created"/>
+        <FIELD NAME="site_created" TYPE="int" LENGTH="20" NOTNULL="false" UNSIGNED="false" SEQUENCE="false" PREVIOUS="site_author" NEXT="site_modified"/>
+        <FIELD NAME="site_modified" TYPE="int" LENGTH="20" NOTNULL="false" UNSIGNED="false" SEQUENCE="false" PREVIOUS="site_created"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+  </TABLES>
+</XMLDB>
